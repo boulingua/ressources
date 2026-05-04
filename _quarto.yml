@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+    - python _scripts/build_pages.py
+    - python _scripts/build_overview.py
+  render:
+    - "index.qmd"
+    - "de/**/*.qmd"
+    - "en/**/*.qmd"
+    - "fr/**/*.qmd"
+  resources:
+    - "assets/"
+
+website:
+  title: "#ressources"
+  description: >
+    Kuratierte Sammlung frei verfügbarer Unterrichtsressourcen
+    für Englisch, Französisch und Deutsch als Fremdsprache.
+  site-url: "https://boulingua.github.io/ressources/"
+  repo-url: "https://github.com/boulingua/ressources"
+  navbar:
+    title: "#ressources"
+    logo: false
+    left:
+      - text: "DE"
+        href: de/index.qmd
+      - text: "EN"
+        href: en/index.qmd
+      - text: "FR"
+        href: fr/index.qmd
+    right:
+      - text: "About · À propos"
+        menu:
+          - text: "Über (DE)"
+            href: de/about.qmd
+          - text: "About (EN)"
+            href: en/about.qmd
+          - text: "À propos (FR)"
+            href: fr/about.qmd
+      - text: "Imprint · Mentions"
+        menu:
+          - text: "Impressum (DE)"
+            href: de/imprint.qmd
+          - text: "Imprint (EN)"
+            href: en/imprint.qmd
+          - text: "Mentions légales (FR)"
+            href: fr/imprint.qmd
+      - text: "Privacy · Confidentialité"
+        menu:
+          - text: "Datenschutz (DE)"
+            href: de/privacy.qmd
+          - text: "Privacy (EN)"
+            href: en/privacy.qmd
+          - text: "Confidentialité (FR)"
+            href: fr/privacy.qmd
+    tools:
+      - icon: github
+        href: https://github.com/boulingua/ressources
+        text: "GitHub"
+  page-footer:
+    center: |
+      © S. Le Boulanger · Code: MIT · Inhalte / Content / Contenus: CC-BY-SA 4.0
+
+format:
+  html:
+    theme:
+      light: [flatly, assets/light.scss]
+      dark: [darkly, assets/dark.scss]
+    toc: true
+    code-tools: false
+    link-external-newwindow: false
+    include-in-header: _includes/in-header.html
+    include-after-body: _includes/after-body.html

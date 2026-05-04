@@ -1,0 +1,203 @@
+# =====================================================================
+# #ressources  -  zentrale Ressourcen-Datenbank
+# Autorin der Annotationen: S. Le Boulanger
+# Lizenz dieser Datei (Inhalte): CC-BY-SA 4.0
+# =====================================================================
+
+- id: "bc-learnenglish-teens"
+  title: "LearnEnglish Teens"
+  publisher: "British Council"
+  url: "https://learnenglishteens.britishcouncil.org/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Frei zugänglich, institutionell bereitgestellt vom British Council.
+    Vollurheberrecht beim British Council. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["hoeren", "lesen", "grammatik", "wortschatz"]
+  media_types: ["video", "interaktiv", "text"]
+  description: >
+    Umfangreiche Plattform mit Videos, Lese- und Hörtexten, Grammatik-
+    Übungen und Vokabeltrainern für die Altersgruppe 13–17. Qualitativ
+    hochwertig und didaktisch aufbereitet.
+  description_en: >
+    Broad platform with videos, reading and listening texts, grammar
+    exercises and vocabulary trainers for ages 13–17. High editorial
+    quality and pedagogically prepared.
+  description_fr: >
+    Plateforme riche en vidéos, textes de lecture et d'écoute, exercices
+    de grammaire et entraîneurs de vocabulaire pour les 13–17 ans.
+    Qualité éditoriale élevée et didactisée.
+  applicable_units: ["efl_kl7", "efl_kl8", "efl_kl9"]
+  curator_notes: >
+    Besonders stark im Bereich Listening mit niveaudifferenzierten
+    Aufgaben. Videos haben Transkripte. Einzelne Bereiche brauchen
+    einen kostenlosen Login.
+  curator_notes_en: >
+    Particularly strong for listening with level-differentiated tasks.
+    Videos come with transcripts. Some sections require a free login.
+  curator_notes_fr: >
+    Particulièrement solide pour la compréhension orale avec des tâches
+    différenciées par niveau. Les vidéos sont accompagnées de
+    transcriptions. Certaines sections requièrent un compte gratuit.
+  target_age: "13-17"
+  last_checked: "2026-05-01"
+
+- id: "bbc-learning-english"
+  title: "BBC Learning English"
+  publisher: "BBC"
+  url: "https://www.bbc.co.uk/learningenglish"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich bereitgestellt von der BBC. Frei zugänglich,
+    Vollurheberrecht bei der BBC. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A2", "B1", "B2", "C1"]
+  skills: ["hoeren", "lesen", "grammatik", "wortschatz", "landeskunde"]
+  media_types: ["video", "audio", "text"]
+  description: >
+    Breit aufgestelltes Angebot der BBC mit niveaudifferenzierten
+    Nachrichten, Vokabel- und Grammatikserien sowie Podcasts.
+    Authentisches britisches Englisch in vielfältigen Registern.
+  description_en: >
+    Broad BBC offering with level-differentiated news, vocabulary and
+    grammar series, plus podcasts. Authentic British English across a
+    range of registers.
+  description_fr: >
+    Offre étendue de la BBC avec actualités différenciées par niveau,
+    séries de vocabulaire et de grammaire, ainsi que des podcasts.
+    Anglais britannique authentique dans des registres variés.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Hervorragend für den Einstieg in authentische Mediennutzung.
+    Die Reihe "6 Minute English" funktioniert zuverlässig auch in
+    heterogenen Lerngruppen.
+  curator_notes_en: >
+    Excellent gateway to authentic media use. The "6 Minute English"
+    series works reliably even in heterogeneous groups.
+  curator_notes_fr: >
+    Excellente porte d'entrée vers une utilisation authentique des
+    médias. La série « 6 Minute English » fonctionne aussi dans des
+    groupes hétérogènes.
+  target_age: "14-99"
+  last_checked: "2026-05-01"
+
+- id: "dw-nicos-weg"
+  title: "Nicos Weg"
+  publisher: "Deutsche Welle"
+  url: "https://learngerman.dw.com/de/nicos-weg/c-36519687"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich bereitgestellt von der Deutschen Welle.
+    Frei zugänglich, Vollurheberrecht bei der DW.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "lesen", "grammatik", "wortschatz", "landeskunde"]
+  media_types: ["video", "interaktiv"]
+  description: >
+    Telenovela-artiger Deutschkurs in 230 Folgen, eingebettet in
+    interaktive Übungen und Grammatikerklärungen. Komplette
+    Abdeckung der Niveaus A1 bis B1.
+  description_en: >
+    Telenovela-style German course in 230 episodes, embedded in
+    interactive exercises and grammar explanations. Full coverage of
+    levels A1 to B1.
+  description_fr: >
+    Cours d'allemand au format telenovela en 230 épisodes, intégré
+    à des exercices interactifs et des explications grammaticales.
+    Couverture complète des niveaux A1 à B1.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1"]
+  curator_notes: >
+    Eine der hochwertigsten freien Ressourcen für DaF. Die Geschichte
+    motiviert auch zögerliche Lernende. Transkripte und Untertitel
+    sind durchgängig vorhanden.
+  curator_notes_en: >
+    One of the highest-quality free German resources. The narrative
+    even motivates reluctant learners. Transcripts and subtitles are
+    available throughout.
+  curator_notes_fr: >
+    Une des ressources gratuites les plus qualitatives pour l'allemand.
+    Le scénario motive même les apprenants hésitants. Transcriptions
+    et sous-titres sont disponibles partout.
+  target_age: "14-99"
+  last_checked: "2026-05-01"
+
+- id: "tv5monde-apprendre"
+  title: "Apprendre le français"
+  publisher: "TV5Monde"
+  url: "https://apprendre.tv5monde.com/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Bereitgestellt vom internationalen frankophonen Sender TV5Monde.
+    Frei zugänglich, Vollurheberrecht bei TV5Monde.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["hoeren", "lesen", "wortschatz", "landeskunde"]
+  media_types: ["video", "interaktiv", "audio"]
+  description: >
+    Umfangreiche Sammlung kurzer Videosequenzen aus dem TV5Monde-
+    Programm, didaktisch aufbereitet mit Aufgaben auf vier Niveaus.
+    Authentisches Material aus der gesamten Frankophonie.
+  description_en: >
+    Large collection of short video clips from TV5Monde programmes,
+    pedagogically prepared with tasks at four levels. Authentic
+    material from across the Francophone world.
+  description_fr: >
+    Vaste collection de courts extraits vidéo issus des programmes
+    TV5Monde, didactisés avec des tâches sur quatre niveaux. Matériau
+    authentique de l'ensemble de la francophonie.
+  applicable_units: ["fle_kl8", "fle_kl9", "fle_kl10", "fle_kl11"]
+  curator_notes: >
+    Ideal für kurze Hör-Seh-Einheiten von 5–15 Minuten. Themen aus
+    Quebec, Belgien und Westafrika erweitern die Frankophonie-
+    Perspektive über Frankreich hinaus.
+  curator_notes_en: >
+    Ideal for short audiovisual units of 5–15 minutes. Topics from
+    Quebec, Belgium and West Africa extend the Francophone
+    perspective beyond France.
+  curator_notes_fr: >
+    Idéal pour des séquences audiovisuelles de 5 à 15 minutes. Les
+    thèmes du Québec, de la Belgique et de l'Afrique de l'Ouest
+    élargissent la perspective francophone au-delà de la France.
+  target_age: "13-99"
+  last_checked: "2026-05-01"
+
+- id: "goethe-deutsch-fuer-dich"
+  title: "Deutsch für dich"
+  publisher: "Goethe-Institut"
+  url: "https://www.goethe.de/prj/dfd/de/home.cfm"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Bereitgestellt vom Goethe-Institut als öffentliche
+    Mittlerorganisation. Frei nach kostenloser Registrierung.
+    Vollurheberrecht beim Goethe-Institut.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "lesen", "schreiben", "grammatik", "wortschatz"]
+  media_types: ["interaktiv", "text", "audio"]
+  description: >
+    Community- und Übungsplattform des Goethe-Instituts mit
+    niveaudifferenzierten Materialien, Lernspielen und
+    Austauschmöglichkeiten zwischen Lernenden weltweit.
+  description_en: >
+    Community and practice platform from the Goethe-Institut with
+    level-differentiated materials, learning games and exchange
+    opportunities for learners worldwide.
+  description_fr: >
+    Plateforme communautaire et d'exercices du Goethe-Institut avec
+    des supports différenciés par niveau, des jeux d'apprentissage
+    et des espaces d'échange entre apprenants dans le monde entier.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1"]
+  curator_notes: >
+    Besonders nützlich für eigenständige Wortschatzarbeit
+    zwischen den Präsenzphasen. Die Gruppenfunktion eignet sich
+    für kleinere Schreibprojekte.
+  curator_notes_en: >
+    Especially useful for self-directed vocabulary work between
+    classroom phases. The group feature suits small writing projects.
+  curator_notes_fr: >
+    Particulièrement utile pour un travail lexical autonome entre les
+    séances en présentiel. La fonction groupe convient aux petits
+    projets d'écriture.
+  target_age: "13-99"
+  last_checked: "2026-05-01"
