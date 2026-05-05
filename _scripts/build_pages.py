@@ -223,44 +223,50 @@ Tous les contenus éditoriaux sont de S. Le Boulanger.
 IMPRINT = {
     "de": """---
 title: "Impressum"
+lang: de
+aliases:
+  - /de/legal/impressum/
 ---
 
-## Angaben gemäß § 5 TMG
+## Angaben gemäß § 5 DDG
 
-S. Le Boulanger
-Albert-Einstein-Straße 47
-02977 Hoyerswerda
+S. Le Boulanger\\
+Albert-Einstein-Straße 47\\
+02977 Hoyerswerda\\
 Deutschland
 
 ## Kontakt
 
-E-Mail: 277736839+s-leboulanger@users.noreply.github.com
+E-Mail: [277736839+s-leboulanger@users.noreply.github.com](mailto:277736839+s-leboulanger@users.noreply.github.com)
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+Der Kontaktweg ist eine GitHub-Noreply-Adresse; Antworten können
+entsprechend verzögert erfolgen. Für schnelle Fehlermeldungen ist
+ein Issue im
+[Repository](https://github.com/boulingua/ressources/issues) der
+effizientere Weg.
 
-S. Le Boulanger
-Albert-Einstein-Straße 47
-02977 Hoyerswerda
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+
+S. Le Boulanger\\
+Albert-Einstein-Straße 47\\
+02977 Hoyerswerda\\
 Deutschland
+
+## EU-Streitschlichtung
+
+Die Europäische Kommission stellt eine Plattform zur
+Online-Streitbeilegung (OS) bereit:
+<https://ec.europa.eu/consumers/odr/>.
+
+Ich bin nicht verpflichtet und nicht bereit, an einem
+Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+teilzunehmen.
 
 ## Haftung für Inhalte
 
-Die Inhalte dieses Hubs wurden mit größter Sorgfalt erstellt.
-Für die Richtigkeit, Vollständigkeit und Aktualität wird keine
-Gewähr übernommen.
-
-## Haftung für Links
-
-Dieser Hub verlinkt auf externe Ressourcen Dritter. Für deren
-Inhalte ist stets der jeweilige Anbieter verantwortlich. Die
-Ressourcen wurden zum Zeitpunkt der Aufnahme geprüft. Bei
-Bekanntwerden von Rechtsverletzungen werden betroffene Links
-unverzüglich entfernt.
-
-## Urheberrecht
-
-Code: MIT-Lizenz. Kuratorische Inhalte: CC-BY-SA 4.0. Die
-verlinkten Ressourcen unterliegen den Lizenzen ihrer Anbieter.
+Hinweise zur Haftung für eigene Inhalte, fremde Inhalte und Links
+sowie zum Urheberrecht finden Sie auf der Seite
+[Haftungsausschluss](disclaimer.qmd).
 """,
     "en": """---
 title: "Imprint"
@@ -345,47 +351,155 @@ fournisseurs.
 PRIVACY = {
     "de": """---
 title: "Datenschutzerklärung"
+lang: de
+aliases:
+  - /de/legal/privacy/
 ---
 
-## Verantwortliche Stelle
+## 1. Verantwortlicher
 
-S. Le Boulanger
-Albert-Einstein-Straße 47
-02977 Hoyerswerda
+Verantwortliche Stelle im Sinne der Datenschutz-Grundverordnung
+(DSGVO) ist:
+
+S. Le Boulanger\\
+Albert-Einstein-Straße 47\\
+02977 Hoyerswerda\\
 Deutschland
-E-Mail: 277736839+s-leboulanger@users.noreply.github.com
 
-## Hosting
+E-Mail: [277736839+s-leboulanger@users.noreply.github.com](mailto:277736839+s-leboulanger@users.noreply.github.com)
 
-Diese Site wird über GitHub Pages gehostet. Anbieter ist
-GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA
-94107, USA. Beim Aufruf der Seiten werden technische Daten
-(IP-Adresse, Datum, Uhrzeit, abgerufene Ressource) durch
-GitHub verarbeitet. Details:
-<https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement>.
+Eine gesetzliche Pflicht zur Bestellung einer/eines
+Datenschutzbeauftragten besteht nicht; entsprechend ist keine
+solche Person bestellt.
 
-## Cookies, Tracking, Analytics
+## 2. Allgemeine Hinweise und Pflichtinformationen
 
-Diese Site setzt keine eigenen Cookies, verwendet kein
-Tracking und keine Analyse-Werkzeuge.
+### Datenschutz auf einen Blick
 
-## Externe Links
+Diese Website ist ein nicht-kommerzielles, kuratorisches Angebot
+mit Verweisen auf frei verfügbare didaktische Ressourcen. Es
+werden so wenige personenbezogene Daten verarbeitet wie technisch
+möglich.
 
-Bei Klick auf einen externen Link erfolgt keine
-Datenübertragung durch diese Site an die Zielseite. Sobald
-Sie den Link aufgerufen haben, gelten die
-Datenschutzbestimmungen des jeweiligen Anbieters.
+### Rechtsgrundlagen der Datenverarbeitung
 
-## SSL
+- **Art. 6 Abs. 1 lit. a DSGVO** — Einwilligung,
+- **Art. 6 Abs. 1 lit. b DSGVO** — vorvertragliche Maßnahmen,
+- **Art. 6 Abs. 1 lit. f DSGVO** — berechtigte Interessen
+  (insbesondere stabiler Betrieb, Sicherheit, statistische
+  Reichweitenmessung).
 
-Die Site wird ausschließlich über HTTPS bereitgestellt.
+### Empfänger und Übermittlung in Drittländer
 
-## Ihre Rechte
+Hosting der Website-Auslieferung erfolgt durch GitHub, Inc.;
+Schriftarten werden über Google Fonts (Google Ireland Limited)
+ausgeliefert. Beide können Verbindungsdaten in die USA
+übermitteln; Grundlage sind das EU-US Data Privacy Framework
+bzw. Standardvertragsklauseln. Eine darüber hinausgehende
+Übermittlung in Drittländer findet **nicht** statt. Die
+Reichweitenmessung mittels Plausible Analytics erfolgt auf einer
+**selbst gehosteten Instanz auf einem Server in Deutschland**.
 
-Sie haben das Recht auf Auskunft, Berichtigung, Löschung und
-Einschränkung der Verarbeitung Ihrer personenbezogenen Daten
-sowie auf Widerspruch und Datenübertragbarkeit gemäß
-Art. 15–21 DSGVO.
+### Beschwerderecht
+
+**Sächsischer Datenschutz- und Transparenzbeauftragter**\\
+Devrientstraße 1\\
+01067 Dresden\\
+<https://www.saechsdsb.de/>
+
+### Ihre Rechte
+
+Auskunft (Art. 15), Berichtigung (16), Löschung (17),
+Einschränkung (18), Datenübertragbarkeit (20), Widerspruch (21),
+Widerruf (Art. 7 Abs. 3), Beschwerde (Art. 77).
+
+### SSL- bzw. TLS-Verschlüsselung
+
+Diese Seite nutzt aus Sicherheitsgründen eine TLS-
+Verschlüsselung.
+
+## 3. Datenerfassung auf dieser Website
+
+### Server-Log-Dateien
+
+GitHub Pages (GitHub, Inc., 88 Colin P Kelly Jr St, San
+Francisco, CA 94107, USA) erhebt automatisch Server-Log-Dateien
+(Browsertyp, Betriebssystem, Referrer-URL, Hostname, Uhrzeit,
+IP-Adresse). Eine Zusammenführung mit anderen Datenquellen durch
+die Verantwortliche findet **nicht** statt. Rechtsgrundlage:
+Art. 6 Abs. 1 lit. f DSGVO.
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+
+### Cookies
+
+Diese Website setzt **keine eigenen Tracking-Cookies**.
+Technisch notwendige Cookies (z. B. Sprachpräferenz) sind durch
+§ 25 Abs. 2 Nr. 2 TDDDG gedeckt.
+
+## 4. Analyse-Tools und Tools von Drittanbietern
+
+### Plausible Analytics (selbst gehostet)
+
+Diese Website verwendet **Plausible Analytics** zur statistischen
+Reichweitenmessung. Plausible wird als **selbst gehostete
+Instanz** unter `analytics.hellebo.de` betrieben; der Server
+steht in **Deutschland**. Eine Übermittlung an Plausible
+Insights OÜ oder andere Drittanbieter findet **nicht** statt.
+Plausible ist cookielos und erhebt keine personenbezogenen
+Daten im engeren Sinn. IP-Adressen werden nicht gespeichert; zur
+Sitzungserkennung wird täglich rotierend ein gesalzener Hash
+gebildet. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Eine
+Einwilligung nach § 25 TDDDG ist nicht erforderlich.
+<https://plausible.io/data-policy>
+
+### VG Wort Zählpixel (Standard)
+
+Auf einzelnen, kennzeichenpflichtig angemeldeten Inhaltsseiten
+kann ein **Zählpixel** der Verwertungsgesellschaft WORT
+eingebunden sein:
+
+**Verwertungsgesellschaft WORT (VG WORT)**\\
+Untere Weidenstraße 5\\
+81543 München\\
+Deutschland\\
+<https://www.vgwort.de/>
+
+Zweck: Erfassung statistischer Kennzahlen zur Berechnung von
+Vergütungsansprüchen gemäß § 53 UrhG / METIS-Programm. Es werden
+**keine Cookies** gesetzt; die IP-Adresse wird durch VG Wort
+SHA-256-gehasht und gekürzt. Verarbeitung auf Servern in
+Deutschland. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
+<https://www.vgwort.de/datenschutz.html>
+
+### GitHub Pages
+
+Anbieterin: GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco,
+CA 94107, USA.
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+
+## 5. Eingebettete Inhalte und Schriftarten
+
+### Google Fonts (CDN)
+
+Diese Website bindet Schriften (Source Sans 3, JetBrains Mono)
+über die Google-Fonts-CDN ein. Beim Aufruf überträgt Ihr Browser
+Verbindungsdaten an Google (Google Ireland Limited).
+Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
+<https://policies.google.com/privacy>.
+
+### Externe Verlinkungen
+
+Diese Website ist primär ein Verzeichnis externer Ressourcen.
+Beim Klick auf solche Links verlassen Sie diese Seite; die
+jeweilige Datenschutzpolitik des verlinkten Angebots gilt.
+
+## 6. Ihre Rechte als betroffene Person
+
+Auskunft (Art. 15), Berichtigung (16), Löschung (17),
+Einschränkung (18), Datenübertragbarkeit (20), Widerspruch (21),
+Widerruf (Art. 7 Abs. 3), Beschwerde (Art. 77).
+
+Wahrnehmung über die unter Abschnitt 1 genannte Verantwortliche.
 """,
     "en": """---
 title: "Privacy"
@@ -473,6 +587,131 @@ portabilité des données (art. 15–21 RGPD).
 }
 
 
+DISCLAIMER = {
+    "de": """---
+title: "Haftungsausschluss"
+lang: de
+aliases:
+  - /de/legal/disclaimer/
+---
+
+## Haftung für Inhalte
+
+Als Diensteanbieterin bin ich gemäß § 7 Abs. 1 DDG für eigene
+Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
+verantwortlich. Nach §§ 8 bis 10 DDG bin ich als
+Diensteanbieterin jedoch nicht verpflichtet, übermittelte oder
+gespeicherte fremde Informationen zu überwachen oder nach
+Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
+hinweisen. Verpflichtungen zur Entfernung oder Sperrung der
+Nutzung von Informationen nach den allgemeinen Gesetzen bleiben
+hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst
+ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung
+möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen
+werde ich diese Inhalte umgehend entfernen.
+
+## Haftung für Links
+
+Dieses Angebot ist primär eine kuratierte Sammlung von
+Verweisen auf externe Ressourcen Dritter. Auf deren Inhalte habe
+ich keinen Einfluss. Deshalb kann ich für diese fremden Inhalte
+auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
+Seiten ist stets der jeweilige Anbieter oder Betreiber der
+Seiten verantwortlich. Die verlinkten Seiten wurden zum
+Zeitpunkt der Aufnahme auf mögliche Rechtsverstöße überprüft;
+rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht
+erkennbar.
+
+Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist
+ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht
+zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden solche
+Links umgehend entfernt.
+
+## Urheberrecht
+
+Die durch die Seitenbetreiberin erstellten kuratorischen Inhalte
+unterliegen dem deutschen Urheberrecht. Code dieser Website
+steht unter der **MIT-Lizenz**, kuratorische Inhalte unter
+**CC-BY-SA 4.0**. Die verlinkten Ressourcen unterliegen den
+Lizenzen ihrer jeweiligen Anbieter; vor Weiterverwendung ist
+deren Lizenz zu beachten.
+
+Sollten Sie auf eine Urheberrechtsverletzung aufmerksam werden,
+bitte ich um einen entsprechenden Hinweis.
+""",
+    "en": """---
+title: "Disclaimer"
+lang: en
+---
+
+The German "Haftungsausschluss" is the legally binding version.
+The English text below is provided for convenience.
+
+## Liability for content
+
+As a service provider I am liable for own content on these
+pages under the general laws (§ 7 (1) DDG). Under §§ 8–10 DDG I
+am not obliged, however, to monitor transmitted or stored
+third-party information or to investigate circumstances that
+indicate illegal activity. Any liability is contingent upon
+knowledge of a specific infringement; on becoming aware of one
+I will remove the content without delay.
+
+## Liability for links
+
+This site is essentially a directory of third-party resources.
+The respective providers remain solely responsible for the
+content of the linked pages. Links were checked at the time of
+inclusion; no infringing content was discernible. Any link
+later found to infringe rights will be removed without delay.
+
+## Copyright
+
+Curatorial content created by the operator is subject to German
+copyright law. Site code is licensed under the **MIT licence**;
+curatorial content under **CC-BY-SA 4.0**. Linked resources are
+subject to their providers' licences.
+""",
+    "fr": """---
+title: "Avis de non-responsabilité"
+lang: fr
+---
+
+La version juridiquement contraignante est l'« Haftungsausschluss »
+en allemand. Le texte français ci-dessous est fourni à titre
+de commodité.
+
+## Responsabilité du contenu
+
+En tant que fournisseur de services, je suis responsable des
+contenus propres conformément aux lois générales (§ 7 (1) DDG).
+Conformément aux §§ 8 à 10 DDG, je ne suis cependant pas tenue
+de surveiller les informations tierces transmises ou stockées
+ni de rechercher des circonstances indiquant une activité
+illicite. Une responsabilité ne peut être engagée qu'à compter
+de la connaissance d'une violation concrète ; toute violation
+identifiée sera supprimée sans délai.
+
+## Responsabilité concernant les liens
+
+Ce site est avant tout un répertoire de ressources tierces. Le
+contenu des pages liées relève exclusivement de la
+responsabilité de leurs fournisseurs respectifs. Les liens ont
+été vérifiés au moment de leur inclusion ; aucun contenu
+illicite n'était discernible. Tout lien ultérieurement constaté
+comme portant atteinte à des droits sera supprimé sans délai.
+
+## Droits d'auteur
+
+Les contenus éditoriaux créés par l'opératrice sont protégés
+par le droit d'auteur allemand. Le code du site est sous
+licence **MIT**, les contenus éditoriaux sous **CC-BY-SA 4.0**.
+Les ressources liées sont soumises aux licences de leurs
+fournisseurs.
+""",
+}
+
+
 def overview_page(lang: str) -> str:
     return f"""---
 title: "{t('overview_title', lang)}"
@@ -540,10 +779,11 @@ def build():
         # vom Sub-Ordner: ../assets/data/...
         write(f"{lang}/overview.qmd", overview_page(lang))
 
-        # ----- About / Imprint / Privacy -----
+        # ----- About / Imprint / Privacy / Disclaimer -----
         write(f"{lang}/about.qmd", ABOUT[lang])
         write(f"{lang}/imprint.qmd", IMPRINT[lang])
         write(f"{lang}/privacy.qmd", PRIVACY[lang])
+        write(f"{lang}/disclaimer.qmd", DISCLAIMER[lang])
 
         # ----- By language -----
         for fn, code in languages_for_pages.items():

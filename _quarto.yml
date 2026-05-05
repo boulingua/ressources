@@ -38,7 +38,7 @@ website:
             href: en/about.qmd
           - text: "À propos (FR)"
             href: fr/about.qmd
-      - text: "Imprint · Mentions"
+      - text: "Rechtliches · Legal · Mentions"
         menu:
           - text: "Impressum (DE)"
             href: de/imprint.qmd
@@ -46,21 +46,31 @@ website:
             href: en/imprint.qmd
           - text: "Mentions légales (FR)"
             href: fr/imprint.qmd
-      - text: "Privacy · Confidentialité"
-        menu:
+          - text: "---"
           - text: "Datenschutz (DE)"
             href: de/privacy.qmd
           - text: "Privacy (EN)"
             href: en/privacy.qmd
           - text: "Confidentialité (FR)"
             href: fr/privacy.qmd
+          - text: "---"
+          - text: "Haftungsausschluss (DE)"
+            href: de/disclaimer.qmd
+          - text: "Disclaimer (EN)"
+            href: en/disclaimer.qmd
+          - text: "Avis (FR)"
+            href: fr/disclaimer.qmd
     tools:
       - icon: github
         href: https://github.com/boulingua/ressources
         text: "GitHub"
   page-footer:
     center: |
-      © S. Le Boulanger · Code: MIT · Inhalte / Content / Contenus: CC-BY-SA 4.0
+      © S. Le Boulanger · Code: MIT · Inhalte / Content / Contenus: CC-BY-SA 4.0 ·
+      [Impressum](/de/imprint.qmd) ·
+      [Datenschutz](/de/privacy.qmd) ·
+      [Haftungsausschluss](/de/disclaimer.qmd) ·
+      [Kontakt](mailto:277736839+s-leboulanger@users.noreply.github.com)
 
 format:
   html:
@@ -72,3 +82,6 @@ format:
     link-external-newwindow: false
     include-in-header: _includes/in-header.html
     include-after-body: _includes/after-body.html
+
+filters:
+  - _scripts/vgwort.lua
