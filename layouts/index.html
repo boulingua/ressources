@@ -1,0 +1,11 @@
+{{/*
+  Trilingual root home (language picker). Replaces index.qmd.
+  Renders content/_index.md. The Coder theme's default index
+  shows the "info" slogan; for the picker we want only the
+  prose + cards from the markdown body.
+*/}}
+{{ define "content" }}
+<section class="home-content">
+  {{ .Content }}
+</section>
+{{ end }}

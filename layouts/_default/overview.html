@@ -1,0 +1,26 @@
+{{/*
+  Overview page (vis-network interactive graph + filter chips).
+  Loads vis-network from a CDN and the JSON produced by
+  _scripts/build_overview.py (CI step writes
+  static/data/resources.{lang}.json).
+
+  Pages opt in via frontmatter: layout: overview
+*/}}
+{{ define "content" }}
+{{ $lang := .Site.Language.Lang }}
+<article class="overview">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <link rel="stylesheet"
+        href="https://unpkg.com/vis-network/styles/vis-network.min.css">
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+  <div id="overview-root"
+       data-json="/data/resources.{{ $lang }}.json"></div>
+
+  <script src="{{ "/js/overview.js" | relURL }}"></script>
+</article>
+
+{{ partial "vgwort.html" . }}
+{{ end }}

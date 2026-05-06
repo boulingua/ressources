@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-MASTER = ROOT / "_resources" / "sources_master.yml"
+MASTER = ROOT / "data" / "sources_master.yml"
 
 FORBIDDEN_PUBLISHERS = [
     "klett", "cornelsen", "hueber", "schubert verlag", "pons",

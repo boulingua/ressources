@@ -1,0 +1,53 @@
+{{/*
+  Render a single resource card.
+  Direct port of _scripts/render_resources.py:render_card().
+
+  Context:
+    .r    — the resource map from data/sources_master.yml
+    .lang — current site language code ("de" / "en" / "fr")
+*/}}
+{{ $r := .r }}
+{{ $lang := .lang }}
+{{ $type := default "" $r.license_type }}
+{{ $typeLower := lower $type }}
+
+{{/* localized fields with German fallback (matches Python helper) */}}
+{{ $description := $r.description }}
+{{ if and (ne $lang "de") (index $r (printf "description_%s" $lang)) }}
+  {{ $description = index $r (printf "description_%s" $lang) }}
+{{ end }}
+{{ $notes := $r.curator_notes }}
+{{ if and (ne $lang "de") (index $r (printf "curator_notes_%s" $lang)) }}
+  {{ $notes = index $r (printf "curator_notes_%s" $lang) }}
+{{ end }}
+
+<div class="resource-card">
+  <h3>{{ $r.title }}</h3>
+  <p class="resource-publisher">
+    {{ $r.publisher }} ·
+    <a href="{{ $r.url }}">{{ i18n "ressource_open" }}</a>
+  </p>
+  <div class="resource-badges">
+    <span class="type-badge type-{{ $typeLower }}">{{ $type }}</span>
+    <span class="lang-badge">{{ $r.language }}</span>
+    {{ range $r.cefr_levels }}
+      <span class="cefr-badge cefr-{{ lower . }}">{{ . }}</span>
+    {{ end }}
+    {{ range $r.skills }}
+      <span class="skill-badge">{{ i18n (printf "skill_%s" .) }}</span>
+    {{ end }}
+  </div>
+  <p class="resource-description">{{ trim $description "\n " }}</p>
+  {{ with $r.applicable_units }}
+    <p class="resource-units">
+      <strong>{{ i18n "passt_zu" }}</strong>
+      {{ delimit . ", " }}
+    </p>
+  {{ end }}
+  {{ with $notes }}
+    <p class="resource-notes"><em>{{ trim . "\n " }}</em></p>
+  {{ end }}
+  <p class="resource-checked">
+    {{ i18n "letzter_check" }} {{ $r.last_checked }}
+  </p>
+</div>

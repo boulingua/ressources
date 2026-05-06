@@ -18,8 +18,8 @@ import yaml
 from i18n import LANGS, skill_label, t
 
 ROOT = Path(__file__).resolve().parent.parent
-MASTER = ROOT / "_resources" / "sources_master.yml"
-OUT = ROOT / "assets" / "data"
+MASTER = ROOT / "data" / "sources_master.yml"
+OUT = ROOT / "static" / "data"
 
 
 def _localized(r: dict, base_field: str, lang: str) -> str:

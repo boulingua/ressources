@@ -16,7 +16,7 @@ from IPython.display import HTML, display
 
 from i18n import skill_label, t
 
-MASTER_PATH = Path(__file__).resolve().parent.parent / "_resources" / "sources_master.yml"
+MASTER_PATH = Path(__file__).resolve().parent.parent / "data" / "sources_master.yml"
 
 
 def load_resources():

@@ -1,0 +1,1719 @@
+{
+  "lang": "fr",
+  "ui": {
+    "filter_heading": "Filtrer par étiquette",
+    "filter_clear": "Réinitialiser les filtres",
+    "graph_heading": "Réseau d'étiquettes",
+    "graph_hint": "Cliquez sur un nœud pour filtrer par cette étiquette.",
+    "results_heading": "Ressources",
+    "results_count": "{n} résultats",
+    "no_results": "Aucune ressource ne correspond à la sélection.",
+    "details_open": "Afficher les détails",
+    "details_close": "Fermer",
+    "open_resource": "Ouvrir la ressource",
+    "related_heading": "Pour aller plus loin",
+    "related_back": "Retour au réseau",
+    "category_lang": "Langue",
+    "category_lic": "Licence",
+    "category_skill": "Compétence",
+    "category_cefr": "Niveau",
+    "category_unit": "Unité",
+    "publisher_label": "Fournisseur",
+    "last_check": "Dernière vérification"
+  },
+  "labels": [
+    {
+      "id": "cefr:A1",
+      "label": "A1",
+      "category": "cefr",
+      "count": 4
+    },
+    {
+      "id": "cefr:A2",
+      "label": "A2",
+      "category": "cefr",
+      "count": 5
+    },
+    {
+      "id": "cefr:B1",
+      "label": "B1",
+      "category": "cefr",
+      "count": 5
+    },
+    {
+      "id": "cefr:B2",
+      "label": "B2",
+      "category": "cefr",
+      "count": 3
+    },
+    {
+      "id": "cefr:C1",
+      "label": "C1",
+      "category": "cefr",
+      "count": 1
+    },
+    {
+      "id": "lang:DE",
+      "label": "DE",
+      "category": "lang",
+      "count": 2
+    },
+    {
+      "id": "lang:EN",
+      "label": "EN",
+      "category": "lang",
+      "count": 2
+    },
+    {
+      "id": "lang:FR",
+      "label": "FR",
+      "category": "lang",
+      "count": 1
+    },
+    {
+      "id": "lic:OE",
+      "label": "OE",
+      "category": "lic",
+      "count": 5
+    },
+    {
+      "id": "skill:grammatik",
+      "label": "Grammaire",
+      "category": "skill",
+      "count": 4
+    },
+    {
+      "id": "skill:hoeren",
+      "label": "Compréhension orale",
+      "category": "skill",
+      "count": 5
+    },
+    {
+      "id": "skill:landeskunde",
+      "label": "Culture",
+      "category": "skill",
+      "count": 3
+    },
+    {
+      "id": "skill:lesen",
+      "label": "Compréhension écrite",
+      "category": "skill",
+      "count": 5
+    },
+    {
+      "id": "skill:schreiben",
+      "label": "Expression écrite",
+      "category": "skill",
+      "count": 1
+    },
+    {
+      "id": "skill:wortschatz",
+      "label": "Lexique",
+      "category": "skill",
+      "count": 5
+    },
+    {
+      "id": "unit:daf_a1",
+      "label": "daf_a1",
+      "category": "unit",
+      "count": 2
+    },
+    {
+      "id": "unit:daf_a2",
+      "label": "daf_a2",
+      "category": "unit",
+      "count": 2
+    },
+    {
+      "id": "unit:daf_b1",
+      "label": "daf_b1",
+      "category": "unit",
+      "count": 2
+    },
+    {
+      "id": "unit:efl_kl10",
+      "label": "efl_kl10",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl11",
+      "label": "efl_kl11",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl12",
+      "label": "efl_kl12",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl7",
+      "label": "efl_kl7",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl8",
+      "label": "efl_kl8",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl9",
+      "label": "efl_kl9",
+      "category": "unit",
+      "count": 2
+    },
+    {
+      "id": "unit:fle_kl10",
+      "label": "fle_kl10",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:fle_kl11",
+      "label": "fle_kl11",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:fle_kl8",
+      "label": "fle_kl8",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:fle_kl9",
+      "label": "fle_kl9",
+      "category": "unit",
+      "count": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "cefr:A1",
+      "to": "cefr:A2",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "cefr:B1",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "cefr:B2",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:EN",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lic:OE",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:grammatik",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:hoeren",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:lesen",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:wortschatz",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:B1",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:B2",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:EN",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lic:OE",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:grammatik",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:hoeren",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:lesen",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:wortschatz",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "cefr:B2",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:EN",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lic:OE",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:grammatik",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:hoeren",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:lesen",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:wortschatz",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lang:EN",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lic:OE",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:grammatik",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:hoeren",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:lesen",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:wortschatz",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "lic:OE",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:grammatik",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:hoeren",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:lesen",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:wortschatz",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:grammatik",
+      "weight": 4
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:hoeren",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:lesen",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:wortschatz",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:hoeren",
+      "weight": 4
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:lesen",
+      "weight": 4
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:wortschatz",
+      "weight": 4
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:lesen",
+      "weight": 5
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:wortschatz",
+      "weight": 5
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "skill:lesen",
+      "to": "skill:wortschatz",
+      "weight": 5
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "unit:efl_kl7",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl7",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl8",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:C1",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "cefr:C1",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "cefr:C1",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:landeskunde",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lang:EN",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lic:OE",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:grammatik",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:hoeren",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:landeskunde",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:lesen",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:wortschatz",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:landeskunde",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:landeskunde",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "skill:lesen",
+      "weight": 3
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "skill:wortschatz",
+      "weight": 3
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl11",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl11",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl12",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:DE",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:landeskunde",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:DE",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:DE",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "lic:OE",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:grammatik",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:hoeren",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:landeskunde",
+      "weight": 1
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:lesen",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:wortschatz",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_a1",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_a2",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_b1",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "unit:daf_a1",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "unit:daf_a1",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "unit:daf_a2",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:FR",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:FR",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:FR",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lang:FR",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "lic:OE",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:hoeren",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:landeskunde",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:lesen",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:wortschatz",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "unit:fle_kl8",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:lesen",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "skill:wortschatz",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_a1",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_a2",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_b1",
+      "weight": 1
+    }
+  ],
+  "resources": [
+    {
+      "id": "bc-learnenglish-teens",
+      "title": "LearnEnglish Teens",
+      "publisher": "British Council",
+      "url": "https://learnenglishteens.britishcouncil.org/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Compréhension orale",
+        "Compréhension écrite",
+        "Grammaire",
+        "Lexique"
+      ],
+      "applicable_units": [
+        "efl_kl7",
+        "efl_kl8",
+        "efl_kl9"
+      ],
+      "description": "Plateforme riche en vidéos, textes de lecture et d'écoute, exercices de grammaire et entraîneurs de vocabulaire pour les 13–17 ans. Qualité éditoriale élevée et didactisée.",
+      "curator_notes": "Particulièrement solide pour la compréhension orale avec des tâches différenciées par niveau. Les vidéos sont accompagnées de transcriptions. Certaines sections requièrent un compte gratuit.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl7",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "bbc-learning-english",
+      "title": "BBC Learning English",
+      "publisher": "BBC",
+      "url": "https://www.bbc.co.uk/learningenglish",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Compréhension orale",
+        "Compréhension écrite",
+        "Grammaire",
+        "Lexique",
+        "Culture"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Offre étendue de la BBC avec actualités différenciées par niveau, séries de vocabulaire et de grammaire, ainsi que des podcasts. Anglais britannique authentique dans des registres variés.",
+      "curator_notes": "Excellente porte d'entrée vers une utilisation authentique des médias. La série « 6 Minute English » fonctionne aussi dans des groupes hétérogènes.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "dw-nicos-weg",
+      "title": "Nicos Weg",
+      "publisher": "Deutsche Welle",
+      "url": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Compréhension orale",
+        "Compréhension écrite",
+        "Grammaire",
+        "Lexique",
+        "Culture"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Cours d'allemand au format telenovela en 230 épisodes, intégré à des exercices interactifs et des explications grammaticales. Couverture complète des niveaux A1 à B1.",
+      "curator_notes": "Une des ressources gratuites les plus qualitatives pour l'allemand. Le scénario motive même les apprenants hésitants. Transcriptions et sous-titres sont disponibles partout.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "tv5monde-apprendre",
+      "title": "Apprendre le français",
+      "publisher": "TV5Monde",
+      "url": "https://apprendre.tv5monde.com/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Compréhension orale",
+        "Compréhension écrite",
+        "Lexique",
+        "Culture"
+      ],
+      "applicable_units": [
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11"
+      ],
+      "description": "Vaste collection de courts extraits vidéo issus des programmes TV5Monde, didactisés avec des tâches sur quatre niveaux. Matériau authentique de l'ensemble de la francophonie.",
+      "curator_notes": "Idéal pour des séquences audiovisuelles de 5 à 15 minutes. Les thèmes du Québec, de la Belgique et de l'Afrique de l'Ouest élargissent la perspective francophone au-delà de la France.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "goethe-deutsch-fuer-dich",
+      "title": "Deutsch für dich",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/prj/dfd/de/home.cfm",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "schreiben",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Compréhension orale",
+        "Compréhension écrite",
+        "Expression écrite",
+        "Grammaire",
+        "Lexique"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Plateforme communautaire et d'exercices du Goethe-Institut avec des supports différenciés par niveau, des jeux d'apprentissage et des espaces d'échange entre apprenants dans le monde entier.",
+      "curator_notes": "Particulièrement utile pour un travail lexical autonome entre les séances en présentiel. La fonction groupe convient aux petits projets d'écriture.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:schreiben",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    }
+  ],
+  "related": {
+    "bc-learnenglish-teens": [
+      "bbc-learning-english",
+      "dw-nicos-weg",
+      "goethe-deutsch-fuer-dich"
+    ],
+    "bbc-learning-english": [
+      "bc-learnenglish-teens",
+      "dw-nicos-weg",
+      "tv5monde-apprendre"
+    ],
+    "dw-nicos-weg": [
+      "goethe-deutsch-fuer-dich",
+      "bc-learnenglish-teens",
+      "tv5monde-apprendre"
+    ],
+    "tv5monde-apprendre": [
+      "bc-learnenglish-teens",
+      "dw-nicos-weg",
+      "bbc-learning-english"
+    ],
+    "goethe-deutsch-fuer-dich": [
+      "dw-nicos-weg",
+      "bc-learnenglish-teens",
+      "tv5monde-apprendre"
+    ]
+  }
+}

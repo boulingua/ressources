@@ -36,6 +36,7 @@ enableEmoji = false
   [languages.de]
     languageName = "Deutsch"
     languageCode = "de"
+    contentDir = "content/de"
     weight = 1
     title = "#ressources"
     [languages.de.params]
@@ -44,6 +45,7 @@ enableEmoji = false
   [languages.en]
     languageName = "English"
     languageCode = "en"
+    contentDir = "content/en"
     weight = 2
     title = "#ressources"
     [languages.en.params]
@@ -52,6 +54,7 @@ enableEmoji = false
   [languages.fr]
     languageName = "Francais"
     languageCode = "fr"
+    contentDir = "content/fr"
     weight = 3
     title = "#ressources"
     [languages.fr.params]

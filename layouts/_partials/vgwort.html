@@ -1,0 +1,27 @@
+{{/*
+  VG Wort Zaehlpixel.
+  Direct port of _scripts/vgwort.lua. Reads `vgwort_pixel`
+  from page frontmatter; emits a 1x1 invisible <img>. Pages
+  without the key emit nothing.
+
+  Token forms accepted (matches the Lua filter):
+    full URL           https?://...
+    host+path         vgNN.met.vgwort.de/na/<token>
+    bare 32-hex token  -> default vg08.met.vgwort.de/na/<token>
+*/}}
+{{ $token := .Params.vgwort_pixel }}
+{{ if $token }}
+  {{ $url := "" }}
+  {{ if hasPrefix $token "http://" }}
+    {{ $url = $token }}
+  {{ else if hasPrefix $token "https://" }}
+    {{ $url = $token }}
+  {{ else if findRE "^vg[0-9a-z]+\\.met\\.vgwort\\.de/" $token }}
+    {{ $url = printf "https://%s" $token }}
+  {{ else }}
+    {{ $url = printf "https://vg08.met.vgwort.de/na/%s" $token }}
+  {{ end }}
+  <img src="{{ $url }}" width="1" height="1" alt=""
+       loading="lazy" referrerpolicy="no-referrer"
+       style="position:absolute;left:-9999px;" />
+{{ end }}

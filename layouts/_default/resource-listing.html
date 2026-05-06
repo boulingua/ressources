@@ -1,0 +1,75 @@
+{{/*
+  Resource-listing layout. Pages with `layout: resource-listing` in
+  frontmatter render through this template.
+
+  Reads .Params.filter (a TOML inline table) with optional keys:
+    language    string — ISO code "EN" / "FR" / "DE"
+    skill       string — "hoeren" | "lesen" | ...
+    cefr_level  string — "A1" | "A2" | "B1" | "B2" | "C1"
+    unit_prefix string — e.g. "efl_kl7", "daf_b1"
+
+  Slices site.Data.sources_master accordingly (mirrors
+  _scripts/render_resources.py:filter_resources()) and renders one
+  resource-card per match.
+*/}}
+{{ define "content" }}
+  {{ $lang := .Site.Language.Lang }}
+  {{ $filter := .Params.filter | default dict }}
+  {{ $resources := site.Data.sources_master }}
+
+  {{/* language filter */}}
+  {{ with $filter.language }}
+    {{ $needle := . }}
+    {{ $resources = where $resources "language" $needle }}
+  {{ end }}
+
+  {{/* skill filter — needle must be in the skills slice */}}
+  {{ with $filter.skill }}
+    {{ $needle := . }}
+    {{ $resources = where $resources "skills" "intersect" (slice $needle) }}
+  {{ end }}
+
+  {{/* cefr_level filter — needle must be in the cefr_levels slice */}}
+  {{ with $filter.cefr_level }}
+    {{ $needle := . }}
+    {{ $resources = where $resources "cefr_levels" "intersect" (slice $needle) }}
+  {{ end }}
+
+  {{/* unit_prefix filter — any applicable_unit must startWith prefix */}}
+  {{ with $filter.unit_prefix }}
+    {{ $prefix := . }}
+    {{ $matched := slice }}
+    {{ range $resources }}
+      {{ $hit := false }}
+      {{ range .applicable_units }}
+        {{ if hasPrefix . $prefix }}{{ $hit = true }}{{ end }}
+      {{ end }}
+      {{ if $hit }}{{ $matched = $matched | append . }}{{ end }}
+    {{ end }}
+    {{ $resources = $matched }}
+  {{ end }}
+
+  {{/* sort: language, first cefr_level, title */}}
+  {{ $resources = sort $resources "title" }}
+
+  <article class="resource-listing">
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <p class="lead">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ if eq (len $resources) 0 }}
+      <p class="no-resources">{{ i18n "no_resources" }}</p>
+    {{ else }}
+      <div class="resource-list">
+        {{ range $resources }}
+          {{ partial "resource-card.html" (dict "r" . "lang" $lang) }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+
+  {{ partial "vgwort.html" . }}
+{{ end }}

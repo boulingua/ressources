@@ -101,6 +101,12 @@ jobs:
           TZ: Europe/Berlin
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # Hugo's multilingual mode auto-writes a redirect at public/index.html
+      # pointing at /de/. We want the trilingual language picker instead, so
+      # overwrite with our hand-authored static/index.html after build.
+      - name: Restore root language picker
+        run: cp static/index.html public/index.html
+
       # ---- Post-build: confirm Plausible is in rendered HTML
       - name: Verify Plausible in rendered output
         run: |

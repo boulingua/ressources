@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Schema-Validator fuer _resources/sources_master.yml.
+"""Schema-Validator fuer data/sources_master.yml.
 
 Prueft Pflichtfelder, Wertebereiche und Eindeutigkeit.
 Exit 1 bei jedem Fehler.
@@ -14,7 +14,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-MASTER = ROOT / "_resources" / "sources_master.yml"
+MASTER = ROOT / "data" / "sources_master.yml"
 
 REQUIRED = [
     "id", "title", "publisher", "url", "language",

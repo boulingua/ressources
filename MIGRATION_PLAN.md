@@ -266,3 +266,23 @@ I need answers to these before scaffolding the migration branch. None are blocki
   - Stub `content/_index.md` and per-language `content/{de,en,fr}/_index.md` so Hugo builds cleanly. Phase 2 replaces these with the real picker + generated views.
   - Local `hugo --minify` build succeeds (15 / 8 / 8 pages DE / EN / FR). Plausible verified present in rendered `public/de/index.html` (note: minifier strips attribute quotes — CI gate updated to accept both quoted and unquoted forms).
   - Quarto sources (`_quarto.yml`, `_resources/`, `_scripts/`, `_includes/`, `assets/_shared.scss`, etc.) **kept in place** alongside Hugo until Phase 4.
+- **2026-05-06** — Phase 2 (content + generators) complete on `migration/hugo-coder`.
+  - Moved `_resources/sources_master.yml` → `data/sources_master.yml`. Updated `_scripts/{render_resources,validate_sources,check_commercial,build_overview}.py` to point at the new path; existing Quarto build still works.
+  - Repointed `_scripts/build_overview.py` output from `assets/data/` → `static/data/` so Hugo serves the JSON natively.
+  - Added `scripts/scaffold_hugo_content.py` — one-shot generator that imports `_scripts/i18n.py` and `_scripts/build_pages.py`, emits `i18n/{de,en,fr}.toml` (~80 keys each, Python `{name}` → Go `{{ .name }}`) plus all content files. Reruns are idempotent.
+  - **Legal text byte-exact:** about / imprint / privacy / disclaimer for DE / EN / FR — 12 files extracted from the Python triple-quoted literals in `build_pages.py` without prose modification. Quarto-style `aliases` for `/de/legal/{impressum,privacy,disclaimer}/` preserved (with the leading `/de/` stripped because Hugo prepends the language code automatically).
+  - **Per-language landings + overview pages** (6 files) generated from i18n keys.
+  - **120 view stubs** generated under `content/{lang}/{nach_sprache,nach_fertigkeit,nach_niveau,nach_unit/{efl,fle,daf}}/...md`. Each stub is ~6 lines: title, description, `layout: resource-listing`, `params.filter` (YAML map). Hand-edits go into the stubs directly; the scaffolder is a one-shot.
+  - **Hugo multilingual config:** `[languages.{de,en,fr}]` with per-language `contentDir = "content/{lang}"`. `defaultContentLanguageInSubdir = true` so URLs are `/de/...`, `/en/...`, `/fr/...`. Hugo auto-emits a `/index.html` redirect to `/de/`; we overwrite it with the trilingual picker via a post-build `cp static/index.html public/index.html` (CI step).
+  - **Layouts:**
+    - `layouts/_default/resource-listing.html` — direct port of `render_filtered()`, slices `site.Data.sources_master` by `language` / `skill` / `cefr_level` / `unit_prefix`.
+    - `layouts/_partials/resource-card.html` — direct port of `render_card()`, with German fallback for missing `description_{en,fr}` / `curator_notes_{en,fr}` matching the Python helper.
+    - `layouts/_default/overview.html` — vis-network host page, points at `/data/resources.{lang}.json`.
+    - `layouts/_partials/vgwort.html` — port of `_scripts/vgwort.lua` (full URL / host-path / bare-token forms all supported). Currently unused (no page sets `vgwort_pixel`); the capability is wired so an opt-in just works.
+    - `layouts/index.html` — root home content block (currently unused at runtime; static/index.html overrides).
+    - All templates use Coder's `{{ define "content" }}` block, not `main`.
+  - **CSS:** `assets/css/ressources.css` ports the relevant rules from `_shared.scss` + light/dark `:root` blocks. Bootstrap-targeted SASS variables and Quarto-only selectors (`#TOC`, `.aa-*`, `.quarto-*`) dropped.
+  - **JS:** `static/js/{entrypoints,overview}.js` copied verbatim. Entry-points sub-navbar JS loaded site-wide via head/extensions; it self-checks the URL path and noops outside `/{de,en,fr}/`.
+  - **CI:** `_scripts/build_overview.py` runs as a pre-build step; `static/data/resources.{lang}.json` is produced before `hugo --minify`. Post-build, the root picker is restored. The five gates from Phase 1 still fire.
+  - **Build verified locally:** 65 / 64 / 64 pages DE / EN / FR. Resource cards render under all four filter axes (verified DE/EN/FR samples). Plausible script intact in head (post-minify form). Three legal-page aliases emitted at `/{lang}/legal/{impressum,privacy,disclaimer}/`. Localized strings render correctly via Hugo's `{{ i18n }}` helper.
+  - **Decisions §6 confirmed in the build:** Materials hub omitted; stubs (not generator) chosen; VG Wort partial ships, zero pixels active; overview JSON served at absolute `/data/...`; Plausible verbatim.

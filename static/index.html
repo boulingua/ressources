@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>#ressources — Sprache wählen / Choose a language / Choisir une langue</title>
+<meta name="description" content="Kuratierte Online-Ressourcen für Englisch, Französisch und DaF — frei verfügbar, ohne Werbung, ohne Tracking." />
+<link rel="canonical" href="https://boulingua.github.io/ressources/" />
+<script defer data-domain="boulingua.github.io/ressources" src="https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #23272b; --fg-alt: #555555;
+    --rule: #eaeaea; --surface: #f7f8fa;
+    --accent: #1a73e8; --accent-hover: #0b57d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1d1f21; --fg: #e8e8e8; --fg-alt: #a8a8a8;
+      --rule: #2d3035; --surface: #26292c;
+      --accent: #79b8ff; --accent-hover: #b8d4fd;
+    }
+  }
+  html, body { background: var(--bg); color: var(--fg);
+    font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+    font-size: 17px; line-height: 1.65; margin: 0; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-hover); text-decoration: underline; }
+  .hero { padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--rule); margin-bottom: 2rem; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.6rem; }
+  h1 { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 2.1rem; margin: 0 0 0.5rem; }
+  .hero p { color: var(--fg-alt); font-size: 1.05rem; max-width: 42rem; margin: 0; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem; margin: 1.5rem 0; }
+  .entry-card { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+    padding: 1.25rem 1.4rem; transition: transform 0.15s, box-shadow 0.15s; }
+  .entry-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.18); }
+  .entry-card h3 { margin-top: 0; margin-bottom: 0.4rem; font-size: 1.15rem; }
+  .entry-card h3 a { color: var(--fg); }
+  .entry-card h3 a:hover { color: var(--accent); }
+  .entry-card p { color: var(--fg-alt); font-size: 0.92rem; margin-bottom: 0; }
+  footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+    color: var(--fg-alt); font-size: 0.85rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="kicker">KURATIERT · CURATED · SÉLECTIONNÉ</div>
+    <h1>#ressources</h1>
+    <p>Frei verfügbar, ohne Werbung, ohne Tracking. Bitte unten eine Sprachvariante auswählen.</p>
+  </div>
+
+  <div class="card-grid">
+    <div class="entry-card">
+      <h3><a href="de/">Deutsch</a></h3>
+      <p>Unterrichtsmaterialien für Englisch, Französisch und DaF — auf Deutsch erläutert.</p>
+    </div>
+    <div class="entry-card">
+      <h3><a href="en/">English</a></h3>
+      <p>Teaching resources for English, French and German as a foreign language — explained in English.</p>
+    </div>
+    <div class="entry-card">
+      <h3><a href="fr/">Français</a></h3>
+      <p>Ressources pédagogiques pour l'anglais, le français et l'allemand langue étrangère — présentées en français.</p>
+    </div>
+  </div>
+
+  <footer>
+    © S. Le Boulanger · Code: MIT · Inhalte / Content / Contenus: CC-BY-SA 4.0
+  </footer>
+</div>
+</body>
+</html>
