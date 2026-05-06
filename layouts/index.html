@@ -5,7 +5,9 @@
   prose + cards from the markdown body.
 */}}
 {{ define "content" }}
-<section class="home-content">
-  {{ .Content }}
+<section class="container page">
+  <article>
+    {{ .Content }}
+  </article>
 </section>
 {{ end }}

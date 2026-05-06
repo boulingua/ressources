@@ -52,24 +52,26 @@
   {{/* sort: language, first cefr_level, title */}}
   {{ $resources = sort $resources "title" }}
 
-  <article class="resource-listing">
-    <header>
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.description }}
-        <p class="lead">{{ . }}</p>
-      {{ end }}
-    </header>
-
-    {{ if eq (len $resources) 0 }}
-      <p class="no-resources">{{ i18n "no_resources" }}</p>
-    {{ else }}
-      <div class="resource-list">
-        {{ range $resources }}
-          {{ partial "resource-card.html" (dict "r" . "lang" $lang) }}
+  <section class="container page">
+    <article class="resource-listing">
+      <header>
+        <h1 class="title">{{ .Title }}</h1>
+        {{ with .Params.description }}
+          <p class="lead">{{ . }}</p>
         {{ end }}
-      </div>
-    {{ end }}
-  </article>
+      </header>
 
-  {{ partial "vgwort.html" . }}
+      {{ if eq (len $resources) 0 }}
+        <p class="no-resources">{{ i18n "no_resources" }}</p>
+      {{ else }}
+        <div class="resource-list">
+          {{ range $resources }}
+            {{ partial "resource-card.html" (dict "r" . "lang" $lang) }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </article>
+
+    {{ partial "vgwort.html" . }}
+  </section>
 {{ end }}

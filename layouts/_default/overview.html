@@ -8,19 +8,23 @@
 */}}
 {{ define "content" }}
 {{ $lang := .Site.Language.Lang }}
-<article class="overview">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+<section class="container page">
+  <article class="overview">
+    <header>
+      <h1 class="title">{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
 
-  <link rel="stylesheet"
-        href="https://unpkg.com/vis-network/styles/vis-network.min.css">
-  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet"
+          href="https://unpkg.com/vis-network/styles/vis-network.min.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-  <div id="overview-root"
-       data-json="/data/resources.{{ $lang }}.json"></div>
+    <div id="overview-root"
+         data-json="/data/resources.{{ $lang }}.json"></div>
 
-  <script src="{{ "/js/overview.js" | relURL }}"></script>
-</article>
+    <script src="{{ "/js/overview.js" | relURL }}"></script>
+  </article>
 
-{{ partial "vgwort.html" . }}
+  {{ partial "vgwort.html" . }}
+</section>
 {{ end }}
