@@ -15,3 +15,8 @@ __pycache__/
 
 # Generierte Daten-JSONs fuer die Uebersicht (Quelle: _scripts/build_overview.py)
 /assets/data/
+
+# Hugo build outputs
+/public/
+/resources/_gen/
+.hugo_build.lock

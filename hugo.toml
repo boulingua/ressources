@@ -1,0 +1,120 @@
+baseURL = "https://boulingua.github.io/ressources/"
+title = "#ressources"
+languageCode = "de"
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
+enableEmoji = false
+
+[pagination]
+  pagerSize = 50
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "S. Le Boulanger"
+  description = "Kuratierte Sammlung frei verfuegbarer Unterrichtsressourcen fuer Englisch, Franzoesisch und Deutsch als Fremdsprache."
+  keywords = "language teaching,EFL,FLE,DaF,OER,CEFR,curriculum,resources"
+  dateFormat = "2006-01-02"
+  hideFooter = false
+  hideCredits = true
+  since = 2025
+  colorScheme = "auto"
+  customCSS = ["css/ressources.css"]
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/boulingua/ressources"
+
+# ---- Languages ---------------------------------------------------
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    weight = 1
+    title = "#ressources"
+    [languages.de.params]
+      description = "Kuratierte Online-Ressourcen fuer Englisch, Franzoesisch und DaF."
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 2
+    title = "#ressources"
+    [languages.en.params]
+      description = "Curated online resources for English, French and German as a foreign language."
+
+  [languages.fr]
+    languageName = "Francais"
+    languageCode = "fr"
+    weight = 3
+    title = "#ressources"
+    [languages.fr.params]
+      description = "Ressources en ligne selectionnees pour l'anglais, le francais et l'allemand langue etrangere."
+
+# ---- Menus -------------------------------------------------------
+# Top-level navigation reproduces the Quarto navbar 1:1. Per-language
+# menus are populated by the language picker on /; the entry-point
+# sub-navbar (Sprache/Fertigkeit/Niveau/Unit) is a separate JS-driven
+# bar that lives under /{de,en,fr}/.
+
+[[languages.de.menu.main]]
+  name = "About"
+  weight = 1
+  url = "/de/about/"
+[[languages.de.menu.main]]
+  name = "Impressum"
+  weight = 2
+  url = "/de/imprint/"
+[[languages.de.menu.main]]
+  name = "Datenschutz"
+  weight = 3
+  url = "/de/privacy/"
+[[languages.de.menu.main]]
+  name = "Haftungsausschluss"
+  weight = 4
+  url = "/de/disclaimer/"
+
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 1
+  url = "/en/about/"
+[[languages.en.menu.main]]
+  name = "Imprint"
+  weight = 2
+  url = "/en/imprint/"
+[[languages.en.menu.main]]
+  name = "Privacy"
+  weight = 3
+  url = "/en/privacy/"
+[[languages.en.menu.main]]
+  name = "Disclaimer"
+  weight = 4
+  url = "/en/disclaimer/"
+
+[[languages.fr.menu.main]]
+  name = "A propos"
+  weight = 1
+  url = "/fr/about/"
+[[languages.fr.menu.main]]
+  name = "Mentions legales"
+  weight = 2
+  url = "/fr/imprint/"
+[[languages.fr.menu.main]]
+  name = "Confidentialite"
+  weight = 3
+  url = "/fr/privacy/"
+[[languages.fr.menu.main]]
+  name = "Avis"
+  weight = 4
+  url = "/fr/disclaimer/"
+
+# ---- Theme via Hugo Modules -------------------------------------
+[module]
+  [[module.imports]]
+    path = "github.com/luizdepra/hugo-coder"
