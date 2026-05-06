@@ -58,20 +58,32 @@ jobs:
       - name: Block commercial sources
         run: python _scripts/check_commercial.py
 
+      # ---- GATE 2a: content frontmatter audit --------------
+      - name: Audit content frontmatter
+        run: python _scripts/audit_content.py
+
       # ---- Generate per-language overview JSON -------------
       - name: Generate overview data JSONs
         run: python _scripts/build_overview.py
 
+      # ---- GATE 2b: validate /overview/ network JSON -------
+      - name: Validate network data
+        run: python _scripts/validate_network_data.py
+
       # ---- GATE 3: legal placeholders ----------------------
-      - name: Check legal placeholders
+      # Expanded from <TODO / [PLACEHOLDER] to the broader DE-legal
+      # set. Run on both source markdown and rendered HTML so we
+      # catch both authoring drift and template drift.
+      - name: Check legal placeholders (source)
         run: |
           set -e
           shopt -s globstar nullglob
+          PATTERN='<TODO|\[PLACEHOLDER\]|\[NAME\]|\[ADDRESS\]|\[STUB\]|Lorem ipsum|XXXXXX'
           for f in content/de/imprint.md content/de/privacy.md content/de/disclaimer.md \
                    content/en/imprint.md content/en/privacy.md content/en/disclaimer.md \
                    content/fr/imprint.md content/fr/privacy.md content/fr/disclaimer.md; do
             [[ -f "$f" ]] || continue
-            if grep -nE '<TODO|\[PLACEHOLDER' "$f"; then
+            if grep -nEi "$PATTERN" "$f"; then
               echo "::error::$f contains placeholder markers."
               exit 1
             fi
@@ -120,6 +132,49 @@ jobs:
             echo "::error::Plausible script src missing from rendered output."
             exit 1
           fi
+
+      # ---- Post-build: rendered HTML must not contain placeholders
+      - name: Check legal placeholders (rendered)
+        run: |
+          set -e
+          PATTERN='<TODO|\[PLACEHOLDER\]|\[NAME\]|\[ADDRESS\]|\[STUB\]|Lorem ipsum|XXXXXX'
+          for f in public/de/imprint/index.html public/de/privacy/index.html public/de/disclaimer/index.html \
+                   public/en/imprint/index.html public/en/privacy/index.html public/en/disclaimer/index.html \
+                   public/fr/imprint/index.html public/fr/privacy/index.html public/fr/disclaimer/index.html; do
+            [ -f "$f" ] || continue
+            if grep -nEi "$PATTERN" "$f"; then
+              echo "::error::$f contains placeholder markers (post-render)."
+              exit 1
+            fi
+          done
+
+      # ---- Post-build: every content page must carry author meta
+      # The Coder theme renders <meta name="author"> from
+      # hugo.toml params.author. Defence in depth: assert the tag is
+      # actually present in every rendered page so a future theme
+      # bump or template override can't silently drop attribution.
+      - name: Verify author meta on every page
+        run: |
+          set -e
+          # Skip taxonomy/paginator pages and Hugo-generated alias
+          # redirects (they have <meta http-equiv=refresh> and aren't
+          # content pages — the canonical target carries the meta).
+          missing=()
+          while IFS= read -r f; do
+            grep -q 'http-equiv=refresh\|http-equiv="refresh"' "$f" && continue
+            grep -q 'name=author content="S. Le Boulanger"\|name="author" content="S. Le Boulanger"' "$f" \
+              || missing+=("$f")
+          done < <(find public -name 'index.html' \
+                     -not -path 'public/categories/*' \
+                     -not -path 'public/tags/*' \
+                     -not -path 'public/page/*' \
+                     -not -path 'public/*/page/*')
+          if [ "${#missing[@]}" -gt 0 ]; then
+            echo "::error::pages missing author meta:"
+            printf '  %s\n' "${missing[@]}"
+            exit 1
+          fi
+          echo "OK — author meta present on every content page."
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

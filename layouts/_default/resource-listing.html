@@ -8,14 +8,14 @@
     cefr_level  string — "A1" | "A2" | "B1" | "B2" | "C1"
     unit_prefix string — e.g. "efl_kl7", "daf_b1"
 
-  Slices site.Data.sources_master accordingly (mirrors
+  Slices hugo.Data.sources_master accordingly (mirrors
   _scripts/render_resources.py:filter_resources()) and renders one
   resource-card per match.
 */}}
 {{ define "content" }}
   {{ $lang := .Site.Language.Lang }}
   {{ $filter := .Params.filter | default dict }}
-  {{ $resources := site.Data.sources_master }}
+  {{ $resources := hugo.Data.sources_master }}
 
   {{/* language filter */}}
   {{ with $filter.language }}
