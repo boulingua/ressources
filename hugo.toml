@@ -66,56 +66,61 @@ enableEmoji = false
 # sub-navbar (Sprache/Fertigkeit/Niveau/Unit) is a separate JS-driven
 # bar that lives under /{de,en,fr}/.
 
+# Per-language menus. Coder renders menu URLs as language-relative
+# (it concatenates them onto the language root), so the URL field
+# must NOT include the leading /<lang>/ — just the path within the
+# language tree.
+
 [[languages.de.menu.main]]
   name = "About"
   weight = 1
-  url = "/de/about/"
+  url = "about/"
 [[languages.de.menu.main]]
   name = "Impressum"
   weight = 2
-  url = "/de/imprint/"
+  url = "imprint/"
 [[languages.de.menu.main]]
   name = "Datenschutz"
   weight = 3
-  url = "/de/privacy/"
+  url = "privacy/"
 [[languages.de.menu.main]]
   name = "Haftungsausschluss"
   weight = 4
-  url = "/de/disclaimer/"
+  url = "disclaimer/"
 
 [[languages.en.menu.main]]
   name = "About"
   weight = 1
-  url = "/en/about/"
+  url = "about/"
 [[languages.en.menu.main]]
   name = "Imprint"
   weight = 2
-  url = "/en/imprint/"
+  url = "imprint/"
 [[languages.en.menu.main]]
   name = "Privacy"
   weight = 3
-  url = "/en/privacy/"
+  url = "privacy/"
 [[languages.en.menu.main]]
   name = "Disclaimer"
   weight = 4
-  url = "/en/disclaimer/"
+  url = "disclaimer/"
 
 [[languages.fr.menu.main]]
   name = "A propos"
   weight = 1
-  url = "/fr/about/"
+  url = "about/"
 [[languages.fr.menu.main]]
   name = "Mentions legales"
   weight = 2
-  url = "/fr/imprint/"
+  url = "imprint/"
 [[languages.fr.menu.main]]
   name = "Confidentialite"
   weight = 3
-  url = "/fr/privacy/"
+  url = "privacy/"
 [[languages.fr.menu.main]]
   name = "Avis"
   weight = 4
-  url = "/fr/disclaimer/"
+  url = "disclaimer/"
 
 # ---- Theme via Hugo Modules -------------------------------------
 [module]

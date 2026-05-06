@@ -286,3 +286,27 @@ I need answers to these before scaffolding the migration branch. None are blocki
   - **CI:** `_scripts/build_overview.py` runs as a pre-build step; `static/data/resources.{lang}.json` is produced before `hugo --minify`. Post-build, the root picker is restored. The five gates from Phase 1 still fire.
   - **Build verified locally:** 65 / 64 / 64 pages DE / EN / FR. Resource cards render under all four filter axes (verified DE/EN/FR samples). Plausible script intact in head (post-minify form). Three legal-page aliases emitted at `/{lang}/legal/{impressum,privacy,disclaimer}/`. Localized strings render correctly via Hugo's `{{ i18n }}` helper.
   - **Decisions §6 confirmed in the build:** Materials hub omitted; stubs (not generator) chosen; VG Wort partial ships, zero pixels active; overview JSON served at absolute `/data/...`; Plausible verbatim.
+- **2026-05-06** — Phase 3 (Materials hub) **skipped** per §6 decision 1. `ressources` is a curated link directory; no per-article teaching materials exist to attach.
+- **2026-05-06** — Phase 4 (cleanup, parity, deploy prep) complete locally on `migration/hugo-coder`.
+  - **Quarto removed:** deleted `_quarto.yml`, `_metadata.yml`, `index.qmd`, `_includes/{in-header,after-body}.html`, `_scripts/{build_pages.py,render_resources.py,vgwort.lua}`, `assets/{_shared,light,dark}.scss`, `assets/js/{entrypoints,overview}.js` (now in `static/js/`), `.github/workflows/deploy.yml.disabled`, and the one-shot `scripts/scaffold_hugo_content.py`.
+  - **Kept in `_scripts/`:** `validate_sources.py`, `check_commercial.py`, `build_overview.py`, `i18n.py` — all four are used by the Hugo CI workflow.
+  - **`.gitignore`** trimmed of Quarto entries (`_site/`, `_freeze/`, `.quarto/`, `**/*.quarto_ipynb`, `/de/`, `/en/`, `/fr/`, `/assets/data/`); `static/data/` added (build-time output). The three previously-committed `static/data/resources.{lang}.json` files are now untracked.
+  - **README.md** updated for the Hugo build (`hugo --minify` + `cp static/index.html public/index.html`); `LICENSE-content` repointed to `data/sources_master.yml`.
+  - **Bug found and fixed during cleanup:** Coder's per-language menu rendering treats `menu.main.url` as language-relative; absolute paths like `/de/about/` were doubled to `/ressources/de/ressources/de/about/`. Fixed by changing menu URLs to bare `about/`, `imprint/`, etc. — Hugo prepends the per-language root automatically.
+  - **`site.webmanifest`** added at `static/site.webmanifest` (minimal PWA manifest) — Coder's `<head>` references it.
+  - **Parity check (sitemap diff vs. live Quarto site):**
+    - 139 URLs in https://boulingua.github.io/ressources/sitemap.xml
+    - 156 URLs across the three Hugo per-language sitemaps
+    - **0 URLs from the live Quarto site missing in Hugo.** New URLs in Hugo are auto-generated `nach_*/` section indexes plus Coder's empty `categories/` and `tags/` taxonomy pages — harmless, no inbound links from the old site.
+  - **Internal-link audit:** Python rglob over all 190 rendered HTML files, parsing every absolute `href`. **0 broken internal links.** (Lychee not installed on this Windows host; the equivalent grep+resolve pass was used.)
+  - **Tracking gates dry-run on rendered output:** Plausible `data-domain` regex matches; Plausible `src` matches; VG Wort: zero pixel URLs anywhere in `public/` (no page opts in — capability ships, manifest is empty).
+  - **Smoke check on five representative pages:**
+    - `/` — trilingual language picker (hand-authored static HTML)
+    - `/de/index.html` — landing with hero / 4 entry cards / criteria block, Plausible in head
+    - `/de/imprint/index.html` — full Impressum prose verbatim from `build_pages.py`; alias at `/de/legal/impressum/` redirects correctly
+    - `/de/nach_unit/efl/kl07/index.html` — 1 resource card (LearnEnglish Teens), correctly filtered by `unit_prefix`
+    - `/en/nach_fertigkeit/hoeren/index.html` — 5 resource cards, EN-localized labels and descriptions
+  - **Two non-trivial decisions taken during cleanup, documented for the PR:**
+    1. EN/FR legal pages do not get the `/legal/...` alias (the source Python literals only set `aliases:` for DE) — preserves Quarto behaviour.
+    2. The `static/data/resources.{lang}.json` files are gitignored, not committed — they are pure derivatives of `data/sources_master.yml` and regenerate cleanly in CI.
+  - **Did NOT do:** push branch, open PR, deploy. Awaiting explicit OK because pushing is a visible-to-others action.

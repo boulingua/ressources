@@ -4,12 +4,12 @@
 # Fail the build if rendered output still contains placeholder
 # tokens or TODO/FIXME markers in legal pages.
 #
-# Default scan target: ./docs (Quarto output-dir for this repo).
-# Override with: BUILD_DIR=_site bash scripts/check-legal-placeholders.sh
+# Default scan target: ./public (Hugo output-dir for this repo).
+# Override with: BUILD_DIR=public bash scripts/check-legal-placeholders.sh
 
 set -eu
 
-BUILD_DIR="${BUILD_DIR:-docs}"
+BUILD_DIR="${BUILD_DIR:-public}"
 
 if [ ! -d "$BUILD_DIR" ]; then
   echo "[check-legal-placeholders] build dir '$BUILD_DIR' not found — run the site build first" >&2

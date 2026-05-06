@@ -1,22 +1,12 @@
-_site/
-_freeze/
-.quarto/
 __pycache__/
 *.pyc
 .DS_Store
-
-/.quarto/
-**/*.quarto_ipynb
-
-# Generierte mehrsprachige Content-Baeume (Quelle: _scripts/build_pages.py)
-/de/
-/en/
-/fr/
-
-# Generierte Daten-JSONs fuer die Uebersicht (Quelle: _scripts/build_overview.py)
-/assets/data/
 
 # Hugo build outputs
 /public/
 /resources/_gen/
 .hugo_build.lock
+
+# Generated data JSON for the overview page
+# (produced by _scripts/build_overview.py at build time)
+/static/data/

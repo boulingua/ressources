@@ -4,7 +4,7 @@ Copyright (c) 2026 S. Le Boulanger
 
 This license applies to all curatorial content of the Boulingua
 Ressourcen-Hub: descriptions, annotations, introductory texts, and the
-data in _resources/sources_master.yml. It does not apply to the
+data in data/sources_master.yml. It does not apply to the
 linked external resources themselves, which remain subject to the
 licenses of their respective providers, nor to the project's source
 code, which is licensed under MIT (see LICENSE).

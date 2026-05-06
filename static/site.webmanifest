@@ -1,0 +1,8 @@
+{
+  "name": "#ressources",
+  "short_name": "ressources",
+  "start_url": "/ressources/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8"
+}

@@ -7,10 +7,10 @@ Live: <https://boulingua.github.io/ressources/>
 
 ## Lizenzen
 
-- **Code** (Quarto-Konfiguration, Python-Skripte, CSS, CI):
+- **Code** (Hugo-Konfiguration, Python-Skripte, CSS, CI):
   MIT - siehe [LICENSE](LICENSE).
 - **Inhalte** (Beschreibungen, Annotationen, Einleitungstexte,
-  `_resources/sources_master.yml`): CC-BY-SA 4.0 - siehe
+  `data/sources_master.yml`): CC-BY-SA 4.0 - siehe
   [LICENSE-content](LICENSE-content).
 - **Verlinkte externe Ressourcen**: jeweilige Lizenz der
   Anbieter (siehe `license_type` und `license_details` pro
@@ -19,11 +19,16 @@ Live: <https://boulingua.github.io/ressources/>
 ## Lokal bauen
 
 ```bash
-pip install pyyaml jupyter
+pip install pyyaml jsonschema
 python _scripts/validate_sources.py
 python _scripts/check_commercial.py
-quarto render
+python _scripts/build_overview.py
+hugo --minify
+cp static/index.html public/index.html
 ```
+
+Hugo (extended) >= 0.147 wird benoetigt; Theme `hugo-coder` wird ueber
+Hugo Modules eingebunden (`go.mod`).
 
 ## Autorin
 
