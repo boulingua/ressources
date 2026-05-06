@@ -84,7 +84,7 @@ enableEmoji = false
   weight = 3
   url = "privacy/"
 [[languages.de.menu.main]]
-  name = "Haftungsausschluss"
+  name = "Disclaimer"
   weight = 4
   url = "disclaimer/"
 
