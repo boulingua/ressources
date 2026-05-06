@@ -179,9 +179,25 @@ Outstanding for a follow-up commit:
 
 ## Open follow-ups
 
-1. **Lychee weekly link check** — add `.github/workflows/link-check.yml` running weekly + on PR.
-2. **Lighthouse CI** — gated at ≥ 90 on the four representative URLs above.
+1. ~~Lychee weekly link check~~ → done in this pass (`.github/workflows/link-check.yml`).
+2. **Lighthouse CI** — gated at ≥ 90 on the four representative URLs above. Pattern is in place on `fle` (advisory step in deploy.yml) and could be ported.
 3. **JSON-LD `Person`** structured data on all content pages — currently `<meta name=author>` only.
 4. **Plausible domain via `params.plausible.domain`** — for cross-repo consistency once the brief is run on `fle`/`efl`/`daf`.
 
 None block production deploy.
+
+## Final summary — 2026-05-06
+
+The verification pass landed in three commits on `main`:
+
+```
+8b23a36 fix: post-conversion content integrity issues
+4a833d3 chore: site-wide link verification + CI
+409aeed fix(ci): bump Hugo to 0.159.2 — hugo.Data needs 0.156+
+```
+
+CI run `25432621431` ran the full new gate set and both build + deploy completed successfully. Net change: **5 new gates** added to the deploy workflow (frontmatter audit, network-data validator, expanded legal-placeholder check pre + post-render, per-page author-meta verification), one Hugo deprecation cleared, one separate weekly+PR link-check workflow added, and one Quarto-era helper script deleted as dead code.
+
+**Outstanding (none blocking):** the four follow-ups listed in §"Open follow-ups" above. The most useful next add is Lighthouse CI; the JSON-LD `Person` and `params.plausible.domain` refactors are nice-to-haves only worth doing once the same brief runs on the other three sister repos so all four refactor in lockstep.
+
+**No content was modified.** No DOI, author, citation, or curatorial annotation was changed. Every CI gate added is a defence-in-depth check on what's already there; the brief's "author attribution is sacred" rule was honoured throughout.
