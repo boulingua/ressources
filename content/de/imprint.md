@@ -42,4 +42,4 @@ teilzunehmen.
 
 Hinweise zur Haftung für eigene Inhalte, fremde Inhalte und Links
 sowie zum Urheberrecht finden Sie auf der Seite
-[Haftungsausschluss](disclaimer.qmd).
+[Haftungsausschluss](../disclaimer/).
