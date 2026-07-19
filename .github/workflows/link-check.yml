@@ -60,7 +60,7 @@ jobs:
             --offline
             --no-progress
             --exclude-path public/data/
-            --base public
+            --root-dir ${{ github.workspace }}/public
             'public/**/*.html'
           fail: true
           format: detailed
@@ -80,7 +80,7 @@ jobs:
             --accept 200,206,429
             --exclude-path public/data/
             --include-fragments
-            --base public
+            --root-dir ${{ github.workspace }}/public
             'public/**/*.html'
           fail: false
           format: detailed
