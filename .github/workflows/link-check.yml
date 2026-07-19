@@ -59,7 +59,6 @@ jobs:
           args: >-
             --offline
             --no-progress
-            --exclude-mail
             --exclude-path public/data/
             --base public
             'public/**/*.html'
@@ -79,7 +78,6 @@ jobs:
             --no-progress
             --cache --max-cache-age 7d
             --accept 200,206,429
-            --exclude-mail
             --exclude-path public/data/
             --include-fragments
             --base public
