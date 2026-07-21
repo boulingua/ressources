@@ -90,7 +90,9 @@
    dropped — Coder does not use those.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+/* Webfonts are self-hosted and declared in static/css/fonts.css, loaded
+   from the site <head> (see layouts/_partials/head/extensions.html).
+   No third-party external font request. */
 
 body {
   font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;

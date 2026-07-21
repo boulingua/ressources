@@ -7,3 +7,10 @@
 <script defer data-domain="boulingua.github.io/ressources" src="https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script defer src="{{ "/js/entrypoints.js" | relURL }}"></script>
+
+{{/* Self-hosted webfonts (GDPR-clean, no render-blocking external font
+     request). Preload the two most-used regular weights, then load the
+     @font-face declarations from static/css/fonts.css. */}}
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "fonts/source-sans-3-v19-latin_latin-ext-regular.woff2" | relURL }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "fonts/jetbrains-mono-v24-latin_latin-ext-regular.woff2" | relURL }}">
+<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
