@@ -23,6 +23,8 @@ enableEmoji = false
   hideCredits = true
   since = 2025
   colorScheme = "auto"
+  # Single navbar toggle (#dark-mode-toggle) drives coder.js; hide the theme's floating duplicate.
+  hideColorSchemeToggle = true
   customCSS = ["css/ressources.css"]
 
 [[params.social]]
