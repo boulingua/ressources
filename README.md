@@ -33,3 +33,7 @@ Hugo Modules eingebunden (`go.mod`).
 ## Autorin
 
 Alle kuratorischen Inhalte: S. Le Boulanger.
+
+## Einsatz von LLM-Werkzeugen
+
+Teile dieses Projekts wurden mit Unterstützung von Large-Language-Model-Werkzeugen für eng umrissene, nicht-autorschaftliche Aufgaben erstellt: Lektorat, sprachliche Glättung, Markdown-/LaTeX-Formatierung, Gerüstbau von Boilerplate-Dateien (CI-Konfigurationen, Build-Skripte), Code-Refactoring. Verwendet wurden Chat AI, der LLM-Dienst von KISSKI (GWDG), sowie ein selbst gehostetes Mistral Small (24B, Apache-2.0), lokal betrieben über Ollama und das R-Paket ollamar — ausschließlich lokale Inferenz, ohne Übermittlung von Daten an Dritte beim selbst gehosteten Modell.
