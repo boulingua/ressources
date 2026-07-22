@@ -1,0 +1,2215 @@
+# =====================================================================
+#  boulingua/ressources — resource ACQUISITION manifest (registry.yml)
+# ---------------------------------------------------------------------
+#  Machine-readable layer on top of data/sources_master.yml. Each entry
+#  records how a source is acquired and whether its material may be
+#  redistributed. The bulk artefacts live in resources/_downloads/
+#  (gitignored, local study cache); this manifest is the committed,
+#  reproducible record. Rebuild the cache with scripts/refresh-resources.sh.
+#
+#  licence           : all-rights-reserved | public-domain | CC-*  | open-access | paid
+#  access            : free | free-registration | paid | mixed
+#  redistributable   : true only under a clear open licence
+#  method            : static (direct files) | chrome (JS/login wall) | link-only | none (paid)
+#  curated_ref       : id in data/sources_master.yml (single curation source of truth)
+#  verification      : curated | fetched | knowledge | unverified
+#  downloads         : concrete, hash-pinned files (open licences only; fetched by refresh script)
+#
+#  Generated 2026-07-22. Do not hand-edit acquisition fields; re-run the build.
+# =====================================================================
+
+- id: ar-coerll-arabic
+  language: ar
+  abbr: AFL
+  source: COERLL Arabic (Aswaat/Awebic etc.)
+  url: https://coerll.utexas.edu/coerll/materials/language/arabic/
+  institution: COERLL, UT Austin
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: mixed
+  access: free
+  redistributable: false
+  method: chrome
+  origin: spec
+  verification: fetched
+  confidence: low
+  last_verified: '2026-07-22'
+  notes: >-
+    licence: mixed — COERLL-authored worksheets/glossaries appear openly licensed (footer links to CC
+    BY 4.0), but the core content is ~245 third-party Arab-TV broadcast clips that are all-rights-reserved;
+    resource-level CC variant for Aswaat is not independently verified | Licence over-claimed as CC-BY-4.0
+    with high confidence. The only CC BY signal is the site-wide COERLL footer badge, which is NOT per-resource
+    evidenc
+- id: ar-madinah-arabic
+  language: ar
+  abbr: AFL
+  source: Madinah Arabic
+  url: https://www.madinaharabic.com/learn-arabic.html
+  institution: Madinah Arabic
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence verified as fully reserved: "©2003-2026 Madinah Arabic FZE - All rights reserved." appears
+    on the homepage, learn-arabic hub, the course lesson index, and individual lessons; no Creative Commons
+    or open licence anywhere. About Us confirms a commercial free-plus-paid model. So all-rights-reserved
+    and redistributable=false are correct and conservative. Access=free holds: free self-study lessons
+    render fully in-
+- id: zh-chineseplus
+  language: zh
+  abbr: CFL
+  source: Chinese Plus (CLEC)
+  url: https://www.chineseplus.net/
+  institution: Center for Language Education and Cooperation (CLEC)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  notes: >-
+    LICENCE (confirmed all-rights-reserved, high confidence): Footer verified verbatim on us.chineseplus.net
+    — "Copyright (c) 2022 Center for Bridging Cultures, All rights Reserved." No Creative Commons, CC0,
+    or public-domain notice anywhere on the English portal or the main 中文联盟 platform. The core platform
+    is operated by CLEC (Center for Language Education and Cooperation, China's Ministry of Education)
+    — a government/i
+- id: zh-coursera-pku-hsk
+  language: zh
+  abbr: CFL
+  source: Chinese for HSK 1–6 (Peking University)
+  url: https://www.coursera.org/learn/hsk-1
+  institution: Peking University via Coursera
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: chrome
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence: Coursera footer "© 2026 Coursera Inc. All rights reserved", no CC/CC0/open statement anywhere;
+    Peking University/Coursera materials are proprietary. Free-to-audit is NOT an open licence — treated
+    as all-rights-reserved, redistributable=false, link-only usage (linkable, not copyable). Access is
+    not "free" in the open sense: HSK 1-4 offer only a free AUDIT that requires a Coursera account (registration);
+    grade
+- id: bbc-learning-english
+  language: en
+  abbr: EFL
+  source: BBC Learning English
+  url: https://www.bbc.co.uk/learningenglish
+  institution: BBC
+  cefr:
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: bbc-learning-english
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-05-01'
+- id: bc-learnenglish-teens
+  language: en
+  abbr: EFL
+  source: LearnEnglish Teens
+  url: https://learnenglishteens.britishcouncil.org/
+  institution: British Council
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: bc-learnenglish-teens
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-05-01'
+- id: breaking-news-english
+  language: en
+  abbr: EFL
+  source: Breaking News English
+  url: https://breakingnewsenglish.com/
+  institution: Breaking News English (Sean Banville)
+  cefr:
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: breaking-news-english
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: british-library-discovering-literature
+  language: en
+  abbr: EFL
+  source: Discovering Literature (British Library)
+  url: https://www.bl.uk/discovering-literature/
+  institution: British Library
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: british-library-discovering-literature
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: commons-en-pronunciation
+  language: en
+  abbr: EFL
+  source: Wikimedia Commons — Englische Aussprache-Audios
+  url: https://commons.wikimedia.org/wiki/Category:English_pronunciation
+  institution: Wikimedia Commons
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: commons-en-pronunciation
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 3
+  bytes: 1079067
+  sha256_manifest: resources/_downloads/en/metadata/commons-en-pronunciation.sha256
+  downloads:
+  - url: >-
+      https://upload.wikimedia.org/wikipedia/commons/3/31/%22Gyro%22_proscribed_pronunciation.wav
+    path: resources/_downloads/en/audio/"Gyro"_proscribed_pronunciation.wav
+    sha256: 5538a45ec5050e0702ff8a614932b92643b933c832e27638e2baac1263b18359
+    bytes: 323630
+    licence: CC BY-SA 4.0
+  - url: https://upload.wikimedia.org/wikipedia/commons/b/bc/3thereweresomesAmEng.wav
+    path: resources/_downloads/en/audio/3thereweresomesAmEng.wav
+    sha256: 947a7420e6a1c4e405469bf797be9f6c2f2ae1e4ad39c4b11d28971bce45839d
+    bytes: 731216
+    licence: CC0
+  - url: https://upload.wikimedia.org/wikipedia/commons/7/73/A_boy2.ogg
+    path: resources/_downloads/en/audio/A_boy2.ogg
+    sha256: 3dc04be59c0c1efb9ac627d75c9668cd5cc9ab8d530307fbde08d2580127bae3
+    bytes: 24221
+    licence: CC BY-SA 3.0
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: elllo-listening
+  language: en
+  abbr: EFL
+  source: ELLLO – English Listening Lesson Library Online
+  url: https://elllo.org/
+  institution: ELLLO (Todd Beuckens)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: elllo-listening
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: esl-lab-randall
+  language: en
+  abbr: EFL
+  source: Randall's ESL Cyber Listening Lab
+  url: https://www.esl-lab.com/
+  institution: Randall Davis (esl-lab.com)
+  cefr:
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: esl-lab-randall
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: esolcourses-english
+  language: en
+  abbr: EFL
+  source: ESOL Courses
+  url: https://www.esolcourses.com/
+  institution: ESOL Courses
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: esolcourses-english
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: gutenberg-en
+  language: en
+  abbr: EFL
+  source: Project Gutenberg — Englischsprachige Literatur
+  url: https://www.gutenberg.org/browse/languages/en
+  institution: Project Gutenberg
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: gutenberg-en
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 1
+  bytes: 174311
+  sha256_manifest: resources/_downloads/en/metadata/gutenberg-en.sha256
+  downloads:
+  - url: https://www.gutenberg.org/cache/epub/11/pg11.txt
+    path: resources/_downloads/en/pdf/gutenberg-11.txt
+    sha256: 01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e
+    bytes: 174311
+    licence: public-domain
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: librivox-en
+  language: en
+  abbr: EFL
+  source: LibriVox — Kostenlose Hörbücher (Internet Archive)
+  url: https://archive.org/details/librivoxaudio
+  institution: LibriVox
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: librivox-en
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: manythings-esl
+  language: en
+  abbr: EFL
+  source: ManyThings.org
+  url: https://www.manythings.org/
+  institution: Charles Kelly & Lawrence Kelly
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: manythings-esl
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: purdue-owl
+  language: en
+  abbr: EFL
+  source: Purdue OWL (Online Writing Lab)
+  url: https://owl.purdue.edu/owl/purdue_owl.html
+  institution: Purdue University
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: purdue-owl
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: smithsonian-learning-lab
+  language: en
+  abbr: EFL
+  source: Smithsonian Learning Lab
+  url: https://learninglab.si.edu/
+  institution: Smithsonian Institution
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: smithsonian-learning-lab
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: standard-ebooks
+  language: en
+  abbr: EFL
+  source: Standard Ebooks
+  url: https://standardebooks.org/
+  institution: Standard Ebooks
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: standard-ebooks
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: tatoeba-en
+  language: en
+  abbr: EFL
+  source: Tatoeba — Beispielsätze mit Übersetzungen
+  url: https://tatoeba.org/en/
+  institution: Tatoeba
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: CC-BY-2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/fr/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: tatoeba-en
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  notes: >-
+    Open-licensed but not fetched this run (exceeds 16MB session cap (~full corpus larger); fetch via
+    refresh-resources.sh (no cap)). Run scripts/refresh-resources.sh.
+- id: ted-ed
+  language: en
+  abbr: EFL
+  source: TED-Ed Lessons
+  url: https://ed.ted.com/
+  institution: TED Conferences
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: ted-ed
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: wikisource-en
+  language: en
+  abbr: EFL
+  source: English Wikisource — Freie Quellentextbibliothek
+  url: https://en.wikisource.org/wiki/Main_Page
+  institution: Wikimedia Foundation
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: wikisource-en
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: en-asccc-oeri-esl
+  language: en
+  abbr: EFL
+  source: ASCCC-OERI ESL OER list
+  url: >-
+    https://asccc-oeri.org/open-educational-resources-and-english-as-a-second-language/
+  institution: ASCCC OERI
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: B2
+  licence: mixed
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://opentextbc.ca/abealf6/open/download?type=pdf
+    type: pdf
+    licence: CC-BY-4.0
+  - url: https://openoregon.pressbooks.pub/homeandschool/open/download?type=pdf
+    type: pdf
+    licence: CC-BY-4.0
+  - url: https://opentextbc.ca/abealfreader1/open/download?type=pdf
+    type: pdf
+    licence: CC-BY-4.0
+  notes: >-
+    licence: mixed-open-CC (CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA; one entry "multiple copyrights") |
+    Adversarial verification of the live page (HTTP 200) confirms it is a CURATED LINK DIRECTORY: ASCCC-OERI
+    hosts no files; it links to ~49 third-party OER. LICENCE holds up as genuinely open, not free-to-access-only:
+    every entry carries an explicit open CC licence (BY / BY-SA / BY-NC / BY-NC-SA), downstream-verified
+    CC BY
+- id: en-britishcouncil-learnenglish
+  language: en
+  abbr: EFL
+  source: British Council LearnEnglish
+  url: https://learnenglish.britishcouncil.org/
+  institution: British Council
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: bc-learnenglish-teens
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    No over-optimistic claim to refute — the researcher's conclusion already sits at the conservative
+    reading and is corroborated. Licence: British Council explicitly retains sole/exclusive IP in all
+    "British Council English Language Product materials" and grants only limited, revocable, personal,
+    non-commercial permission for study/research; users may not copy or distribute materials via internet/intranet
+    or to third pa
+- id: bonjour-de-france
+  language: fr
+  abbr: FLE
+  source: Bonjour de France
+  url: https://www.bonjourdefrance.com/
+  institution: Bonjour de France (Azurlingua)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: bonjour-de-france
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: commons-fr-prononciation
+  language: fr
+  abbr: FLE
+  source: Wikimedia Commons — Französische Aussprache-Audios
+  url: https://commons.wikimedia.org/wiki/Category:French_pronunciation
+  institution: Wikimedia Commons
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: commons-fr-prononciation
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 3
+  bytes: 101641
+  sha256_manifest: resources/_downloads/fr/metadata/commons-fr-prononciation.sha256
+  downloads:
+  - url: https://upload.wikimedia.org/wikipedia/commons/4/41/A_french.wav
+    path: resources/_downloads/fr/audio/A_french.wav
+    sha256: c4f6c467b5bf64263950f36a00d8f197b399010c91e2206cc7ce6a3360ac0b79
+    bytes: 48154
+    licence: CC BY-SA 4.0
+  - url: https://upload.wikimedia.org/wikipedia/commons/b/b1/A2-french.wav
+    path: resources/_downloads/fr/audio/A2-french.wav
+    sha256: a25854f476c0d6b9d0d7c0a73e703b0bf2c60ddf20dff6c42490b23ee12e74db
+    bytes: 38402
+    licence: CC BY-SA 4.0
+  - url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Fr-abattement.ogg
+    path: resources/_downloads/fr/audio/Fr-abattement.ogg
+    sha256: 07346777c76ddab7049af97af0c1f9bc1c2684392c8da35c3edbfe6f2d78b3b0
+    bytes: 15085
+    licence: CC BY 2.0 fr
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: fei-delf-dalf
+  language: fr
+  abbr: FLE
+  source: DELF / DALF / TCF – France Éducation international
+  url: https://www.france-education-international.fr/hub/diplomes-tests
+  institution: France Éducation international
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: fei-delf-dalf
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: france-bienvenue
+  language: fr
+  abbr: FLE
+  source: France Bienvenue
+  url: https://francebienvenue.fr/
+  institution: France Bienvenue
+  cefr:
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: france-bienvenue
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: gallica-bnf
+  language: fr
+  abbr: FLE
+  source: Gallica
+  url: https://gallica.bnf.fr/accueil/fr/content/accueil-fr
+  institution: Bibliothèque nationale de France (BnF)
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: gallica-bnf
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: gutenberg-fr
+  language: fr
+  abbr: FLE
+  source: Project Gutenberg — Littérature francophone
+  url: https://www.gutenberg.org/browse/languages/fr
+  institution: Project Gutenberg
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: gutenberg-fr
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 1
+  bytes: 234120
+  sha256_manifest: resources/_downloads/fr/metadata/gutenberg-fr.sha256
+  downloads:
+  - url: https://www.gutenberg.org/cache/epub/4650/pg4650.txt
+    path: resources/_downloads/fr/pdf/gutenberg-4650.txt
+    sha256: 1cc10ab3268a76aa01bd3f9722ae2ae0e5e36b869a18b0bb0832b75bc0327806
+    bytes: 234120
+    licence: public-domain
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: lepointdufle
+  language: fr
+  abbr: FLE
+  source: Le Point du FLE
+  url: https://www.lepointdufle.net/
+  institution: Le Point du FLE
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: lepointdufle
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: lumni-college
+  language: fr
+  abbr: FLE
+  source: Lumni (Collège)
+  url: https://www.lumni.fr/college
+  institution: France Télévisions (Lumni)
+  cefr:
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: lumni-college
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: milan-1jour1actu
+  language: fr
+  abbr: FLE
+  source: 1jour1actu
+  url: https://www.1jour1actu.com/
+  institution: Milan Presse
+  cefr:
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: milan-1jour1actu
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: podcast-francais-facile
+  language: fr
+  abbr: FLE
+  source: Podcast Français Facile
+  url: https://www.podcastfrancaisfacile.com/
+  institution: Vincent Durrenberger
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: podcast-francais-facile
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: radiofrance-franceinfo
+  language: fr
+  abbr: FLE
+  source: franceinfo (Radio France)
+  url: https://www.radiofrance.fr/franceinfo
+  institution: Radio France
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: radiofrance-franceinfo
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: rfi-le-francais-facile
+  language: fr
+  abbr: FLE
+  source: Le français facile avec RFI
+  url: https://francaisfacile.rfi.fr/fr/
+  institution: Radio France Internationale (RFI)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: rfi-le-francais-facile
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: tv5monde-apprendre
+  language: fr
+  abbr: FLE
+  source: Apprendre le français
+  url: https://apprendre.tv5monde.com/
+  institution: TV5Monde
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: tv5monde-apprendre
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-05-01'
+- id: vikidia-fr
+  language: fr
+  abbr: FLE
+  source: Vikidia (français)
+  url: https://fr.vikidia.org/wiki/Vikidia:Accueil
+  institution: Association Vikidia
+  cefr:
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/deed.fr
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: vikidia-fr
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: wikisource-fr
+  language: fr
+  abbr: FLE
+  source: Wikisource en français
+  url: https://fr.wikisource.org/wiki/Wikisource:Accueil
+  institution: Wikimedia Foundation
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: wikisource-fr
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  notes: >-
+    Open-licensed but not fetched this run (exact page node not resolved in session; PD text otherwise
+    covered by gutenberg-fr. Stage specific works via refresh script.). Run scripts/refresh-resources.sh.
+- id: fr-fei-delf-dalf
+  language: fr
+  abbr: FLE
+  source: France Éducation international — DELF/DALF/TCF
+  url: https://www.france-education-international.fr/
+  institution: France Éducation international (FEI)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: fei-delf-dalf
+  origin: spec
+  verification: unverified
+  confidence: low
+  last_verified: '2026-07-22'
+- id: fr-liberte-angelo
+  language: fr
+  abbr: FLE
+  source: Liberté (T. Angelo)
+  url: https://www.lightandmatter.com/french/
+  institution: T. Angelo
+  cefr:
+  - A1
+  - A2
+  cefr_ceiling: A2
+  licence: CC-BY-SA-4.0
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  fetched: '2026-07-22'
+  files: 1
+  bytes: 31139159
+  sha256_manifest: resources/_downloads/fr/metadata/fr-liberte-angelo.sha256
+  downloads:
+  - url: >-
+      https://archive.org/download/liberte-vol-1-student-edition/Lulu_Liberte_Vol1_Student_Spring2024.pdf
+    path: resources/_downloads/fr/pdf/liberte-vol1-student-spring2024.pdf
+    sha256: c743d794209530ac30ba4489359177082662b806548ffd173f3af010975cca85
+    bytes: 31139159
+    licence: CC-BY-SA-4.0
+  notes: >-
+    Licence and access claims survive adversarial scrutiny. CC-BY-SA-4.0 is a GENUINELY OPEN licence,
+    not merely free-to-access, and is triple-corroborated: (1) author's own page lightandmatter.com/french
+    states the text is "freely available under the Creative Commons Attribution-ShareAlike 4.0 International
+    license"; (2) archive.org item liberte-complete-july-2022 metadata licenseurl = creativecommons.org/licenses/by-sa
+- id: fr-rfi-savoirs
+  language: fr
+  abbr: FLE
+  source: RFI Savoirs
+  url: https://francaisfacile.rfi.fr/fr/
+  institution: RFI / France Médias Monde
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: rfi-le-francais-facile
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence: ALL-RIGHTS-RESERVED, verified verbatim from the France Medias Monde legal notice (Art. 6),
+    which governs all RFI sites incl. the French-learning platform: content is "reserves et proteges par
+    le droit de la propriete intellectuelle" and "toute reproduction (y compris par telechargement, impression
+    etc.) ... est interdite" without written authorization. No Creative Commons / open licence exists;
+    the notice ev
+- id: ru-pushkin-institute
+  language: ru
+  abbr: РКИ
+  source: State Pushkin Institute
+  url: https://pushkininstitute.ru/
+  institution: State Pushkin Institute of Russian Language
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free-registration
+  redistributable: false
+  method: chrome
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence claim survives adversarial scrutiny and is correctly conservative. Directly re-verified the
+    portal terms: "Использование материалов сайта разрешено только в личных некоммерческих целях и при
+    наличии активной ссылки на источник" — personal non-commercial use only, active source link required,
+    and any other use needs written permission (portal@pushkininstitute.ru). Copyright held by the Pushkin
+    State Russian La
+- id: es-ave-cervantes
+  language: es
+  abbr: ELE
+  source: AVE Global
+  url: https://ave.cervantes.es/
+  institution: Instituto Cervantes
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: paid
+  redistributable: false
+  method: none
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    No over-optimism to refute; the researcher's conclusion is already the maximally conservative reading
+    and I confirm it. Verified independently via WebFetch of https://ave.cervantes.es/ and web search.
+    LICENCE: footer states verbatim "© Instituto Cervantes, 1991-2026. Reservados todos los derechos"
+    (all rights reserved). No Creative Commons, CC0, or public-domain statement anywhere. Free-to-view
+    marketing pages do NOT
+- id: es-cvc-cervantes
+  language: es
+  abbr: ELE
+  source: Centro Virtual Cervantes
+  url: https://cvc.cervantes.es/aula/
+  institution: Instituto Cervantes
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence is NOT open — merely free-to-access. Every learning page carries "Centro Virtual Cervantes
+    © Instituto Cervantes (España), 2000-. Reservados todos los derechos." (verified on /aula/, /estudiantes.htm,
+    /dab.htm, /aula/lecturas/). No Creative Commons or open-licence statement exists; AVE sample activities
+    even carry an ISBN, confirming conventional copyright. Therefore licence_ok=false and redistributable=false
+- id: es-rtve-aprenderespanol
+  language: es
+  abbr: ELE
+  source: RTVE Aprender español
+  url: https://www.rtve.es/aprenderespanol/
+  institution: RTVE
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: unknown
+  licence: all-rights-reserved
+  access: unknown
+  redistributable: false
+  method: none
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  notes: >-
+    Verified live: claimed URL https://www.rtve.es/aprenderespanol/ returns HTTP 404 (host rtve.es root
+    = 200, so the server is up but this path does not exist); alternates /aprender-espanol/ and /cultura/aprender-espanol/
+    also 404; Wayback CDX prefix query returns zero captures (availability API rate-limited/429 but CDX
+    corroborates it never existed as stated). Resource is DEFUNCT / URL invalid. No open-licence statemen
+- id: tr-yunus-emre
+  language: tr
+  abbr: TFL
+  source: Yunus Emre Enstitüsü — Turkce
+  url: https://turkce.yee.org.tr/
+  institution: Yunus Emre Institute
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free-registration
+  redistributable: false
+  method: chrome
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Researcher's conclusions are already at the conservative floor on every axis; nothing over-optimistic
+    to refute. Licence: Yunus Emre Enstitusu is a Turkish state cultural institute with a plain "(c) COPYRIGHT
+    2026 YUNUS EMRE ENSTITUSU" footer and no CC/open-licence marking anywhere; the "Yedi Iklim Turkce"
+    set is an official copyrighted publication. Free-to-access does not equal openly licensed -> all-rights-reserved
+- id: ja-irodori
+  language: ja
+  abbr: JFL
+  source: 'Irodori: Japanese for Life in Japan (free PDF)'
+  url: https://www.irodori.jpf.go.jp/en/
+  institution: The Japan Foundation
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence is all-rights-reserved, NOT open. Verified live: every page carries "Copyright© The Japan
+    Foundation Japanese-Language Institute, Urawa, All Rights Reserved" and no Creative Commons/open licence
+    appears anywhere. The Terms of Service (privacy.html) explicitly prohibit reproduction, copying, or
+    altering the materials except for private use or use by schools/educational institutions; prohibit
+    commercial use; re
+- id: ja-jf-marugoto-minato
+  language: ja
+  abbr: JFL
+  source: Japan Foundation Marugoto / Minato
+  url: https://minato-jf.jp/
+  institution: The Japan Foundation
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence: CONFIRMED all-rights-reserved. Verified live (2026-07-22) across three JF properties, all
+    reserved-rights, zero open licence: marugoto.jpf.go.jp ("Copyright(c) 2017 The Japan Foundation Japanese-Language
+    Institute, Urawa, All Rights Reserved."), words.marugotoweb.jp ("Copyright (c) The Japan Foundation.
+    All Rights Reserved."), minato-jf.jp (Terms-of-Service wall, no CC). No CC/CC0/public-domain statement
+    exi
+- id: fa-coerll-persian
+  language: fa
+  abbr: PFL
+  source: COERLL Persian Online
+  url: https://sites.la.utexas.edu/persian_online_resources/
+  institution: COERLL, UT Austin
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Catalogue's "COERLL / CC-BY" attribution REFUTED on two counts. (1) Institution misattributed: this
+    is a UT-Austin LAITS product, not a COERLL OER; the current page (sites.la.utexas.edu/persian_online_resources/,
+    HTTP 200, 32KB raw HTML) contains zero occurrences of "coerll" and does not link to COERLL. (2) NOT
+    openly licensed: the full rendered HTML has zero occurrences of "creativecommons", "licen", "rights",
+    "shar
+- id: no-ntnu-learnnow
+  language: 'no'
+  abbr: NSF
+  source: NTNU — Learn NoW
+  url: https://www.ntnu.edu/learnnow
+  institution: NTNU
+  cefr:
+  - A1
+  - A2
+  cefr_ceiling: A2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Researcher's conclusions are already appropriately conservative and I confirmed them independently.
+    LICENCE: No CC/open-licence statement anywhere on the landing page (verified 200), the downloads index
+    (verified 200), or in the PDF — only third-party font/colour-profile copyright strings (HP sRGB, Apple,
+    Adobe), which are NOT a content licence. The material is developed by NTNU's Dept. of Language and
+    Literature on
+- id: pl-epolish
+  language: pl
+  abbr: PFL
+  source: e-polish.eu
+  url: https://e-polish.eu/kursy/
+  institution: e-polish.eu
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence: confirmed all-rights-reserved. Footer (PL and EN) reads "© Copyright 2026 GLOSSA Digital
+    Publishing sp. z o.o. All rights reserved." No CC/open licence exists; proprietary "POLSKI krok po
+    kroku" series. licence_ok=false, redistributable=false. Access: confirmed mixed, NOT free-registration.
+    Core interactive self-study courses are paid (POLSKI krok po kroku 1, 2, and junior 1 at 395 PLN each,
+    12-month access)
+- id: pl-polonicum
+  language: pl
+  abbr: PFL
+  source: Polonicum, University of Warsaw
+  url: https://polonicum.uw.edu.pl/
+  institution: University of Warsaw (Polonicum)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: unverified
+  confidence: low
+  last_verified: '2026-07-22'
+- id: uk-kpi-mooc
+  language: uk
+  abbr: UFL
+  source: Igor Sikorsky KPI — Ukrainian MOOCs
+  url: https://kpi.ua/en/prometheus
+  institution: Igor Sikorsky Kyiv Polytechnic Institute
+  cefr:
+  - A1
+  - A2
+  cefr_ceiling: A2
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Entry is conflated/mislabeled and NO open licence exists anywhere. Verified by fetching: (1) Claimed
+    URL https://www.kpi.ua/ is broken (TLS cert valid only for apex kpi.ua). (2) KPI's own MOOC hub (kpi.ua/en/prometheus,
+    live-200) footer reads "© 2026 Igor Sikorsky Kyiv Polytechnic Institute, All rights reserved" and
+    lists ONLY technical MOOCs (Algorithms, Python) on the separate third-party Prometheus NGO platform
+    —
+- id: uk-ukrainianlessons
+  language: uk
+  abbr: UFL
+  source: Ukrainian Lessons
+  url: https://www.ukrainianlessons.com/thepodcast/
+  institution: Ukrainian Lessons
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence: all-rights-reserved upheld. Footer "© Ukrainian Lessons 2016-2026"; no Creative Commons or
+    any open-licence statement anywhere on the site. Free-to-stream audio is NOT an open licence — it
+    is merely free-to-access. redistributable=false; nothing may be re-hosted. licence_ok=false (not openly
+    licensed).
+
+
+    Access: the original "free" claim is refuted; corrected to MIXED. Podcast audio is free to stream
+    (site +
+- id: it-rai-italiano
+  language: it
+  abbr: ILS
+  source: RAI — Italiano per stranieri
+  url: https://www.raiscuola.rai.it/italianoperstranieri
+  institution: RAI
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence is all-rights-reserved with high confidence: RAI is Italy's public-service broadcaster, all
+    site/programming content is "© RAI - Radiotelevisione Italiana S.p.A. - Tutti i diritti riservati,"
+    and no Creative Commons / open-licence / open-data signal appears anywhere on the Rai Scuola "Italiano
+    per stranieri" section (verified via curl HTML grep; WebFetch to rai.it and www.rai.it is host-blocked).
+    Free-to-acce
+- id: el-filoglossia
+  language: el
+  abbr: GFL
+  source: Filoglossia
+  url: http://www.xanthi.ilsp.gr/filog/
+  institution: ILSP / GSAE
+  cefr:
+  - A1
+  - A2
+  cefr_ceiling: A2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence and access verified by direct HTTP fetch (site is HTTP-only). Homepage footer states verbatim
+    "© 2001-2009 ILSP (www.ilsp.gr) ... All rights reserved" with NO Creative Commons / CC0 / public-domain
+    / open-licence statement anywhere — free-to-access does not equal open. Confirmed all-rights-reserved,
+    redistributable=false, method=link-only. Access: homepage, chapter menus (ch1–ch15) and actual lesson
+    content p
+- id: el-greek-language
+  language: el
+  abbr: GFL
+  source: Portal for the Greek Language (greek-language.gr)
+  url: https://www.greek-language.gr/greekLang/modern_greek/foreign/index.html
+  institution: Centre for the Greek Language
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Verified by fetching two pages. (1) Copyright page https://www.greek-language.gr/greekLang/copy/index.html
+    (last updated 17 Feb 2025) is an explicit all-rights-reserved notice: "Απαγορεύεται η αναδημοσίευση,
+    αναπαραγωγή, ολική, μερική..." prohibiting republication/reproduction in any form without prior written
+    permission of the Centre for the Greek Language, citing Greek Law 2121/1993, 3057/2002 and EU Directive
+    2001
+- id: pt-coerll-brazilpod
+  language: pt
+  abbr: PLE
+  source: Brazilpod / Tá Falado (COERLL)
+  url: https://coerll.utexas.edu/brazilpod/tafalado/
+  institution: COERLL, UT Austin
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B1
+  licence: CC-BY-4.0
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  fetched: '2026-07-22'
+  files: 3
+  bytes: 4343042
+  sha256_manifest: resources/_downloads/pt/metadata/pt-coerll-brazilpod.sha256
+  downloads:
+  - url: https://coerll.utexas.edu/brazilpod/tafalado/pdf/tafalado_01.pdf
+    path: resources/_downloads/pt/pdf/tafalado_01.pdf
+    sha256: 1c3e49b18d480f88946de54df9a8ee60047e02f2372d55f46cdef9cab5d2579f
+    bytes: 154732
+    licence: CC-BY-4.0
+  - url: https://coerll.utexas.edu/brazilpod/tafalado/pdf/tafalado_13.pdf
+    path: resources/_downloads/pt/pdf/tafalado_13.pdf
+    sha256: 6089ba42573e9960ac3cba16b8d04d541100da896e79ed2a1555d99933480c23
+    bytes: 160170
+    licence: CC-BY-4.0
+  - url: https://coerll.utexas.edu/brazilpod/tafalado/mp3/tafalado_13.mp3
+    path: resources/_downloads/pt/audio/tafalado_13.mp3
+    sha256: f95c5a8c554ac40d870822cef03ccd6100a49b16263a6012f1c878150847666a
+    bytes: 4028140
+    licence: CC-BY-4.0
+  notes: >-
+    Licence is genuinely OPEN (CC-BY), not merely free-to-access, and survives adversarial scrutiny: the
+    live Ta Falado page (https://coerll.utexas.edu/brazilpod/tafalado/, HTTP 200, served statically via
+    plain curl) carries a real Creative Commons Attribution badge, and the COERLL catalogue independently
+    tags Ta Falado 'License: CC-BY'. Redistributable with attribution. VERSION CAVEAT: the work itself
+    displays CC-BY 3.0
+- id: pt-instituto-camoes
+  language: pt
+  abbr: PLE
+  source: Centro Virtual Camões
+  url: https://cvc.instituto-camoes.pt/aprender/aprender-portugues.html
+  institution: Instituto Camões
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: knowledge
+  confidence: medium
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence firmly all-rights-reserved: multiple search-indexed CVC pages show "Copyright (c) Centro Virtual
+    Camoes - Camoes IP. Todos os direitos reservados." No CC/open licence anywhere; the related Biblioteca
+    Digital Camoes uses tiered rights-holder-controlled access, reinforcing reserved rights. Free-to-access
+    is NOT open — content is linkable, not copyable/redistributable. Access to the scored CVC 'Aprender'
+    portal
+- id: la-legentibus
+  language: la
+  abbr: LLE
+  source: Legentibus
+  url: https://legentibus.com/
+  institution: Latinitium
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: none
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Verified against the homepage (WebFetch, HTTP 200). All core claims survive adversarial scrutiny.
+    LICENCE: all-rights-reserved confirmed — the site states it "secures the necessary rights and compensates
+    the copyright holders" for in-copyright works and produces proprietary, human-crafted editions (audio
+    narration, translations, grammar notes, adapted texts). No Creative Commons / CC0 / public-domain
+    dedication anywh
+- id: la-perseus
+  language: la
+  abbr: LLE
+  source: Perseus Digital Library
+  url: https://www.perseus.tufts.edu/hopper/
+  institution: Tufts University (Perseus)
+  cefr:
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: mixed
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://github.com/PerseusDL/canonical-latinLit
+    type: xml-corpus
+    licence: CC-BY-SA-4.0
+  - url: https://github.com/PerseusDL/canonical-greekLit
+    type: xml-corpus
+    licence: CC-BY-SA-4.0
+  - url: >-
+      https://www.perseus.tufts.edu/hopper/ (per-text 'XML version' download link shown below the Creative
+      Commons licence on each public-domain text page)
+    type: xml
+    licence: CC-BY-SA-3.0
+  notes: >-
+    Verified adversarially; the researcher's "mixed" conclusion survives scrutiny and I did NOT downgrade
+    to all-rights-reserved because clear, machine-readable evidence of a genuine open licence exists.
+    VERIFICATION: (1) Copyright page https://www.perseus.tufts.edu/hopper/help/copyright.jsp (HTTP 200)
+    states verbatim the site materials "are provided for the personal use of students, scholars, and the
+    public. Any commerc
+- id: nl-nedbox
+  language: nl
+  abbr: NVT
+  source: NedBox.be
+  url: https://www.nedbox.be/
+  institution: NedBox (Belgium)
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Adversarial review upholds the researcher's conservative conclusions; no over-optimistic claim survives.
+    LICENCE: no Creative Commons or open-licence statement exists on nedbox.be or the CTO/KU Leuven project
+    pages. Content is built on VRT (Flemish public broadcaster) TV fragments and newspaper articles —
+    third-party copyrighted media used under a consortium/educational arrangement (CTO & Institute for
+    Living Languag
+- id: nl-oefenen
+  language: nl
+  abbr: NVT
+  source: Oefenen.nl
+  url: https://oefenen.nl/programma/soort/taal
+  institution: Stichting Expertisecentrum Oefenen.nl
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free-registration
+  redistributable: false
+  method: chrome
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence is all-rights-reserved, verified verbatim: disclaimer (overoefenen.nl/disclaimer) states "Alle
+    rechten op de Content berusten bij Stichting Expertisecentrum Oefenen.nl ... Alle rechten op de content
+    worden uitdrukkelijk voorbehouden." The only downloadable material (articles) is proprietary/revocable,
+    non-commercial-only, attribution-mandatory, and forbids republication without prior written consent
+    — NOT Cre
+- id: nl-taalunie
+  language: nl
+  abbr: NVT
+  source: Taalunie — Nederlands leren
+  url: https://mijnnederlands.org/
+  institution: Nederlandse Taalunie
+  cefr:
+  - unknown
+  cefr_ceiling: unknown
+  licence: all-rights-reserved
+  access: mixed
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Directly verified the conservative reading holds. (1) LICENCE is all-rights-reserved: mijnnederlands.org
+    footer reads "© Alle rechten voorbehouden"; terms (gebruikersvoorwaarden) state "Gebruiker verkrijgt
+    geen enkele gebruikslicentie voor wat betreft deze intellectuele eigendomsrechten." taalunie.org shows
+    no open-licence statement. NO blanket Creative Commons / CC0 / public-domain licence exists. The only
+    exception
+- id: commons-de-aussprache
+  language: de
+  abbr: DaF
+  source: Wikimedia Commons — Deutsche Aussprache-Audios
+  url: https://commons.wikimedia.org/wiki/Category:German_pronunciation
+  institution: Wikimedia Commons
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: commons-de-aussprache
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 3
+  bytes: 126206
+  sha256_manifest: resources/_downloads/de/metadata/commons-de-aussprache.sha256
+  downloads:
+  - url: https://upload.wikimedia.org/wikipedia/commons/c/c5/De-Aach.ogg
+    path: resources/_downloads/de/audio/De-Aach.ogg
+    sha256: 2b4e9aa2b8719c4ab9148e46801270ce4471f4b55744a1523d1ae33b47912a5b
+    bytes: 9488
+    licence: CC0
+  - url: https://upload.wikimedia.org/wikipedia/commons/2/2c/De-Abbink.ogg
+    path: resources/_downloads/de/audio/De-Abbink.ogg
+    sha256: a929983966a586eb60890f994ab202c4d6e37988ecdf171b523ff0515ec8bc6a
+    bytes: 8112
+    licence: CC0
+  - url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Affe_haarloser.wav
+    path: resources/_downloads/de/audio/Affe_haarloser.wav
+    sha256: 22360f839c4f31979c516c3cf44015798176f64c8059c48b1f2f9727c9aea6a4
+    bytes: 108606
+    licence: CC BY-SA 4.0
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: deutschakademie-grammatiktrainer
+  language: de
+  abbr: DaF
+  source: DeutschAkademie – Online-Deutschkurs & Grammatiktrainer
+  url: https://www.deutschakademie.de/online-deutschkurs/
+  institution: DeutschAkademie
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: deutschakademie-grammatiktrainer
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: deutschland-de-landeskunde
+  language: de
+  abbr: DaF
+  source: deutschland.de
+  url: https://www.deutschland.de/de
+  institution: FAZIT Communication / Auswärtiges Amt
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: deutschland-de-landeskunde
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: dlf-nachrichtenleicht
+  language: de
+  abbr: DaF
+  source: nachrichtenleicht
+  url: https://www.nachrichtenleicht.de/
+  institution: Deutschlandfunk
+  cefr:
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: dlf-nachrichtenleicht
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: dw-nicos-weg
+  language: de
+  abbr: DaF
+  source: Nicos Weg
+  url: https://learngerman.dw.com/de/nicos-weg/c-36519687
+  institution: Deutsche Welle
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: dw-nicos-weg
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-05-01'
+- id: goethe-deutsch-fuer-dich
+  language: de
+  abbr: DaF
+  source: Deutsch für dich
+  url: https://www.goethe.de/prj/dfd/de/home.cfm
+  institution: Goethe-Institut
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: goethe-deutsch-fuer-dich
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-05-01'
+- id: gutenberg-de
+  language: de
+  abbr: DaF
+  source: Project Gutenberg — Deutschsprachige Literatur
+  url: https://www.gutenberg.org/browse/languages/de
+  institution: Project Gutenberg
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: gutenberg-de
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+  fetched: '2026-07-22'
+  files: 1
+  bytes: 560165
+  sha256_manifest: resources/_downloads/de/metadata/gutenberg-de.sha256
+  downloads:
+  - url: https://www.gutenberg.org/cache/epub/2591/pg2591.txt
+    path: resources/_downloads/de/pdf/gutenberg-2591.txt
+    sha256: bd62b1bda98393716fcb8632f072c2a38c73827674efb7559c48e2186e139053
+    bytes: 560165
+    licence: public-domain
+  notes: >-
+    Open-licensed sample acquired and hash-verified; extend the downloads list to cache more.
+- id: klexikon-kinderlexikon
+  language: de
+  abbr: DaF
+  source: Klexikon – Das Kinderlexikon
+  url: https://klexikon.zum.de/
+  institution: Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)
+  cefr:
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: klexikon-kinderlexikon
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: mein-deutschbuch-daf
+  language: de
+  abbr: DaF
+  source: mein-deutschbuch.de
+  url: https://mein-deutschbuch.de/
+  institution: mein-deutschbuch.de
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: mein-deutschbuch-daf
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: planet-schule-swr-wdr
+  language: de
+  abbr: DaF
+  source: Planet Schule
+  url: https://www.planet-schule.de/
+  institution: SWR / WDR (ARD)
+  cefr:
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: planet-schule-swr-wdr
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: projekt-gutenberg-de
+  language: de
+  abbr: DaF
+  source: Projekt Gutenberg-DE
+  url: https://www.projekt-gutenberg.org/
+  institution: Projekt Gutenberg-DE
+  cefr:
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: projekt-gutenberg-de
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: vhs-lernportal-deutsch
+  language: de
+  abbr: DaF
+  source: vhs-Lernportal – Deutsch
+  url: https://www.vhs-lernportal.de/deutsch
+  institution: Deutscher Volkshochschul-Verband (DVV)
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: vhs-lernportal-deutsch
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: wikibooks-deutsch-als-fremdsprache
+  language: de
+  abbr: DaF
+  source: Wikibooks – Deutsch als Fremdsprache
+  url: https://de.wikibooks.org/wiki/Regal:Deutsch_als_Fremdsprache
+  institution: Wikimedia / Wikibooks
+  cefr:
+  - A1
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: CC-BY-SA-4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: wikibooks-deutsch-als-fremdsprache
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: wikisource-de
+  language: de
+  abbr: DaF
+  source: Deutsches Wikisource — Quellensammlung
+  url: https://de.wikisource.org/wiki/Hauptseite
+  institution: Wikimedia Foundation
+  cefr:
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: public-domain
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: wikisource-de
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: zdf-logo-kindernachrichten
+  language: de
+  abbr: DaF
+  source: logo! – Die Kindernachrichten des ZDF
+  url: https://www.logo.de/
+  institution: ZDF
+  cefr:
+  - A2
+  - B1
+  cefr_ceiling: B1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: zdf-logo-kindernachrichten
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: zum-deutsch-lernen
+  language: de
+  abbr: DaF
+  source: ZUM Deutsch Lernen
+  url: https://deutsch-lernen.zum.de/
+  institution: Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)
+  cefr:
+  - A1
+  - A2
+  cefr_ceiling: A2
+  licence: CC-BY-4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  access: free
+  redistributable: true
+  method: static
+  curated_ref: zum-deutsch-lernen
+  origin: existing
+  verification: curated
+  confidence: high
+  last_verified: '2026-07-21'
+- id: de-aberhallo-passau
+  language: de
+  abbr: DaF
+  source: Aber hallo! (vhs Passau)
+  url: https://www.deutschkurse-passau.de/
+  institution: vhs Passau
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: unverified
+  confidence: low
+  last_verified: '2026-07-22'
+- id: de-dw-learngerman
+  language: de
+  abbr: DaF
+  source: DW Learn German
+  url: https://learngerman.dw.com/en/learn-german/s-9528
+  institution: Deutsche Welle
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: C1
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: dw-nicos-weg
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence confirmed all-rights-reserved: footer shows "© 2026 Deutsche Welle", no CC/CC0/public-domain
+    statement anywhere on the learning hub. DW is a public broadcaster with commercial content-licensing
+    operations (DW Transtel) and course pages carry reserved third-party credits (e.g. Cornelsen). Free-to-access
+    does NOT imply open licence — redistributable=false. Downloadable PDFs/MP3 audio exist but are all-rights-re
+- id: de-goethe-deutsch-ueben
+  language: de
+  abbr: DaF
+  source: Goethe-Institut — Deutsch üben
+  url: https://www.goethe.de/de/spr/ueb.html
+  institution: Goethe-Institut
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  curated_ref: goethe-deutsch-fuer-dich
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Licence is all-rights-reserved, NOT open. Verified "© Goethe-Institut 2026" on both the hub (goethe.de/de/spr/ueb.html)
+    and the Deutsch für dich exercise platform, with no CC/CC0 anywhere. The researcher's terms-of-use
+    path 404'd, but I resolved the correct one (goethe.de/de/nut.html): it reserves all rights and grants
+    no redistribution/reproduction permission — no open-licence reading is defensible. NOT redistributa
+- id: de-schubert-verlag
+  language: de
+  abbr: DaF
+  source: Schubert-Verlag Online-Aufgaben
+  url: https://www.schubert-verlag.de/aufgaben/
+  institution: Schubert-Verlag
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  - C2
+  cefr_ceiling: C2
+  licence: all-rights-reserved
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  notes: >-
+    Adversarial review confirms the researcher's conservative reading; no claim needed loosening. LICENCE
+    is all-rights-reserved, verified verbatim from both the /aufgaben/ footer and aufgaben.schubert-verlag.de/nutzung.htm:
+    materials are free "fuer den eigenen Gebrauch" and teachers may reproduce for classroom use with source
+    attribution, but "Eine kommerzielle Verwendung unserer Materialien (also z. B. der Verkauf), di
+- id: meta-cambridge-lc-oer
+  language: mul
+  abbr: OER
+  source: Cambridge University Language Centre — Open Courseware
+  url: https://www.langcen.cam.ac.uk/opencourseware/opencourseware-index.html
+  institution: University of Cambridge Language Centre
+  cefr:
+  - A1
+  - B2
+  cefr_ceiling: B2
+  licence: CC-BY-NC-ND-2.0-UK
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://duns.langcen.cam.ac.uk/oc/glo/lo_goethe.zip
+    type: zip
+    licence: CC-BY-NC-ND-2.0-UK
+  - url: https://duns.langcen.cam.ac.uk/oc/ge_business/business1.zip
+    type: zip
+    licence: CC-BY-NC-ND-2.0-UK
+  notes: >-
+    Licence claim SURVIVES adversarial scrutiny — this is a genuine open CC licence, not merely free-to-access.
+    Independently re-verified two ways: (1) OCW index (opencourseware-index.html, HTTP 200) hyperlinks
+    "Creative Commons Licence" to creativecommons.org/licenses/by-nc-nd/2.0/uk/; (2) official oc-specifications.pdf
+    states verbatim: "The web-based applications are made available under the Creative Commons Attributio
+- id: meta-coerll
+  language: mul
+  abbr: OER
+  source: COERLL (meta-repository)
+  url: https://coerll.utexas.edu/coerll/materials/
+  institution: COERLL, UT Austin
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  cefr_ceiling: B2
+  licence: mixed
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: high
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://www.laits.utexas.edu/fi/
+    type: web-course + downloadable PDF/MP3 (French, Francais interactif)
+    licence: CC-BY-3.0
+  - url: https://coerll.utexas.edu/coerll/materials/language/spanish/
+    type: landing page for Spanish OER (Trayectos, Asi me expreso, etc.)
+    licence: mixed CC-BY-SA / CC-BY-NC-SA
+  notes: >-
+    licence: mixed (CC-BY / CC-BY-SA / CC-BY-NC-SA, per-material) | Adversarial re-check upholds the researcher's
+    core claims. Independently confirmed via WebFetch that /coerll/materials/ shows explicit per-material
+    Creative Commons labels matching the researcher item-for-item (CC-BY, CC-BY-SA, CC-BY-NC-SA), and
+    the /open-education/ page states the OER definition verbatim with the 5 Rs ("retain, reuse, revise,
+    remix, and
+- id: meta-doab
+  language: mul
+  abbr: OER
+  source: Directory of Open Access Books — language teaching
+  url: https://www.doabooks.org/
+  institution: DOAB / OAPEN Foundation
+  cefr: []
+  cefr_ceiling: none
+  licence: mixed
+  access: free
+  redistributable: true
+  method: static
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://library.oapen.org/bitstream/20.500.12657/58032/1/Moving_English_PDF.pdf
+    type: pdf
+    licence: CC-BY-NC-ND-4.0
+  - url: https://directory.doabooks.org/handle/20.500.12854/92499
+    type: book record (PDF via OAPEN)
+    licence: CC-BY-4.0
+  - url: https://library.oapen.org/bitstream/20.500.12657/114541/4/9788869695230.pdf
+    type: pdf
+    licence: CC (open, DOAB-listed)
+  notes: >-
+    DOAB is a genuine open-licence catalogue, so the all-rights-reserved fallback does NOT apply. I independently
+    CONFIRMED the inclusion policy verbatim at https://www.doabooks.org/en/doab/full-faq: "All books included
+    in DOAB have a license which permits free sharing" and "Books that are only free to read are not included
+    in DOAB." Per-title licences pulled from the DOAB REST API confirm real CC licences on language-te
+- id: meta-oercommons-458
+  language: mul
+  abbr: OER
+  source: OER Commons — Language Textbooks collection
+  url: https://www.oercommons.org/curated-collections/458
+  institution: OER Commons / ISKME
+  cefr:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+  cefr_ceiling: B2
+  licence: mixed
+  access: free
+  redistributable: false
+  method: link-only
+  origin: spec
+  verification: fetched
+  confidence: medium
+  last_verified: '2026-07-22'
+  open_download_candidates:
+  - url: https://www.oercommons.org/courses/basic-tamil
+    type: resource landing page (openly-licensed textbook, downloadable)
+    licence: CC-BY
+  - url: https://www.oercommons.org/courses/basic-hindi-i-2
+    type: resource landing page (openly-licensed textbook, downloadable)
+    licence: CC-BY
+  - url: https://www.oercommons.org/courses/spanish-102-beginning-spanish-2-tprs
+    type: resource landing page (openly-licensed textbook, downloadable)
+    licence: CC-BY
+  notes: >-
+    licence: mixed (per-item; verified sample skews NonCommercial/restrictive — CC BY-NC, CC BY-NC-SA,
+    CC BY-NC-ND — plus 2x Public Domain and >=1 "Read the Fine Print" all-rights-reserved item; NO verified
+    CC BY despite researcher's claims) | Adversarial review refutes the "predominantly open CC BY, redistributable"
+    framing. Verified against live HTML: plain curl with a browser UA returns full 200 server-rendered
+    pages

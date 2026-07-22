@@ -7,6 +7,14 @@ __pycache__/
 /resources/_gen/
 .hugo_build.lock
 
+# Local, non-redistributable study cache of acquired materials.
+# Reproduce locally with scripts/refresh-resources.sh; the committed
+# manifest is resources/registry.yml. Contents are NOT redistributed
+# (see registry field `redistributable`). Only .gitkeep is tracked so
+# the directory exists after clone.
+/resources/_downloads/*
+!/resources/_downloads/.gitkeep
+
 # Generated data JSON for the overview page
 # (produced by _scripts/build_overview.py at build time)
 /static/data/
