@@ -201,3 +201,2066 @@
     projets d'écriture.
   target_age: "13-99"
   last_checked: "2026-05-01"
+
+- id: "deutschakademie-grammatiktrainer"
+  title: "DeutschAkademie – Online-Deutschkurs & Grammatiktrainer"
+  publisher: "DeutschAkademie"
+  url: "https://www.deutschakademie.de/online-deutschkurs/"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Frei und ohne Bezahlschranke nutzbar; die kostenlosen Online-Übungen
+    und der Grammatiktrainer werden von der DeutschAkademie
+    bereitgestellt. Vollurheberrecht beim Anbieter – verlinkbar, nicht
+    kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["grammatik", "wortschatz"]
+  media_types: ["interaktiv", "text"]
+  description: >
+    Kostenloser Online-Grammatiktrainer mit über 25.000 interaktiven
+    Übungen, sortiert nach Niveau (A1–C1) und nach über 150
+    Grammatikthemen. Sofortige Auswertung und Erklärungen machen ihn
+    ideal für gezieltes, selbstständiges Üben.
+  description_en: >
+    Free online grammar trainer with over 25,000 interactive exercises,
+    sorted by level (A1–C1) and by more than 150 grammar topics. Instant
+    feedback and explanations make it ideal for targeted, independent
+    practice.
+  description_fr: >
+    Entraîneur de grammaire en ligne gratuit avec plus de 25 000
+    exercices interactifs, classés par niveau (A1–C1) et par plus de 150
+    thèmes grammaticaux. La correction immédiate et les explications en
+    font un outil idéal pour un entraînement ciblé et autonome.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1", "daf_b2"]
+  curator_notes: >
+    Eignet sich gut als Differenzierungs- und Hausaufgabenpool: einzelne
+    Themen (z. B. Wechselpräpositionen) lassen sich gezielt zuweisen.
+    Für Freiarbeit oder Vertretungsstunden am Tablet gut einsetzbar.
+  curator_notes_en: >
+    Works well as a differentiation and homework pool: individual topics
+    (e.g. two-way prepositions) can be assigned in a targeted way. Well
+    suited for self-directed work or cover lessons on a tablet.
+  curator_notes_fr: >
+    Convient bien comme réservoir de différenciation et de devoirs : on
+    peut assigner des thèmes précis (p. ex. les prépositions mixtes).
+    Utilisable en travail autonome ou en heures de remplacement sur
+    tablette.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "planet-schule-swr-wdr"
+  title: "Planet Schule"
+  publisher: "SWR / WDR (ARD)"
+  url: "https://www.planet-schule.de/"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich bereitgestellt von SWR und WDR (ARD), frei
+    zugänglich. Vollurheberrecht bei den Anstalten – verlinkbar, nicht
+    kopierbar.
+  cefr_levels: ["A2", "B1", "B2"]
+  skills: ["landeskunde", "hoeren", "lesen", "wortschatz"]
+  media_types: ["video", "interaktiv", "audio", "text"]
+  description: >
+    Kostenlose Bildungsmediathek der Landesrundfunkanstalten SWR und WDR
+    mit Lernfilmen, interaktiven Modulen und Arbeitsblättern zu vielen
+    Schulfächern. Authentische, didaktisch aufbereitete Inhalte zu
+    Natur, Geschichte, Gesellschaft und Sprache.
+  description_en: >
+    Free educational media library from the public broadcasters SWR and
+    WDR, with learning films, interactive modules and worksheets across
+    many school subjects. Authentic, pedagogically prepared content on
+    nature, history, society and language.
+  description_fr: >
+    Médiathèque éducative gratuite des radiodiffuseurs publics SWR et
+    WDR, avec films pédagogiques, modules interactifs et fiches de
+    travail pour de nombreuses matières scolaires. Contenus authentiques
+    et didactisés sur la nature, l'histoire, la société et la langue.
+  applicable_units: ["daf_b1", "daf_b2"]
+  curator_notes: >
+    Ideal für landeskundliche und fächerübergreifende Projekte; viele
+    Filme haben Begleitmaterial. Für DaF-Lernende ab B1 als
+    authentischer Hörseh-Input nutzbar, bei Bedarf mit Untertiteln.
+  curator_notes_en: >
+    Ideal for cultural-studies and cross-curricular projects; many films
+    come with accompanying material. Usable from B1 as authentic
+    audiovisual input for German learners, with subtitles where needed.
+  curator_notes_fr: >
+    Idéal pour des projets de civilisation et interdisciplinaires ; de
+    nombreux films sont accompagnés de matériel. Utilisable dès B1 comme
+    support audiovisuel authentique, avec sous-titres si nécessaire.
+  target_age: "10-99"
+  last_checked: "2026-07-21"
+
+- id: "projekt-gutenberg-de"
+  title: "Projekt Gutenberg-DE"
+  publisher: "Projekt Gutenberg-DE"
+  url: "https://www.projekt-gutenberg.org/"
+  language: "DE"
+  license_type: "PD"
+  license_details: >
+    Gemeinfreie Werke (Public Domain); frei im Browser lesbar. Die
+    redaktionelle Aufbereitung liegt beim Projekt, die Werktexte selbst
+    sind gemeinfrei.
+  cefr_levels: ["B2", "C1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text"]
+  description: >
+    Große digitale Bibliothek gemeinfreier deutschsprachiger Literatur
+    mit rund 13.000 Titeln von Goethe und Schiller bis Kafka und den
+    Brüdern Grimm. Alle Texte sind kostenlos direkt im Browser lesbar.
+  description_en: >
+    Large digital library of public-domain German-language literature
+    with around 13,000 titles, from Goethe and Schiller to Kafka and the
+    Brothers Grimm. All texts can be read for free directly in the
+    browser.
+  description_fr: >
+    Grande bibliothèque numérique de littérature germanophone du domaine
+    public, avec environ 13 000 titres, de Goethe et Schiller à Kafka et
+    aux frères Grimm. Tous les textes sont lisibles gratuitement
+    directement dans le navigateur.
+  applicable_units: ["daf_b2", "daf_c1"]
+  curator_notes: >
+    Quelle für Originaltexte, Balladen und Märchen im
+    Literaturunterricht und für Referate. Für fortgeschrittene DaF-
+    Lernende (B2/C1) als authentische Lektüre; kürzere Märchen lassen
+    sich auch früher einsetzen.
+  curator_notes_en: >
+    A source for original texts, ballads and fairy tales in literature
+    lessons and for presentations. Authentic reading for advanced
+    learners (B2/C1); shorter fairy tales can be used earlier.
+  curator_notes_fr: >
+    Une source de textes originaux, de ballades et de contes pour les
+    cours de littérature et les exposés. Lecture authentique pour les
+    apprenants avancés (B2/C1) ; les contes courts peuvent être utilisés
+    plus tôt.
+  target_age: "15-99"
+  last_checked: "2026-07-21"
+
+- id: "dlf-nachrichtenleicht"
+  title: "nachrichtenleicht"
+  publisher: "Deutschlandfunk"
+  url: "https://www.nachrichtenleicht.de/"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich bereitgestellt vom Deutschlandfunk, frei
+    zugänglich. Vollurheberrecht beim Sender – verlinkbar, nicht
+    kopierbar.
+  cefr_levels: ["A2", "B1"]
+  skills: ["hoeren", "lesen", "wortschatz", "landeskunde"]
+  media_types: ["text", "audio", "podcast"]
+  description: >
+    Wöchentliche Nachrichten in Leichter Sprache vom Deutschlandfunk,
+    jeweils als Text und zum Anhören. Schwierige Begriffe werden in
+    einem integrierten Wörterbuch erklärt – ein idealer Einstieg in
+    authentische Nachrichten.
+  description_en: >
+    Weekly news in Easy German from Deutschlandfunk, available both as
+    text and audio. Difficult terms are explained in an integrated
+    dictionary – an ideal entry point to authentic news.
+  description_fr: >
+    Actualités hebdomadaires en langue facile de Deutschlandfunk,
+    disponibles en texte et en audio. Les termes difficiles sont
+    expliqués dans un dictionnaire intégré – une porte d'entrée idéale
+    vers l'information authentique.
+  applicable_units: ["daf_a2", "daf_b1"]
+  curator_notes: >
+    Aktuelle Themen niedrigschwellig; das integrierte Wörterbuch
+    entlastet den Wortschatz. Der wöchentliche Podcast eignet sich für
+    regelmäßiges Hörtraining und einen Wochenrückblick im Kurs.
+  curator_notes_en: >
+    Current topics at a low threshold; the built-in dictionary eases
+    vocabulary load. The weekly podcast is good for regular listening
+    practice and a weekly review in class.
+  curator_notes_fr: >
+    Des sujets d'actualité accessibles ; le dictionnaire intégré allège
+    la charge lexicale. Le podcast hebdomadaire convient à un
+    entraînement régulier à l'écoute et à une revue de la semaine en
+    classe.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "vhs-lernportal-deutsch"
+  title: "vhs-Lernportal – Deutsch"
+  publisher: "Deutscher Volkshochschul-Verband (DVV)"
+  url: "https://www.vhs-lernportal.de/deutsch"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Kostenlos; getragen vom Deutschen Volkshochschul-Verband und
+    öffentlich gefördert (BMBF). Für Kurse und Tutor:innen-Betreuung ist
+    eine kostenlose Registrierung nötig. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["hoeren", "lesen", "schreiben", "sprechen", "grammatik", "wortschatz"]
+  media_types: ["interaktiv", "video", "audio", "text"]
+  description: >
+    Kostenloses, vom Bundesbildungsministerium gefördertes Lernportal
+    des Deutschen Volkshochschul-Verbands mit vollständigen
+    Deutschkursen von A1 bis B2. Interaktive Übungen mit Audio und
+    Video, ergänzt durch kostenlose Betreuung durch Online-Tutor:innen.
+  description_en: >
+    Free learning portal from the German Adult Education Association,
+    funded by the Federal Ministry of Education, with complete German
+    courses from A1 to B2. Interactive exercises with audio and video,
+    complemented by free support from online tutors.
+  description_fr: >
+    Portail d'apprentissage gratuit de la Fédération allemande des
+    universités populaires, financé par le ministère fédéral de
+    l'Éducation, avec des cours d'allemand complets de A1 à B2.
+    Exercices interactifs avec audio et vidéo, complétés par un
+    accompagnement gratuit par des tuteurs en ligne.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1", "daf_b2"]
+  curator_notes: >
+    Sehr gut für binnendifferenziertes Selbstlernen und für neu
+    zugewanderte Schüler:innen (DaZ). Lehrkräfte können sich als
+    Tutor:innen registrieren, Lerngruppen anlegen und Fortschritte
+    verfolgen.
+  curator_notes_en: >
+    Excellent for differentiated self-study and for newly arrived
+    students (German as a second language). Teachers can register as
+    tutors, set up learning groups and track progress.
+  curator_notes_fr: >
+    Excellent pour l'auto-apprentissage différencié et pour les élèves
+    nouvellement arrivés (allemand langue seconde). Les enseignants
+    peuvent s'inscrire comme tuteurs, créer des groupes et suivre les
+    progrès.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "mein-deutschbuch-daf"
+  title: "mein-deutschbuch.de"
+  publisher: "mein-deutschbuch.de"
+  url: "https://mein-deutschbuch.de/"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich; laut Anbieter als Zusatzmaterial im Unterricht
+    mit Quellenangabe erlaubt. Urheberrecht beim Betreiber – ansonsten
+    verlinken statt kopieren.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["grammatik", "lesen", "wortschatz", "hoeren"]
+  media_types: ["text", "interaktiv", "video"]
+  description: >
+    Umfangreiches kostenloses Nachschlagewerk zur deutschen Grammatik
+    mit Erklärungen, Verblisten sowie Lese- und Diktatübungen für DaF-
+    Lernende. Viele Materialien lassen sich kostenlos herunterladen.
+  description_en: >
+    Comprehensive free reference work on German grammar with
+    explanations, verb lists and reading and dictation exercises for
+    learners of German. Many materials can be downloaded for free.
+  description_fr: >
+    Ouvrage de référence gratuit et complet sur la grammaire allemande,
+    avec explications, listes de verbes et exercices de lecture et de
+    dictée pour les apprenants d'allemand. De nombreux documents peuvent
+    être téléchargés gratuitement.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1", "daf_b2"]
+  curator_notes: >
+    Praktisch für schnelle Grammatik-Erklärungen und Arbeitsblätter zur
+    Differenzierung. Die Verblisten und die Übungen zu
+    Wechselpräpositionen sind im Unterricht bewährt.
+  curator_notes_en: >
+    Handy for quick grammar explanations and worksheets for
+    differentiation. The verb lists and two-way-preposition exercises
+    are classroom-proven.
+  curator_notes_fr: >
+    Pratique pour des explications grammaticales rapides et des fiches
+    de différenciation. Les listes de verbes et les exercices sur les
+    prépositions mixtes ont fait leurs preuves en classe.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "zum-deutsch-lernen"
+  title: "ZUM Deutsch Lernen"
+  publisher: "Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)"
+  url: "https://deutsch-lernen.zum.de/"
+  language: "DE"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
+  license_details: >
+    Creative Commons CC BY 4.0 – frei nutzbar, veränder- und teilbar mit
+    Namensnennung. Getragen vom gemeinnützigen Verein ZUM.
+  cefr_levels: ["A1", "A2"]
+  skills: ["grammatik", "wortschatz", "landeskunde", "lesen"]
+  media_types: ["interaktiv", "text"]
+  description: >
+    Offene Plattform für Deutsch als Fremd- und Zweitsprache vom
+    gemeinnützigen Verein ZUM. Bietet interaktive Übungen, Lernpfade,
+    eine Grammatik-Kiste und ein DaF-Glossar für die Niveaus A1 und A2.
+  description_en: >
+    Open platform for German as a foreign and second language from the
+    non-profit association ZUM. It offers interactive exercises,
+    learning paths, a grammar box and a German-learning glossary for
+    levels A1 and A2.
+  description_fr: >
+    Plateforme ouverte pour l'allemand langue étrangère et langue
+    seconde, créée par l'association à but non lucratif ZUM. Elle
+    propose des exercices interactifs, des parcours d'apprentissage, une
+    « boîte à grammaire » et un glossaire pour les niveaux A1 et A2.
+  applicable_units: ["daf_a1", "daf_a2"]
+  curator_notes: >
+    Da CC-lizenziert, dürfen Materialien angepasst und in eigene
+    Arbeitsblätter übernommen werden. Gut für Lernpfade im
+    Anfangsunterricht und in DaZ-Vorbereitungsklassen.
+  curator_notes_en: >
+    Being CC-licensed, materials may be adapted and reused in your own
+    worksheets. Good for learning paths in beginner classes and in
+    preparatory second-language classes.
+  curator_notes_fr: >
+    Sous licence CC, les documents peuvent être adaptés et réutilisés
+    dans vos propres fiches. Idéal pour des parcours en cours débutant
+    et en classes d'accueil.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "klexikon-kinderlexikon"
+  title: "Klexikon – Das Kinderlexikon"
+  publisher: "Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)"
+  url: "https://klexikon.zum.de/"
+  language: "DE"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  license_details: >
+    Creative Commons CC BY-SA 4.0 – frei nutzbar und teilbar mit
+    Namensnennung unter gleichen Bedingungen. Betrieben vom
+    gemeinnützigen Verein ZUM.
+  cefr_levels: ["A2", "B1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text", "bild"]
+  description: >
+    Das größte freie Kinderlexikon in deutscher Sprache mit rund 3.500
+    Artikeln in einfacher, klarer Sprache. Themen aus Natur, Geschichte,
+    Geografie und Kultur, jeweils mit Bildern.
+  description_en: >
+    The largest free children's encyclopedia in German, with around
+    3,500 articles in simple, clear language. Topics from nature,
+    history, geography and culture, each with images.
+  description_fr: >
+    La plus grande encyclopédie gratuite pour enfants en allemand, avec
+    environ 3 500 articles en langue simple et claire. Des thèmes de
+    nature, d'histoire, de géographie et de culture, chacun illustré.
+  applicable_units: ["daf_a2", "daf_b1"]
+  curator_notes: >
+    Die einfache Sprache eignet sich hervorragend als niedrigschwellige
+    Lesequelle für DaF-Lernende ab A2 und für Recherche-Aufgaben.
+    Artikel können als Grundlage für Lesetexte und Wortschatzarbeit
+    dienen.
+  curator_notes_en: >
+    The simple language makes it an excellent low-threshold reading
+    source for learners from A2 and for research tasks. Articles can
+    serve as a basis for reading texts and vocabulary work.
+  curator_notes_fr: >
+    La langue simple en fait une excellente source de lecture accessible
+    dès A2 et pour des tâches de recherche. Les articles peuvent servir
+    de base à des textes de lecture et au travail lexical.
+  target_age: "9-99"
+  last_checked: "2026-07-21"
+
+- id: "zdf-logo-kindernachrichten"
+  title: "logo! – Die Kindernachrichten des ZDF"
+  publisher: "ZDF"
+  url: "https://www.logo.de/"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich bereitgestellt vom ZDF, frei zugänglich.
+    Vollurheberrecht beim Sender – verlinkbar, nicht kopierbar.
+  cefr_levels: ["A2", "B1"]
+  skills: ["hoeren", "lesen", "landeskunde", "wortschatz"]
+  media_types: ["video", "text"]
+  description: >
+    Kostenlose Kindernachrichten des öffentlich-rechtlichen ZDF mit
+    täglichen Videobeiträgen und Erklärstücken in verständlicher
+    Sprache. Aktuelle Themen aus Politik, Umwelt und Gesellschaft werden
+    anschaulich aufbereitet.
+  description_en: >
+    Free children's news from public broadcaster ZDF, with daily video
+    reports and explainer pieces in accessible language. Current topics
+    from politics, the environment and society are presented vividly.
+  description_fr: >
+    Journal télévisé gratuit pour enfants du radiodiffuseur public ZDF,
+    avec des reportages vidéo quotidiens et des explications en langue
+    accessible. Les sujets d'actualité en politique, environnement et
+    société sont présentés de manière claire.
+  applicable_units: ["daf_a2", "daf_b1"]
+  curator_notes: >
+    Die kurzen Erklärvideos eignen sich als aktueller Hörseh-Input ab
+    A2/B1; viele Beiträge sind untertitelt. Gut für einen
+    Wochenrückblick oder als Einstieg in gesellschaftliche Themen.
+  curator_notes_en: >
+    The short explainer videos work as current audiovisual input from
+    A2/B1; many reports are subtitled. Good for a weekly review or as an
+    entry into social topics.
+  curator_notes_fr: >
+    Les courtes vidéos explicatives servent de support audiovisuel
+    actuel dès A2/B1 ; de nombreux reportages sont sous-titrés. Idéal
+    pour une revue hebdomadaire ou pour aborder des thèmes de société.
+  target_age: "9-99"
+  last_checked: "2026-07-21"
+
+- id: "deutschland-de-landeskunde"
+  title: "deutschland.de"
+  publisher: "FAZIT Communication / Auswärtiges Amt"
+  url: "https://www.deutschland.de/de"
+  language: "DE"
+  license_type: "OE"
+  license_details: >
+    Herausgegeben im Auftrag des Auswärtigen Amts (FAZIT Communication);
+    frei zugänglich. Vollurheberrecht beim Herausgeber – verlinkbar,
+    nicht kopierbar.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "landeskunde", "wortschatz"]
+  media_types: ["text", "bild", "video"]
+  description: >
+    Offizielles Deutschland-Portal mit landeskundlichen Artikeln zu
+    Politik, Kultur, Gesellschaft und Wirtschaft, verfügbar in zehn
+    Sprachen. Kostenlos und redaktionell hochwertig aufbereitet.
+  description_en: >
+    Official Germany portal with cultural-studies articles on politics,
+    culture, society and the economy, available in ten languages. Free
+    and of high editorial quality.
+  description_fr: >
+    Portail officiel de l'Allemagne proposant des articles de
+    civilisation sur la politique, la culture, la société et l'économie,
+    disponibles en dix langues. Gratuit et de grande qualité éditoriale.
+  applicable_units: ["daf_b1", "daf_b2", "daf_c1"]
+  curator_notes: >
+    Gute Quelle für aktuelle Landeskunde und interkulturelle Vergleiche
+    ab B1. Die mehrsprachige Verfügbarkeit erlaubt Lernenden, Inhalte
+    zunächst in der Erstsprache zu erschließen.
+  curator_notes_en: >
+    A good source for current cultural studies and intercultural
+    comparison from B1. The multilingual availability lets learners
+    first access content in their first language.
+  curator_notes_fr: >
+    Une bonne source de civilisation actuelle et de comparaison
+    interculturelle dès B1. La disponibilité multilingue permet aux
+    apprenants d'aborder d'abord le contenu dans leur langue première.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "wikibooks-deutsch-als-fremdsprache"
+  title: "Wikibooks – Deutsch als Fremdsprache"
+  publisher: "Wikimedia / Wikibooks"
+  url: "https://de.wikibooks.org/wiki/Regal:Deutsch_als_Fremdsprache"
+  language: "DE"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  license_details: >
+    Creative Commons CC BY-SA 4.0 – frei nutzbar, veränder- und teilbar
+    mit Namensnennung unter gleichen Bedingungen. Gemeinschaftlich
+    erstellte, offene Lehrbücher.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["grammatik", "lesen", "wortschatz"]
+  media_types: ["text"]
+  description: >
+    Freie, gemeinschaftlich erstellte Lehrbücher für Deutsch als
+    Fremdsprache auf Wikibooks, jeweils zugeschnitten auf verschiedene
+    Ausgangssprachen. Offen lizenziert und kostenlos.
+  description_en: >
+    Free, collaboratively written textbooks for German as a foreign
+    language on Wikibooks, each tailored to different first languages.
+    Openly licensed and free of charge.
+  description_fr: >
+    Manuels libres et collaboratifs d'allemand langue étrangère sur
+    Wikibooks, adaptés à différentes langues de départ. Sous licence
+    ouverte et gratuits.
+  applicable_units: ["daf_a1", "daf_a2", "daf_b1"]
+  curator_notes: >
+    Weil CC-lizenziert, dürfen Kapitel kopiert, angepasst und in eigenes
+    Material übernommen werden. Nützlich als Grundlage für selbst
+    erstellte Kurshefte; die Qualität schwankt je nach Kapitel.
+  curator_notes_en: >
+    Being CC-licensed, chapters may be copied, adapted and reused in
+    your own materials. Useful as a basis for self-made course booklets;
+    quality varies from chapter to chapter.
+  curator_notes_fr: >
+    Sous licence CC, les chapitres peuvent être copiés, adaptés et
+    réutilisés dans vos propres supports. Utile comme base de livrets de
+    cours ; la qualité varie selon les chapitres.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "rfi-le-francais-facile"
+  title: "Le français facile avec RFI"
+  publisher: "Radio France Internationale (RFI)"
+  url: "https://francaisfacile.rfi.fr/fr/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlich vom Auslandssender RFI (France Médias Monde)
+    bereitgestellt. Kostenlos zugänglich, kein Login nötig;
+    Vollurheberrecht bei RFI. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["hoeren", "lesen", "wortschatz", "landeskunde"]
+  media_types: ["audio", "podcast", "interaktiv", "text"]
+  description: >
+    Der Sprachlernbereich von RFI verbindet aktuelle internationale
+    Nachrichten mit dem Sprachenlernen. Kernstück ist das langsam
+    gesprochene Journal en français facile mit Transkript, ergänzt um
+    niveaudifferenzierte Übungen (A1 bis C1) und Podcast-Reihen.
+    Zusätzlich gibt es kostenloses Training für die mündlichen DELF-,
+    TCF- und DFP-Prüfungen.
+  description_en: >
+    RFI's language-learning hub links current international news to
+    French learning. Its centrepiece is the slowly spoken Journal en
+    français facile with transcript, supported by level-differentiated
+    exercises (A1 to C1) and podcast series. It also offers free
+    practice for the oral DELF, TCF and DFP exams.
+  description_fr: >
+    L'espace d'apprentissage de RFI relie l'actualité internationale à
+    l'apprentissage du français. Sa pièce maîtresse est le Journal en
+    français facile, lu lentement et transcrit, complété par des
+    exercices différenciés par niveau (A1 à C1) et des séries de
+    podcasts. Il propose aussi un entraînement gratuit aux épreuves
+    orales du DELF, du TCF et du DFP.
+  applicable_units: ["fle_kl9", "fle_kl10", "fle_kl11", "fle_kl12"]
+  curator_notes: >
+    Ideal für regelmäßige Hörroutinen: das kurze Journal en français
+    facile eignet sich als wöchentlicher Einstieg, das Transkript dient
+    zur Selbstkontrolle. Die nach Niveau sortierten Übungen lassen sich
+    gut zur Binnendifferenzierung in heterogenen Lerngruppen einsetzen.
+  curator_notes_en: >
+    Ideal for a regular listening routine: the short Journal en français
+    facile works as a weekly warm-up, and the transcript enables self-
+    correction. The level-sorted exercises are well suited to
+    differentiation in mixed-ability groups.
+  curator_notes_fr: >
+    Idéal pour instaurer une routine d'écoute : le court Journal en
+    français facile sert d'entrée hebdomadaire et la transcription
+    permet l'autocorrection. Les exercices classés par niveau
+    conviennent bien à la différenciation dans des groupes hétérogènes.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "lepointdufle"
+  title: "Le Point du FLE"
+  publisher: "Le Point du FLE"
+  url: "https://www.lepointdufle.net/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Redaktionell gepflegtes, kostenloses Verzeichnis (seit 2002) mit
+    über 17.000 geprüften Links zu freien FLE-Materialien. Zugriff frei,
+    kein Login; Urheberrecht bei den jeweils verlinkten Anbietern.
+    Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["grammatik", "wortschatz", "hoeren", "lesen"]
+  media_types: ["interaktiv", "text", "audio"]
+  description: >
+    Umfangreiches, thematisch geordnetes Portal, das kostenlose FLE-
+    Übungen und -Materialien aus dem ganzen Web bündelt. Grammatik,
+    Wortschatz, Aussprache und Hörverstehen sind nach Themen und Niveaus
+    sortiert. Ein Nachschlagewerk, das viel eigene Suchzeit spart.
+  description_en: >
+    A large, thematically organised portal that curates free FLE
+    exercises and materials from across the web. Grammar, vocabulary,
+    pronunciation and listening are sorted by topic and level. A
+    reference hub that saves a lot of search time.
+  description_fr: >
+    Un vaste portail organisé par thèmes qui rassemble des exercices et
+    supports FLE gratuits venus de tout le web. Grammaire, vocabulaire,
+    prononciation et compréhension orale sont classés par thème et par
+    niveau. Un répertoire qui fait gagner beaucoup de temps de
+    recherche.
+  applicable_units: ["fle_kl7", "fle_kl8", "fle_kl9", "fle_kl10", "fle_kl11"]
+  curator_notes: >
+    Als Ausgangspunkt für die Unterrichtsvorbereitung nutzen: über die
+    Themenrubriken schnell passende Übungen zu einem Grammatik- oder
+    Wortschatzpunkt finden. Vor dem Einsatz kurz prüfen, da manche
+    verlinkten Zielseiten Werbung enthalten.
+  curator_notes_en: >
+    Use it as a starting point for lesson planning: the topic categories
+    quickly surface exercises on a given grammar or vocabulary point.
+    Check target pages briefly before use, as some linked sites carry
+    ads.
+  curator_notes_fr: >
+    À utiliser comme point de départ pour préparer un cours : les
+    rubriques thématiques permettent de trouver vite des exercices sur
+    un point de grammaire ou de vocabulaire. Vérifiez rapidement les
+    pages cibles avant usage, car certains sites liés contiennent de la
+    publicité.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "bonjour-de-france"
+  title: "Bonjour de France"
+  publisher: "Bonjour de France (Azurlingua)"
+  url: "https://www.bonjourdefrance.com/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Kostenloses Online-Magazin für FLE, kein Paywall, kein Login.
+    Urheberrecht beim Herausgeber; Inhalte sind frei nutzbar zum Lernen,
+    aber nicht zur Weiterverbreitung. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["grammatik", "lesen", "hoeren", "wortschatz"]
+  media_types: ["interaktiv", "text", "audio"]
+  description: >
+    Kostenloses Lernmagazin mit interaktiven Übungen, die konsequent
+    nach GER-Niveaus (A1 bis C1) geordnet sind. Es deckt Grammatik,
+    Wortschatz, Lese- und Hörverstehen sowie Diktate und Tests ab.
+    Praktisch für gezieltes, selbstständiges Üben.
+  description_en: >
+    A free learning magazine with interactive exercises consistently
+    organised by CEFR level (A1 to C1). It covers grammar, vocabulary,
+    reading and listening, plus dictations and tests. Handy for
+    targeted, independent practice.
+  description_fr: >
+    Un magazine d'apprentissage gratuit proposant des exercices
+    interactifs classés de façon rigoureuse par niveau du CECRL (A1 à
+    C1). Il couvre grammaire, vocabulaire, compréhension écrite et
+    orale, ainsi que dictées et tests. Pratique pour un entraînement
+    autonome et ciblé.
+  applicable_units: ["fle_kl7", "fle_kl8", "fle_kl9", "fle_kl10", "fle_kl11"]
+  curator_notes: >
+    Gut für Vertretungsstunden und Hausaufgaben: Lernende wählen ihr
+    Niveau und arbeiten selbstständig an einer klar umrissenen Übung.
+    Die Diktate eignen sich als kurzer Einstieg ins Training von
+    Orthografie und Hörverstehen.
+  curator_notes_en: >
+    Good for cover lessons and homework: learners pick their level and
+    work independently on a clearly bounded exercise. The dictations
+    make a neat warm-up for spelling and listening practice.
+  curator_notes_fr: >
+    Utile pour les cours de remplacement et les devoirs : les apprenants
+    choisissent leur niveau et travaillent en autonomie sur un exercice
+    bien délimité. Les dictées constituent une bonne mise en train pour
+    l'orthographe et la compréhension orale.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "wikisource-fr"
+  title: "Wikisource en français"
+  publisher: "Wikimedia Foundation"
+  url: "https://fr.wikisource.org/wiki/Wikisource:Accueil"
+  language: "FR"
+  license_type: "PD"
+  license_details: >
+    Freie digitale Bibliothek mit über 500.000 Texten. Die aufgenommenen
+    Werke (u. a. Molière, Zola, Sand) sind gemeinfrei; die von
+    Freiwilligen erstellten Transkriptionen und die Plattform stehen
+    unter CC BY-SA 4.0. Zugriff völlig kostenlos, Download als PDF/ePub
+    möglich.
+  cefr_levels: ["B2", "C1"]
+  skills: ["lesen", "landeskunde"]
+  media_types: ["text"]
+  description: >
+    Freie Online-Bibliothek gemeinfreier französischer Literatur und
+    Sachtexte, aus digitalisierten Originalen sorgfältig transkribiert.
+    Von Klassikern wie Molière und Zola bis zu historischen Dokumenten
+    steht ein riesiger, kostenloser Textbestand bereit. Ideal für
+    authentische Lektüre in der Oberstufe.
+  description_en: >
+    A free online library of public-domain French literature and non-
+    fiction, carefully transcribed from digitised originals. From
+    classics like Molière and Zola to historical documents, it offers a
+    vast free corpus of texts. Ideal for authentic reading at upper-
+    secondary level.
+  description_fr: >
+    Une bibliothèque en ligne gratuite de littérature et de textes
+    documentaires français du domaine public, soigneusement transcrits à
+    partir d'originaux numérisés. Des classiques comme Molière et Zola
+    aux documents historiques, elle offre un immense corpus gratuit.
+    Idéale pour une lecture authentique au lycée.
+  applicable_units: ["fle_kl11", "fle_kl12", "fle_kl13"]
+  curator_notes: >
+    Für die Oberstufe eine kostenlose Quelle unbearbeiteter
+    Originaltexte, etwa für eine Ganzschrift oder Textauszüge zu einem
+    Autor. Wegen der historischen Sprache am besten kürzere,
+    kommentierte Passagen auswählen und mit Lesestrategien begleiten.
+  curator_notes_en: >
+    For upper-secondary classes, a free source of unedited original
+    texts, e.g. for a full work or excerpts on a given author. Because
+    of the period language, select shorter annotated passages and
+    support them with reading strategies.
+  curator_notes_fr: >
+    Pour le lycée, une source gratuite de textes originaux non adaptés,
+    par exemple pour une œuvre intégrale ou des extraits autour d'un
+    auteur. En raison de la langue d'époque, privilégiez des passages
+    courts et annotés, accompagnés de stratégies de lecture.
+  target_age: "16-99"
+  last_checked: "2026-07-21"
+
+- id: "lumni-college"
+  title: "Lumni (Collège)"
+  publisher: "France Télévisions (Lumni)"
+  url: "https://www.lumni.fr/college"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtliches Bildungsangebot von France Télévisions.
+    Kostenlos; ein optionaler Gratis-Account speichert Fortschritte.
+    Vollurheberrecht bei France Télévisions. Verlinkbar, nicht
+    kopierbar.
+  cefr_levels: ["A2", "B1", "B2"]
+  skills: ["landeskunde", "hoeren", "lesen"]
+  media_types: ["video", "interaktiv", "bild"]
+  description: >
+    Öffentlich-rechtliche Bildungsplattform mit kurzen Erklärvideos,
+    Quiz und Spielen für französische Schülerinnen und Schüler. Die
+    authentischen, muttersprachlich produzierten Inhalte zu Geschichte,
+    Kultur und Alltag geben einen unmittelbaren Einblick in französische
+    Schule und Gesellschaft. Reihen wie 1 jour, 1 question sind
+    besonders leicht zugänglich.
+  description_en: >
+    A public-service education platform with short explainer videos,
+    quizzes and games made for French schoolchildren. The authentic,
+    natively produced content on history, culture and everyday life
+    gives direct insight into French school and society. Series such as
+    1 jour, 1 question are especially accessible.
+  description_fr: >
+    Une plateforme éducative de service public avec de courtes vidéos
+    explicatives, des quiz et des jeux destinés aux élèves français. Les
+    contenus authentiques, produits en langue maternelle, sur
+    l'histoire, la culture et la vie quotidienne offrent un aperçu
+    direct de l'école et de la société françaises. Des séries comme 1
+    jour, 1 question sont particulièrement accessibles.
+  applicable_units: ["fle_kl9", "fle_kl10", "fle_kl11"]
+  curator_notes: >
+    Wertvoll für Landeskunde: die kurzen 1 jour, 1 question-Videos
+    eignen sich als authentischer Hörimpuls schon ab A2/B1. Da die
+    Inhalte für Muttersprachler gemacht sind, vorab auf sprachliche
+    Dichte prüfen und mit Aufgaben entlasten.
+  curator_notes_en: >
+    Valuable for cultural studies: the short 1 jour, 1 question videos
+    work as an authentic listening prompt from A2/B1 upward. As the
+    content targets native speakers, check language density in advance
+    and scaffold with tasks.
+  curator_notes_fr: >
+    Précieux pour la civilisation : les courtes vidéos 1 jour, 1
+    question servent d'amorce d'écoute authentique dès A2/B1. Comme les
+    contenus visent des natifs, vérifiez au préalable la densité
+    linguistique et prévoyez un étayage par des tâches.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "milan-1jour1actu"
+  title: "1jour1actu"
+  publisher: "Milan Presse"
+  url: "https://www.1jour1actu.com/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Redaktionelle Kindernachrichten von Milan Presse, online frei
+    zugänglich (werbefinanziert), kein Paywall. Vollurheberrecht beim
+    Verlag. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A2", "B1"]
+  skills: ["lesen", "landeskunde", "hoeren"]
+  media_types: ["text", "video", "bild"]
+  description: >
+    Nachrichtenseite, die Weltgeschehen kindgerecht und in einfacher,
+    klarer Sprache erklärt. Kurze Artikel und die animierten Videos der
+    Reihe C'est quoi… greifen aktuelle Themen auf. Die reduzierte
+    Sprache macht authentische Aktualität schon auf A2/B1 zugänglich.
+  description_en: >
+    A news site that explains world events for children in simple, clear
+    language. Short articles and the animated C'est quoi… videos tackle
+    current topics. The pared-down language makes authentic current
+    affairs accessible from A2/B1.
+  description_fr: >
+    Un site d'actualité qui explique le monde aux enfants dans une
+    langue simple et claire. De courts articles et les vidéos animées de
+    la série C'est quoi… abordent des sujets d'actualité. La langue
+    épurée rend l'actualité authentique accessible dès A2/B1.
+  applicable_units: ["fle_kl8", "fle_kl9", "fle_kl10"]
+  curator_notes: >
+    Gut geeignet für Lesekurse zur Aktualität: ein kurzer Artikel plus
+    das passende Erklärvideo ergibt eine runde Doppelstunde. Die
+    einfache Syntax erlaubt es, Wortschatz im Kontext zu erschließen
+    statt vorzuentlasten.
+  curator_notes_en: >
+    Well suited to a reading lesson on current affairs: one short
+    article plus the matching explainer video makes a rounded double
+    period. The simple syntax lets learners infer vocabulary in context
+    rather than pre-teaching it.
+  curator_notes_fr: >
+    Bien adapté à une séance de lecture sur l'actualité : un court
+    article et la vidéo explicative associée composent une séquence
+    complète. La syntaxe simple permet de deviner le vocabulaire en
+    contexte plutôt que de le pré-enseigner.
+  target_age: "9-16"
+  last_checked: "2026-07-21"
+
+- id: "gallica-bnf"
+  title: "Gallica"
+  publisher: "Bibliothèque nationale de France (BnF)"
+  url: "https://gallica.bnf.fr/accueil/fr/content/accueil-fr"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Digitale Bibliothek der Bibliothèque nationale de France. Kostenlos
+    zugänglich; ein Großteil der Bestände ist gemeinfrei, einzelne
+    Dokumente unterliegen Nutzungsbedingungen der BnF. Verlinkbar;
+    Rechte je Dokument beachten.
+  cefr_levels: ["B2", "C1"]
+  skills: ["lesen", "landeskunde"]
+  media_types: ["text", "bild"]
+  description: >
+    Digitale Bibliothek der französischen Nationalbibliothek mit
+    Millionen digitalisierter Bücher, Zeitungen, Karten und Bilder.
+    Thematische Parcours erschließen Literatur, Geschichte und Kunst und
+    liefern authentische Primärquellen. Eine reiche Fundgrube für
+    Landeskunde und historische Kontexte.
+  description_en: >
+    The digital library of France's national library, with millions of
+    digitised books, newspapers, maps and images. Thematic pathways open
+    up literature, history and art and provide authentic primary
+    sources. A rich trove for cultural studies and historical context.
+  description_fr: >
+    La bibliothèque numérique de la Bibliothèque nationale de France,
+    avec des millions de livres, journaux, cartes et images numérisés.
+    Des parcours thématiques donnent accès à la littérature, l'histoire
+    et l'art et fournissent des sources primaires authentiques. Une mine
+    précieuse pour la civilisation et le contexte historique.
+  applicable_units: ["fle_kl11", "fle_kl12", "fle_kl13"]
+  curator_notes: >
+    Für Projekt- und Facharbeiten in der Oberstufe eine Quelle
+    historischer Originale (Plakate, Presse, Fotografien). Über die
+    parcours thématiques gezielt einsteigen und einzelne Dokumente als
+    Bildimpuls oder Quellenanalyse in den Unterricht holen.
+  curator_notes_en: >
+    For upper-secondary projects and papers, a source of historical
+    originals (posters, press, photographs). Enter via the thematic
+    pathways and bring single documents into class as an image prompt or
+    source analysis.
+  curator_notes_fr: >
+    Pour les projets et travaux de lycée, une source d'originaux
+    historiques (affiches, presse, photographies). Entrez par les
+    parcours thématiques et exploitez des documents isolés en classe
+    comme amorce visuelle ou analyse de source.
+  target_age: "16-99"
+  last_checked: "2026-07-21"
+
+- id: "vikidia-fr"
+  title: "Vikidia (français)"
+  publisher: "Association Vikidia"
+  url: "https://fr.vikidia.org/wiki/Vikidia:Accueil"
+  language: "FR"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+  license_details: >
+    Freie Enzyklopädie für 8- bis 13-Jährige, kostenlos und ohne Login
+    lesbar. Inhalte stehen unter CC BY-SA 3.0 und dürfen mit
+    Namensnennung weiterverwendet werden.
+  cefr_levels: ["A2", "B1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text", "bild"]
+  description: >
+    Freie französische Enzyklopädie, deren Artikel bewusst einfach und
+    für 8- bis 13-Jährige geschrieben sind. Sie bietet zu tausenden
+    Themen kurze, klar strukturierte Texte in gut zugänglichem
+    Französisch. Eine muttersprachliche, aber sprachlich entlastete
+    Alternative zu Wikipedia.
+  description_en: >
+    A free French encyclopedia whose articles are deliberately written
+    simply for 8- to 13-year-olds. It offers short, clearly structured
+    texts in accessible French on thousands of topics. A native but
+    linguistically lighter alternative to Wikipedia.
+  description_fr: >
+    Une encyclopédie française libre dont les articles sont
+    volontairement écrits simplement pour les 8-13 ans. Elle propose sur
+    des milliers de sujets des textes courts et clairement structurés
+    dans un français accessible. Une alternative native mais plus
+    abordable à Wikipédia.
+  applicable_units: ["fle_kl8", "fle_kl9", "fle_kl10"]
+  curator_notes: >
+    Ideal für Recherche- und Lesetraining: Lernende recherchieren ein
+    Thema auf verständlichem Niveau, ohne an muttersprachlicher
+    Fachsprache zu scheitern. Gut als Grundlage für kurze mündliche
+    Präsentationen oder Wortschatzarbeit.
+  curator_notes_en: >
+    Ideal for research and reading practice: learners look up a topic at
+    a manageable level without stumbling over native technical language.
+    Works well as a basis for short oral presentations or vocabulary
+    work.
+  curator_notes_fr: >
+    Idéal pour l'entraînement à la recherche et à la lecture : les
+    apprenants explorent un sujet à un niveau abordable sans buter sur
+    une langue spécialisée native. Bonne base pour de courtes
+    présentations orales ou du travail de vocabulaire.
+  target_age: "11-99"
+  last_checked: "2026-07-21"
+
+- id: "podcast-francais-facile"
+  title: "Podcast Français Facile"
+  publisher: "Vincent Durrenberger"
+  url: "https://www.podcastfrancaisfacile.com/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Frei zugängliches FLE-Angebot eines Lehrers, kein Paywall und kein
+    Pflicht-Login (nur ein optionaler Buchtipp per Affiliate-Link).
+    Urheberrecht beim Autor. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["hoeren", "sprechen", "wortschatz", "grammatik"]
+  media_types: ["audio", "podcast", "text"]
+  description: >
+    Seit Jahren gepflegte Sammlung kostenloser Audio-Dialoge, Diktate
+    und Ausspracheübungen, jeweils mit vollständigem Transkript. Die
+    klar gesprochenen Aufnahmen decken Alltagssituationen, Grammatik und
+    Phonetik von A1 bis B2 ab. Besonders stark im Bereich Hörverstehen
+    und Nachsprechen.
+  description_en: >
+    A long-running collection of free audio dialogues, dictations and
+    pronunciation exercises, each with a full transcript. The clearly
+    spoken recordings cover everyday situations, grammar and phonetics
+    from A1 to B2. Particularly strong for listening and repetition.
+  description_fr: >
+    Une collection entretenue de longue date de dialogues audio, dictées
+    et exercices de prononciation gratuits, chacun accompagné d'une
+    transcription complète. Les enregistrements, articulés clairement,
+    couvrent situations du quotidien, grammaire et phonétique de A1 à
+    B2. Particulièrement solide pour la compréhension orale et la
+    répétition.
+  applicable_units: ["fle_kl7", "fle_kl8", "fle_kl9", "fle_kl10"]
+  curator_notes: >
+    Die kurzen Dialoge mit Transkript eignen sich für die Methode
+    Hören–Mitlesen–Nachsprechen zur Ausspracheschulung. Diktate lassen
+    sich als selbstständige Wochenaufgabe vergeben, da Lösung und Audio
+    online stehen.
+  curator_notes_en: >
+    The short dialogues with transcript suit a listen–read–repeat
+    routine for pronunciation training. Dictations can be set as
+    independent weekly tasks since audio and answer key are online.
+  curator_notes_fr: >
+    Les courts dialogues avec transcription se prêtent à une routine
+    écouter–lire–répéter pour travailler la prononciation. Les dictées
+    peuvent être données en tâche hebdomadaire autonome, l'audio et le
+    corrigé étant en ligne.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "radiofrance-franceinfo"
+  title: "franceinfo (Radio France)"
+  publisher: "Radio France"
+  url: "https://www.radiofrance.fr/franceinfo"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Öffentlich-rechtlicher Nachrichtensender von Radio France.
+    Livestream und Podcasts frei zugänglich, kein Login.
+    Vollurheberrecht bei Radio France. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["B2", "C1"]
+  skills: ["hoeren", "landeskunde"]
+  media_types: ["audio", "podcast"]
+  description: >
+    Öffentlich-rechtlicher Nachrichtensender mit Livestream und einem
+    umfangreichen kostenlosen Podcast-Archiv zu Politik, Gesellschaft,
+    Wissenschaft und Kultur. Authentisches, natürliches Sprechtempo
+    bietet echtes Hörtraining für fortgeschrittene Lernende. Die
+    Kinderreihen Salut l'info ! und franceinfo junior sind etwas
+    leichter zugänglich.
+  description_en: >
+    A public-service news station with a live stream and a large free
+    podcast archive on politics, society, science and culture. Its
+    authentic, natural pace offers genuine listening practice for
+    advanced learners. The children's series Salut l'info ! and
+    franceinfo junior are somewhat more accessible.
+  description_fr: >
+    Une station d'information de service public avec un direct et une
+    vaste archive de podcasts gratuits sur la politique, la société, les
+    sciences et la culture. Son débit authentique et naturel offre un
+    vrai entraînement d'écoute pour apprenants avancés. Les séries
+    jeunesse Salut l'info ! et franceinfo junior sont un peu plus
+    accessibles.
+  applicable_units: ["fle_kl11", "fle_kl12", "fle_kl13"]
+  curator_notes: >
+    Für B2/C1 eine Quelle authentischer Aktualität; kurze Rubriken wie
+    das tägliche Vrai ou faux eignen sich als abgeschlossene Höreinheit.
+    Für schwächere Gruppen mit der Kinderreihe Salut l'info ! einsteigen
+    und Höraufträge vorschalten.
+  curator_notes_en: >
+    For B2/C1, a source of authentic current affairs; short segments
+    like the daily Vrai ou faux work as a self-contained listening unit.
+    For weaker groups, start with the children's series Salut l'info !
+    and set listening tasks beforehand.
+  curator_notes_fr: >
+    Pour B2/C1, une source d'actualité authentique ; de courtes
+    rubriques comme le Vrai ou faux quotidien forment une unité d'écoute
+    autonome. Pour les groupes plus fragiles, commencez par la série
+    jeunesse Salut l'info ! avec des consignes d'écoute préalables.
+  target_age: "15-99"
+  last_checked: "2026-07-21"
+
+- id: "fei-delf-dalf"
+  title: "DELF / DALF / TCF – France Éducation international"
+  publisher: "France Éducation international"
+  url: "https://www.france-education-international.fr/hub/diplomes-tests"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Öffentliche Einrichtung unter Aufsicht des französischen
+    Bildungsministeriums, zuständig für DELF/DALF/TCF. Informationen und
+    kostenlose Übungsprüfungen frei zugänglich. Vollurheberrecht bei
+    France Éducation international. Verlinkbar, nicht kopierbar.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["hoeren", "lesen", "schreiben", "sprechen"]
+  media_types: ["text", "interaktiv", "audio"]
+  description: >
+    Offizielle Seite der für die DELF-, DALF- und TCF-Diplome
+    zuständigen Ministeriumseinrichtung. Sie erklärt die Prüfungsformate
+    und stellt kostenlose Beispiel- und Übungsprüfungen mit Audiodateien
+    bereit. Besonders relevant ist die Variante DELF junior/scolaire für
+    Jugendliche.
+  description_en: >
+    The official site of the ministry body responsible for the DELF,
+    DALF and TCF diplomas. It explains the exam formats and provides
+    free sample and practice papers with audio files. The DELF
+    junior/scolaire version for teenagers is especially relevant.
+  description_fr: >
+    Le site officiel de l'organisme ministériel responsable des diplômes
+    DELF, DALF et TCF. Il explique les formats d'examen et propose des
+    sujets d'entraînement gratuits avec fichiers audio. La version DELF
+    junior/scolaire pour adolescents est particulièrement pertinente.
+  applicable_units: ["fle_kl9", "fle_kl10", "fle_kl11", "fle_kl12"]
+  curator_notes: >
+    Zur gezielten Prüfungsvorbereitung: Übungsprüfungen unter realen
+    Bedingungen einsetzen, um Formate der vier Kompetenzen einzuüben.
+    Für die Schule die Reihe DELF junior/scolaire wählen, deren Themen
+    altersgerecht sind.
+  curator_notes_en: >
+    For targeted exam preparation: use the practice papers under
+    realistic conditions to rehearse the four-skill formats. For school
+    use, choose the DELF junior/scolaire series, whose topics are age-
+    appropriate.
+  curator_notes_fr: >
+    Pour une préparation ciblée à l'examen : utilisez les sujets
+    d'entraînement en conditions réelles afin de travailler les formats
+    des quatre compétences. En milieu scolaire, privilégiez la série
+    DELF junior/scolaire, dont les thèmes sont adaptés à l'âge.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "france-bienvenue"
+  title: "France Bienvenue"
+  publisher: "France Bienvenue"
+  url: "https://francebienvenue.fr/"
+  language: "FR"
+  license_type: "OE"
+  license_details: >
+    Kostenloses Projekt mit authentischen Alltagsgesprächen samt
+    vollständiger Transkription und Erläuterungen. Kein Paywall, kein
+    Login. Urheberrecht bei den Autorinnen und Autoren. Verlinkbar,
+    nicht kopierbar.
+  cefr_levels: ["B1", "B2"]
+  skills: ["hoeren", "wortschatz"]
+  media_types: ["audio", "text", "video"]
+  description: >
+    Sammlung echter, unskripteter Gespräche mit Muttersprachlern,
+    jeweils mit vollständiger Transkription und Vokabelerklärungen. Die
+    natürlichen Aufnahmen zeigen gesprochenes Alltagsfranzösisch mit
+    Verschleifungen und Umgangssprache. Wertvoll für den Übergang von
+    Lehrbuch- zu authentischem Hörverstehen.
+  description_en: >
+    A collection of real, unscripted conversations with native speakers,
+    each with a full transcript and vocabulary notes. The natural
+    recordings show spoken everyday French with elisions and
+    colloquialisms. Valuable for the transition from textbook to
+    authentic listening.
+  description_fr: >
+    Une collection de vraies conversations non scriptées avec des
+    locuteurs natifs, chacune accompagnée d'une transcription complète
+    et d'explications de vocabulaire. Les enregistrements naturels
+    montrent le français oral du quotidien, avec ses élisions et son
+    registre familier. Précieux pour passer de l'écoute scolaire à
+    l'écoute authentique.
+  applicable_units: ["fle_kl10", "fle_kl11", "fle_kl12"]
+  curator_notes: >
+    Für B1/B2 ideal, um Merkmale gesprochener Sprache bewusst zu machen:
+    erst ohne, dann mit Transkript hören. Die Vokabelnotizen eignen
+    sich, um umgangssprachliche Wendungen gezielt zu sammeln.
+  curator_notes_en: >
+    Ideal for B1/B2 to raise awareness of features of spoken French:
+    listen first without, then with the transcript. The vocabulary notes
+    are handy for collecting colloquial expressions systematically.
+  curator_notes_fr: >
+    Idéal en B1/B2 pour faire prendre conscience des traits de l'oral :
+    écouter d'abord sans, puis avec la transcription. Les notes de
+    vocabulaire permettent de collecter méthodiquement les tournures
+    familières.
+  target_age: "15-99"
+  last_checked: "2026-07-21"
+
+- id: "breaking-news-english"
+  title: "Breaking News English"
+  publisher: "Breaking News English (Sean Banville)"
+  url: "https://breakingnewsenglish.com/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich, keine Anmeldung nötig. Volles Urheberrecht bei
+    Sean Banville; Nutzung und Ausdruck für den Unterricht ausdrücklich
+    gestattet. Verlinken und im Unterricht einsetzen, nicht als eigene
+    Inhalte kopieren.
+  cefr_levels: ["A2", "B1", "B2", "C1"]
+  skills: ["lesen", "hoeren", "wortschatz", "sprechen", "grammatik"]
+  media_types: ["text", "audio", "interaktiv"]
+  description: >
+    Aktuelle Nachrichtenmeldungen, jede in sieben Schwierigkeitsstufen
+    mit Lesetext, Hörfassung in mehreren Tempi, Quizzes und
+    Diskussionsfragen. Zu jeder Story gibt es umfangreiche druckbare
+    Arbeitsblätter (PDF). Ideal für binnendifferenzierten Umgang mit
+    demselben Thema.
+  description_en: >
+    Current news stories, each in seven difficulty levels with reading
+    text, audio at several speeds, quizzes and discussion questions.
+    Every story comes with extensive printable PDF worksheets. Ideal for
+    handling one topic across mixed-ability groups.
+  description_fr: >
+    Actualités récentes, chacune en sept niveaux de difficulté avec
+    texte de lecture, audio à plusieurs vitesses, quiz et questions de
+    discussion. Chaque sujet est accompagné de fiches PDF imprimables.
+    Idéal pour traiter un même thème en classe hétérogène.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11"]
+  curator_notes: >
+    Ein und dieselbe Meldung auf unterschiedlichen Niveaus austeilen,
+    damit alle über das gleiche Thema sprechen. Die Diskussionsfragen
+    eignen sich gut als Sprechanlass zum Stundeneinstieg.
+  curator_notes_en: >
+    Hand out the same story at different levels so everyone discusses
+    the same topic. The discussion questions work well as a speaking
+    warm-up at the start of a lesson.
+  curator_notes_fr: >
+    Distribuez la même actualité à des niveaux différents pour que tous
+    parlent du même sujet. Les questions de discussion servent bien
+    d'amorce orale en début de cours.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "ted-ed"
+  title: "TED-Ed Lessons"
+  publisher: "TED Conferences"
+  url: "https://ed.ted.com/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Frei zugänglich, kein Login zum Ansehen erforderlich (kostenloses
+    Konto optional zum Speichern). Volles Urheberrecht bei TED.
+    Verlinkbar und im Unterricht abspielbar, nicht kopierbar.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["hoeren", "wortschatz", "landeskunde"]
+  media_types: ["video", "interaktiv"]
+  description: >
+    Kurze animierte Erklärvideos zu Wissenschaft, Geschichte, Literatur
+    und Gesellschaft, jeweils eingebettet in Verständnisfragen und
+    weiterführende Aufgaben. Untertitel in über 80 Sprachen erleichtern
+    das Verstehen. Authentisches, thematisch breites Englisch.
+  description_en: >
+    Short animated explainer videos on science, history, literature and
+    society, each embedded in comprehension questions and follow-up
+    tasks. Subtitles in 80+ languages aid understanding. Authentic
+    English across a wide range of topics.
+  description_fr: >
+    Courtes vidéos animées explicatives sur les sciences, l'histoire, la
+    littérature et la société, chacune accompagnée de questions de
+    compréhension et de tâches complémentaires. Sous-titres en plus de
+    80 langues. Anglais authentique sur des thèmes variés.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Videos mit englischen Untertiteln als Hörsehverstehen einsetzen; die
+    Rubrik "Think" liefert fertige Verständnisfragen für die Freiarbeit.
+    Gut geeignet für fächerübergreifende Projekte.
+  curator_notes_en: >
+    Use videos with English subtitles for listening-viewing
+    comprehension; the "Think" tab provides ready-made questions for
+    independent work. Well suited to cross-curricular projects.
+  curator_notes_fr: >
+    Utilisez les vidéos avec sous-titres anglais pour la compréhension
+    audiovisuelle ; l'onglet « Think » fournit des questions prêtes à
+    l'emploi pour le travail autonome. Idéal pour des projets
+    interdisciplinaires.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "esolcourses-english"
+  title: "ESOL Courses"
+  publisher: "ESOL Courses"
+  url: "https://www.esolcourses.com/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich, keine Anmeldung nötig. Volles Urheberrecht
+    beim Anbieter. Verlinken und im Unterricht nutzen, nicht als eigene
+    Inhalte kopieren.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["hoeren", "lesen", "grammatik", "wortschatz"]
+  media_types: ["interaktiv", "video", "text"]
+  description: >
+    Umfangreiche Sammlung kostenloser interaktiver Übungen, gestufter
+    Lesetexte, Grammatik- und Höraufgaben von A1 bis C1. Zusätzlich
+    Spiele, Rätsel und thematische Kurse (z. B. Alltag in
+    Großbritannien/USA). Klar nach Niveaustufen sortiert.
+  description_en: >
+    Large collection of free interactive exercises, graded reading
+    texts, grammar and listening tasks from A1 to C1. Also games,
+    puzzles and themed courses (e.g. life in the UK/USA). Clearly
+    organised by level.
+  description_fr: >
+    Vaste collection d'exercices interactifs gratuits, de textes de
+    lecture gradués, d'activités de grammaire et d'écoute de A1 à C1.
+    Également des jeux, des énigmes et des cours thématiques (par ex. la
+    vie au Royaume-Uni/aux USA). Bien classé par niveau.
+  applicable_units: ["efl_kl7", "efl_kl8", "efl_kl9", "efl_kl10"]
+  curator_notes: >
+    Als Selbstlern-Pool für Vertretungsstunden oder Wochenpläne
+    einsetzen: Lernende wählen Übungen zu ihrem Niveau. Die
+    Grammatikspiele motivieren auch schwächere Lernende.
+  curator_notes_en: >
+    Use as a self-study pool for cover lessons or weekly plans: learners
+    pick exercises at their level. The grammar games also motivate
+    weaker learners.
+  curator_notes_fr: >
+    À utiliser comme réservoir d'auto-apprentissage pour les cours de
+    remplacement ou les plans hebdomadaires : les apprenants choisissent
+    des exercices à leur niveau. Les jeux de grammaire motivent aussi
+    les plus faibles.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "esl-lab-randall"
+  title: "Randall's ESL Cyber Listening Lab"
+  publisher: "Randall Davis (esl-lab.com)"
+  url: "https://www.esl-lab.com/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich, keine Anmeldung nötig. Volles Urheberrecht bei
+    Randall Davis. Verlinken und im Unterricht nutzen, nicht kopieren.
+  cefr_levels: ["A2", "B1", "B2", "C1"]
+  skills: ["hoeren", "wortschatz"]
+  media_types: ["audio", "interaktiv", "video"]
+  description: >
+    Seit 1998 gewachsene Bibliothek an Hörverstehensübungen mit
+    authentischen Dialogen in drei Schwierigkeitsstufen. Jede Übung
+    bietet Vorentlastung, Quiz, Transkript und Vokabelarbeit. Zusätzlich
+    Interviews mit Muttersprachlern und akademische Hörtexte.
+  description_en: >
+    Listening-comprehension library grown since 1998 with authentic
+    dialogues at three difficulty levels. Each activity offers pre-
+    listening, a quiz, transcript and vocabulary work. Also interviews
+    with native speakers and academic listening texts.
+  description_fr: >
+    Bibliothèque de compréhension orale développée depuis 1998 avec des
+    dialogues authentiques à trois niveaux de difficulté. Chaque
+    activité propose une préparation, un quiz, une transcription et un
+    travail de vocabulaire. Également des entretiens avec des locuteurs
+    natifs et des textes académiques.
+  applicable_units: ["efl_kl8", "efl_kl9", "efl_kl10", "efl_kl11"]
+  curator_notes: >
+    Die dreistufige Einteilung erlaubt saubere Binnendifferenzierung im
+    Hörverstehen. Transkripte erst nach dem zweiten Hören freigeben,
+    damit das Hören im Vordergrund bleibt.
+  curator_notes_en: >
+    The three-tier structure allows clean differentiation in listening.
+    Release transcripts only after a second listen so that listening
+    stays the focus.
+  curator_notes_fr: >
+    La structure à trois niveaux permet une différenciation nette en
+    compréhension orale. Ne donnez les transcriptions qu'après une
+    deuxième écoute pour que l'écoute reste centrale.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "smithsonian-learning-lab"
+  title: "Smithsonian Learning Lab"
+  publisher: "Smithsonian Institution"
+  url: "https://learninglab.si.edu/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich; Login nur zum Anlegen eigener Sammlungen
+    nötig. Institutionell von der Smithsonian Institution
+    bereitgestellt; Rechte je Objekt unterschiedlich. Verlinken und im
+    Unterricht einbetten, Nutzungshinweise am Objekt beachten.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "landeskunde", "wortschatz"]
+  media_types: ["bild", "text", "video", "interaktiv"]
+  description: >
+    Millionen digitalisierter Objekte, Bilder, Texte und Videos aus den
+    Smithsonian-Museen, gebündelt in kuratierten Themensammlungen zu
+    Kunst, US-Geschichte und Naturwissenschaften. Lehrkräfte können
+    eigene Sammlungen mit Aufgaben und Quizzes bauen. Reiche
+    authentische Landeskunde-Quelle.
+  description_en: >
+    Millions of digitised objects, images, texts and videos from the
+    Smithsonian museums, bundled into curated themed collections on art,
+    US history and the sciences. Teachers can build their own
+    collections with tasks and quizzes. A rich source of authentic
+    cultural studies.
+  description_fr: >
+    Des millions d'objets numérisés, images, textes et vidéos des musées
+    Smithsonian, regroupés en collections thématiques sur l'art,
+    l'histoire des États-Unis et les sciences. Les enseignants peuvent
+    créer leurs propres collections avec tâches et quiz. Riche source de
+    civilisation authentique.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Für Landeskunde-Projekte zu den USA eine eigene Sammlung anlegen und
+    den Lernenden gezielt Objekte mit Leitfragen zuweisen. Bildquellen
+    eignen sich gut als Sprech- und Schreibanlass.
+  curator_notes_en: >
+    For US cultural-studies projects, build your own collection and
+    assign learners specific objects with guiding questions. Image
+    sources work well as prompts for speaking and writing.
+  curator_notes_fr: >
+    Pour des projets de civilisation sur les États-Unis, créez votre
+    propre collection et attribuez aux apprenants des objets précis avec
+    des questions guides. Les images servent d'amorces à l'oral et à
+    l'écrit.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "british-library-discovering-literature"
+  title: "Discovering Literature (British Library)"
+  publisher: "British Library"
+  url: "https://www.bl.uk/discovering-literature/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich. Institutionell von der British Library
+    bereitgestellt; volles Urheberrecht bei der British Library und
+    Rechteinhabern. Verlinken und im Unterricht nutzen, nicht kopieren.
+  cefr_levels: ["B2", "C1"]
+  skills: ["lesen", "landeskunde"]
+  media_types: ["text", "bild", "video"]
+  description: >
+    Über 130 Fachartikel zur englischen Literatur von den Anfängen bis
+    zur Gegenwart, angereichert mit digitalisierten Handschriften,
+    Erstausgaben und Videos. Deckt Shakespeare, das 19. Jahrhundert und
+    moderne Werke ab. Fundierte Hintergrundquelle für die Oberstufe.
+  description_en: >
+    Over 130 expert articles on English literature from its beginnings
+    to the present, enriched with digitised manuscripts, first editions
+    and videos. Covers Shakespeare, the 19th century and modern works. A
+    well-grounded background source for upper secondary.
+  description_fr: >
+    Plus de 130 articles d'experts sur la littérature anglaise, des
+    origines à nos jours, enrichis de manuscrits numérisés, d'éditions
+    originales et de vidéos. Couvre Shakespeare, le XIXe siècle et les
+    œuvres modernes. Solide source de contexte pour le lycée.
+  applicable_units: ["efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Als Hintergrundlektüre zu Ganzschriften und Dramen der Oberstufe
+    einsetzen. Hinweis: Nach dem Cyberangriff 2023 ist derzeit ein Teil
+    der Inhalte über eine Padlet-Auswahl erreichbar; Link vor dem
+    Einsatz kurz prüfen.
+  curator_notes_en: >
+    Use as background reading for set texts and plays in upper
+    secondary. Note: after the 2023 cyber-attack part of the content is
+    currently served via a Padlet selection; check the link before use.
+  curator_notes_fr: >
+    À utiliser comme lecture de contexte pour les œuvres et pièces
+    étudiées au lycée. Remarque : après la cyberattaque de 2023, une
+    partie du contenu est actuellement accessible via une sélection
+    Padlet ; vérifiez le lien avant usage.
+  target_age: "15-99"
+  last_checked: "2026-07-21"
+
+- id: "purdue-owl"
+  title: "Purdue OWL (Online Writing Lab)"
+  publisher: "Purdue University"
+  url: "https://owl.purdue.edu/owl/purdue_owl.html"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich, kein Login. Institutionell von der Purdue
+    University bereitgestellt; volles Urheberrecht bei Purdue. Verlinken
+    und im Unterricht nutzen, nicht kopieren.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["schreiben", "grammatik"]
+  media_types: ["text", "interaktiv"]
+  description: >
+    Umfassende Schreibwerkstatt einer US-Universität mit Anleitungen zu
+    Grammatik, Zeichensetzung, Aufsatzbau und Textsorten sowie
+    Zitierweisen (MLA, APA). Enthält einen eigenen Bereich für ESL-
+    Lernende und interaktive Übungen. Zuverlässige Referenz für die
+    Schreibkompetenz.
+  description_en: >
+    Comprehensive writing lab from a US university with guidance on
+    grammar, punctuation, essay structure and text types, plus citation
+    styles (MLA, APA). Includes a dedicated ESL section and interactive
+    exercises. A reliable reference for writing skills.
+  description_fr: >
+    Atelier d'écriture complet d'une université américaine, avec des
+    conseils sur la grammaire, la ponctuation, la structure des essais
+    et les types de textes, ainsi que les normes de citation (MLA, APA).
+    Comprend une section dédiée aux apprenants et des exercices
+    interactifs. Référence fiable pour l'écrit.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Als Nachschlagewerk für Aufsatzarten und Grammatikregeln im
+    Schreibunterricht der Oberstufe verlinken. Der ESL-Bereich eignet
+    sich für typische Fehlerquellen von Lernenden.
+  curator_notes_en: >
+    Link it as a reference for essay types and grammar rules in upper-
+    secondary writing lessons. The ESL section targets typical learner
+    error sources.
+  curator_notes_fr: >
+    À relier comme ouvrage de référence pour les types d'essais et les
+    règles de grammaire dans les cours d'écriture au lycée. La section
+    apprenants cible les erreurs typiques.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "standard-ebooks"
+  title: "Standard Ebooks"
+  publisher: "Standard Ebooks"
+  url: "https://standardebooks.org/"
+  language: "EN"
+  license_type: "PD"
+  license_details: >
+    Kostenlos, keine Anmeldung. Gemeinfreie Werke, sorgfältig neu
+    gesetzt und unter CC0 1.0 (Public Domain Dedication) freigegeben.
+    Freie Nutzung, Weitergabe und Bearbeitung ohne Einschränkung.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "wortschatz"]
+  media_types: ["text"]
+  description: >
+    Sorgfältig gesetzte, professionell korrigierte Neuausgaben
+    gemeinfreier Literatur mit moderner Typografie und sauberen E-Book-
+    Formaten. Alle Ausgaben stehen unter CC0 (Public Domain).
+    Angenehmere Lesequalität als Rohtexte, ideal für Klassenlektüre.
+  description_en: >
+    Carefully typeset, professionally proofread new editions of public-
+    domain literature with modern typography and clean ebook formats.
+    All editions are released under CC0 (public domain). Nicer reading
+    quality than raw texts, ideal for class reading.
+  description_fr: >
+    Nouvelles éditions de la littérature du domaine public,
+    soigneusement composées et relues, avec une typographie moderne et
+    des formats propres. Toutes les éditions sont publiées sous CC0
+    (domaine public). Meilleure qualité de lecture que les textes bruts,
+    idéal pour la lecture en classe.
+  applicable_units: ["efl_kl9", "efl_kl10", "efl_kl11", "efl_kl12"]
+  curator_notes: >
+    Wegen der sauberen Typografie besser für die Klassenlektüre geeignet
+    als Rohtext-Downloads. E-Books im EPUB an Lernende verteilen, die
+    auf Tablets lesen.
+  curator_notes_en: >
+    Thanks to the clean typography, better for class reading than raw-
+    text downloads. Distribute EPUB ebooks to learners reading on
+    tablets.
+  curator_notes_fr: >
+    Grâce à la typographie soignée, plus adapté à la lecture en classe
+    que les textes bruts. Distribuez les ebooks EPUB aux apprenants qui
+    lisent sur tablette.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "manythings-esl"
+  title: "ManyThings.org"
+  publisher: "Charles Kelly & Lawrence Kelly"
+  url: "https://www.manythings.org/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos, werbefrei, keine Anmeldung. Nichtkommerzielle Ressource
+    für ESL/EFL; volles Urheberrecht bei den Betreibern. Verlinken und
+    im Unterricht nutzen, nicht kopieren.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "wortschatz", "lesen"]
+  media_types: ["audio", "interaktiv", "video"]
+  description: >
+    Werbefreie, nichtkommerzielle Sammlung für ESL-Lernende mit Hör- und
+    Nachsprechübungen, Aussprache, Vokabelspielen und einfachen
+    Lesetexten mit Audio (z. B. Tom Sawyer). Besteht seit 1997 und wird
+    weiter gepflegt. Solide Basis für die unteren Niveaus.
+  description_en: >
+    Ad-free, non-commercial collection for ESL learners with listen-and-
+    repeat activities, pronunciation, vocabulary games and simple
+    reading texts with audio (e.g. Tom Sawyer). Online since 1997 and
+    still maintained. A solid base for lower levels.
+  description_fr: >
+    Collection sans publicité et non commerciale pour apprenants
+    d'anglais, avec activités d'écoute et de répétition, prononciation,
+    jeux de vocabulaire et textes de lecture simples avec audio (par ex.
+    Tom Sawyer). En ligne depuis 1997 et toujours entretenu. Bonne base
+    pour les niveaux débutants.
+  applicable_units: ["efl_kl7", "efl_kl8", "efl_kl9"]
+  curator_notes: >
+    Die "Listen & Repeat"-Aktivitäten eignen sich für Aussprache- und
+    Chunk-Training in Kl. 7-8. Werbefreiheit macht die Seite bedenkenlos
+    im Klassensatz nutzbar.
+  curator_notes_en: >
+    The "Listen & Repeat" activities suit pronunciation and chunk
+    training in years 7-8. Being ad-free, the site is safe for whole-
+    class use.
+  curator_notes_fr: >
+    Les activités « Listen & Repeat » conviennent à l'entraînement de la
+    prononciation et des chunks en 5e-4e. Sans publicité, le site
+    s'utilise sans souci en classe entière.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "elllo-listening"
+  title: "ELLLO – English Listening Lesson Library Online"
+  publisher: "ELLLO (Todd Beuckens)"
+  url: "https://elllo.org/"
+  language: "EN"
+  license_type: "OE"
+  license_details: >
+    Kostenlos zugänglich, keine Anmeldung. Volles Urheberrecht bei
+    ELLLO; Nutzung im Unterricht gestattet. Verlinken und einsetzen,
+    nicht als eigene Inhalte kopieren.
+  cefr_levels: ["A1", "A2", "B1", "B2", "C1"]
+  skills: ["hoeren", "wortschatz", "sprechen"]
+  media_types: ["audio", "video", "interaktiv", "text"]
+  description: >
+    Über 3.000 kostenlose Hörverstehenslektionen mit authentischen
+    Gesprächen von Sprechenden aus aller Welt, nach CEFR-Stufen A1 bis
+    C1 sortiert. Zu den meisten Lektionen gibt es Audio oder Video,
+    Transkript, Vokabelteil und interaktives Quiz. Zusätzlich
+    Arbeitsblätter für Lehrkräfte.
+  description_en: >
+    Over 3,000 free listening lessons with authentic conversations by
+    speakers from around the world, sorted by CEFR level A1 to C1. Most
+    lessons include audio or video, a transcript, a vocabulary section
+    and an interactive quiz. Plus worksheets for teachers.
+  description_fr: >
+    Plus de 3 000 leçons d'écoute gratuites avec des conversations
+    authentiques de locuteurs du monde entier, classées par niveau CECR
+    de A1 à C1. La plupart des leçons comprennent audio ou vidéo,
+    transcription, section de vocabulaire et quiz interactif. Plus des
+    fiches pour les enseignants.
+  applicable_units: ["efl_kl7", "efl_kl8", "efl_kl9", "efl_kl10"]
+  curator_notes: >
+    Die vielfältigen Sprecher-Akzente schulen das Hörverstehen über
+    britisches/amerikanisches Standardenglisch hinaus. Über die
+    Niveaufilter passgenaue Lektionen für Wochenpläne auswählen.
+  curator_notes_en: >
+    The wide range of speaker accents trains listening beyond standard
+    British/American English. Use the level filters to pick lessons that
+    fit weekly plans.
+  curator_notes_fr: >
+    La grande variété d'accents entraîne la compréhension au-delà de
+    l'anglais standard britannique/américain. Utilisez les filtres de
+    niveau pour choisir des leçons adaptées aux plans hebdomadaires.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "gutenberg-en"
+  title: "Project Gutenberg — Englischsprachige Literatur"
+  publisher: "Project Gutenberg"
+  url: "https://www.gutenberg.org/browse/languages/en"
+  language: "EN"
+  license_type: "PD"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Werke sind in den USA gemeinfrei
+    (Public Domain); bei Nutzung außerhalb der USA ggf. nationale
+    Schutzfristen prüfen. Wir verlinken nur und schreiben eigene
+    Annotationen.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text"]
+  description: >
+    Project Gutenberg ist eine der ältesten digitalen Bibliotheken und
+    stellt zehntausende urheberrechtsfreie Bücher kostenlos bereit. Die
+    englischsprachige Sammlung reicht von Klassikern wie Dickens, Austen
+    und Twain bis zu Sachtexten und lässt sich als E-Book (EPUB),
+    Kindle-Datei oder reiner Text herunterladen. Ideal für authentische
+    Lektüre und die Arbeit mit Originalquellen.
+  description_en: >
+    Project Gutenberg is one of the oldest digital libraries, offering
+    tens of thousands of copyright-free books for free. Its English
+    collection ranges from classics by Dickens, Austen and Twain to non-
+    fiction, downloadable as EPUB, Kindle file or plain text. Ideal for
+    authentic reading and working with primary sources.
+  description_fr: >
+    Project Gutenberg est l'une des plus anciennes bibliothèques
+    numériques et propose gratuitement des dizaines de milliers de
+    livres libres de droits. Sa collection anglaise va des classiques de
+    Dickens, Austen et Twain aux textes documentaires, téléchargeables
+    en EPUB, format Kindle ou texte brut. Idéal pour la lecture
+    authentique et le travail sur sources originales.
+  applicable_units: ["efl_kl9", "efl_kl10"]
+  curator_notes: >
+    Für die Oberstufe eignen sich kürzere Erzählungen oder
+    Kapitelauszüge als Ganzschrift-Ersatz. Lassen Sie Lernende
+    Wortfelder oder Stilmittel im Originaltext markieren; der reine
+    Textdownload lässt sich leicht in Arbeitsblätter kopieren (Werke
+    sind gemeinfrei).
+  curator_notes_en: >
+    For upper grades, use shorter stories or chapter excerpts as an
+    alternative to a full class reader. Have learners mark word fields
+    or stylistic devices in the original; the plain-text download is
+    easy to paste into worksheets (works are public domain).
+  curator_notes_fr: >
+    Pour les grandes classes, utilisez des nouvelles courtes ou des
+    extraits de chapitres à la place d'une œuvre intégrale. Faites
+    repérer aux élèves des champs lexicaux ou des procédés stylistiques
+    dans le texte original ; le téléchargement en texte brut se colle
+    facilement dans des fiches (œuvres du domaine public).
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "gutenberg-fr"
+  title: "Project Gutenberg — Littérature francophone"
+  publisher: "Project Gutenberg"
+  url: "https://www.gutenberg.org/browse/languages/fr"
+  language: "FR"
+  license_type: "PD"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Werke sind in den USA gemeinfrei
+    (Public Domain); bei Nutzung außerhalb der USA ggf. nationale
+    Schutzfristen prüfen. Wir verlinken nur und schreiben eigene
+    Annotationen.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text"]
+  description: >
+    Der französischsprachige Teil von Project Gutenberg umfasst tausende
+    gemeinfreie Werke von Balzac, Baudelaire, Molière, Jules Verne u. v.
+    m. Alle Titel sind kostenlos als EPUB, Kindle-Datei oder Klartext
+    abrufbar. Eine ergiebige Quelle für authentische französische
+    Lektüre und literarische Landeskunde.
+  description_en: >
+    The French section of Project Gutenberg holds thousands of public-
+    domain works by Balzac, Baudelaire, Molière, Jules Verne and many
+    more. Every title is free to download as EPUB, Kindle file or plain
+    text. A rich source for authentic French reading and literary
+    Landeskunde.
+  description_fr: >
+    La section française de Project Gutenberg réunit des milliers
+    d'œuvres du domaine public de Balzac, Baudelaire, Molière, Jules
+    Verne et bien d'autres. Chaque titre se télécharge gratuitement en
+    EPUB, format Kindle ou texte brut. Une source riche pour la lecture
+    authentique et la culture littéraire.
+  applicable_units: ["fle_kl8", "fle_kl9"]
+  curator_notes: >
+    Nutzen Sie kurze Gedichte (z. B. Baudelaire) oder Fabeln für den
+    intensiven Lektüreeinstieg im FLE-Unterricht. Der Klartext-Download
+    eignet sich für Lückentexte oder Vokabelarbeit; da gemeinfrei,
+    dürfen Auszüge frei bearbeitet werden.
+  curator_notes_en: >
+    Use short poems (e.g. Baudelaire) or fables for close-reading in the
+    FLE classroom. The plain-text download works well for gap-fill or
+    vocabulary tasks; being public domain, excerpts may be freely
+    adapted.
+  curator_notes_fr: >
+    Utilisez de courts poèmes (ex. Baudelaire) ou des fables pour une
+    entrée en lecture intensive en classe de FLE. Le téléchargement en
+    texte brut convient aux textes à trous ou au travail lexical ; étant
+    du domaine public, les extraits peuvent être librement adaptés.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "gutenberg-de"
+  title: "Project Gutenberg — Deutschsprachige Literatur"
+  publisher: "Project Gutenberg"
+  url: "https://www.gutenberg.org/browse/languages/de"
+  language: "DE"
+  license_type: "PD"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Werke sind in den USA gemeinfrei
+    (Public Domain); bei Nutzung außerhalb der USA ggf. nationale
+    Schutzfristen prüfen. Wir verlinken nur und schreiben eigene
+    Annotationen.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "wortschatz", "landeskunde"]
+  media_types: ["text"]
+  description: >
+    Project Gutenberg bietet auch tausende gemeinfreie deutschsprachige
+    Titel von Goethe und Schiller bis Fontane und Kafka. Die Texte
+    stehen kostenlos als EPUB, Kindle-Datei oder Klartext zum Download
+    bereit. Für DaF-Lernende auf höherem Niveau eine authentische Quelle
+    klassischer Literatur.
+  description_en: >
+    Project Gutenberg also offers thousands of public-domain German
+    titles from Goethe and Schiller to Fontane and Kafka. Texts are free
+    to download as EPUB, Kindle file or plain text. For advanced
+    learners of German as a foreign language, an authentic source of
+    classic literature.
+  description_fr: >
+    Project Gutenberg propose aussi des milliers de titres allemands du
+    domaine public, de Goethe et Schiller à Fontane et Kafka. Les textes
+    se téléchargent gratuitement en EPUB, format Kindle ou texte brut.
+    Pour les apprenants avancés d'allemand, une source authentique de
+    littérature classique.
+  applicable_units: ["daf_b1", "daf_b2"]
+  curator_notes: >
+    Setzen Sie leichter zugängliche Texte (z. B. Grimms Märchen) ab B1
+    ein und anspruchsvolle Klassiker ab B2/C1. Der Klartext eignet sich
+    für Vorlese- und Nacherzählübungen; Auszüge dürfen als gemeinfreies
+    Material frei kopiert werden.
+  curator_notes_en: >
+    Use more accessible texts (e.g. Grimms' fairy tales) from B1 and
+    demanding classics from B2/C1. Plain text suits read-aloud and
+    retelling tasks; excerpts may be freely copied as public-domain
+    material.
+  curator_notes_fr: >
+    Utilisez des textes plus accessibles (ex. contes de Grimm) dès B1 et
+    des classiques exigeants dès B2/C1. Le texte brut convient à la
+    lecture à voix haute et au récit ; les extraits, du domaine public,
+    peuvent être librement copiés.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "wikisource-en"
+  title: "English Wikisource — Freie Quellentextbibliothek"
+  publisher: "Wikimedia Foundation"
+  url: "https://en.wikisource.org/wiki/Main_Page"
+  language: "EN"
+  license_type: "PD"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die enthaltenen Quellentexte sind
+    gemeinfrei (Public Domain); die redaktionelle Aufbereitung der Wiki-
+    Seiten steht unter CC BY-SA. Wir verlinken nur und formulieren
+    eigene Annotationen.
+  cefr_levels: ["B2", "C1"]
+  skills: ["lesen", "landeskunde", "wortschatz"]
+  media_types: ["text"]
+  description: >
+    English Wikisource ist eine freie, gemeinschaftlich erstellte
+    Bibliothek mit über 600.000 englischsprachigen Quellentexten:
+    Literatur, Reden, historische Dokumente und Verfassungstexte. Jeder
+    Text wird gegen Scans der Originalseite geprüft und ist als EPUB
+    oder PDF exportierbar. Besonders wertvoll für Landeskunde und die
+    Arbeit mit historischen Primärquellen.
+  description_en: >
+    English Wikisource is a free, community-built library with more than
+    600,000 English source texts: literature, speeches, historical
+    documents and constitutional texts. Each text is verified against
+    scans of the original page and exportable as EPUB or PDF. Especially
+    valuable for Landeskunde and working with historical primary
+    sources.
+  description_fr: >
+    English Wikisource est une bibliothèque libre et collaborative de
+    plus de 600 000 textes sources en anglais : littérature, discours,
+    documents historiques et textes constitutionnels. Chaque texte est
+    vérifié par rapport aux scans de la page d'origine et exportable en
+    EPUB ou PDF. Particulièrement utile pour la civilisation et le
+    travail sur sources primaires.
+  applicable_units: ["efl_kl10"]
+  curator_notes: >
+    Ideal für den bilingualen oder Geschichts-/Politik-Unterricht: z. B.
+    Originalreden (Lincoln, King) als Lesequelle. Die geprüften
+    Volltexte lassen sich gut in kürzere Abschnitte für Textarbeit
+    gliedern.
+  curator_notes_en: >
+    Ideal for CLIL or history/politics lessons: e.g. original speeches
+    (Lincoln, King) as reading sources. The proofread full texts split
+    well into shorter passages for text work.
+  curator_notes_fr: >
+    Idéal pour l'enseignement bilingue ou d'histoire/politique : par ex.
+    des discours originaux (Lincoln, King) comme sources de lecture. Les
+    textes intégraux relus se découpent bien en passages plus courts.
+  target_age: "15-99"
+  last_checked: "2026-07-21"
+
+- id: "wikisource-de"
+  title: "Deutsches Wikisource — Quellensammlung"
+  publisher: "Wikimedia Foundation"
+  url: "https://de.wikisource.org/wiki/Hauptseite"
+  language: "DE"
+  license_type: "PD"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die enthaltenen Quellentexte sind
+    gemeinfrei bzw. frei lizenziert; die redaktionelle Aufbereitung der
+    Wiki-Seiten steht unter CC BY-SA. Wir verlinken nur und formulieren
+    eigene Annotationen.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["lesen", "landeskunde", "wortschatz"]
+  media_types: ["text"]
+  description: >
+    Das deutschsprachige Wikisource sammelt rund 57.000 gemeinfreie bzw.
+    frei lizenzierte Texte: Gedichte, Märchen, Rechtstexte, historische
+    Dokumente und Zeitschriften, jeweils mit geprüftem Bezug zum Scan
+    der Quelle. Die Werke sind exportierbar und für DaF-Landeskunde und
+    historische Textarbeit geeignet.
+  description_en: >
+    German Wikisource collects around 57,000 public-domain or freely
+    licensed texts: poems, fairy tales, legal texts, historical
+    documents and periodicals, each verified against a scan of the
+    source. Works are exportable and suited to German-as-a-foreign-
+    language Landeskunde and historical text work.
+  description_fr: >
+    Le Wikisource germanophone rassemble environ 57 000 textes du
+    domaine public ou sous licence libre : poèmes, contes, textes
+    juridiques, documents historiques et revues, chacun vérifié par
+    rapport au scan de la source. Les œuvres sont exportables et
+    conviennent à la civilisation et au travail sur textes historiques
+    en allemand langue étrangère.
+  applicable_units: ["daf_b1", "daf_b2"]
+  curator_notes: >
+    Nutzen Sie Grimms Märchen oder kurze Gedichte für DaF ab B1,
+    historische Dokumente für Projektarbeit ab B2. Der geprüfte Volltext
+    neben dem Faksimile schult zugleich das Lesen historischer Schrift.
+  curator_notes_en: >
+    Use Grimms' fairy tales or short poems for German learners from B1,
+    historical documents for project work from B2. The proofread full
+    text beside the facsimile also trains reading of historical
+    typography.
+  curator_notes_fr: >
+    Utilisez les contes de Grimm ou de courts poèmes dès B1, des
+    documents historiques pour des projets dès B2. Le texte intégral
+    relu à côté du fac-similé entraîne aussi la lecture de la
+    typographie ancienne.
+  target_age: "14-99"
+  last_checked: "2026-07-21"
+
+- id: "tatoeba-en"
+  title: "Tatoeba — Beispielsätze mit Übersetzungen"
+  publisher: "Tatoeba"
+  url: "https://tatoeba.org/en/"
+  language: "EN"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by/2.0/fr/"
+  license_details: >
+    Kostenlos und ohne Anmeldung nutzbar. Die Sätze stehen unter
+    Creative Commons CC BY 2.0 FR (Audioaufnahmen teils unter anderen
+    CC-Lizenzen); bei Wiederverwendung Tatoeba als Quelle nennen.
+  cefr_levels: ["A1", "A2", "B1", "B2"]
+  skills: ["wortschatz", "grammatik", "lesen"]
+  media_types: ["text", "interaktiv"]
+  description: >
+    Tatoeba ist eine offene, gemeinschaftliche Sammlung von über 13
+    Millionen Beispielsätzen in mehr als 400 Sprachen, jeweils mit
+    Übersetzungen und teils vertont. Man kann englische Sätze samt
+    deutschen und französischen Entsprechungen suchen und so Wortschatz
+    und Grammatik im Kontext erschließen. Die Daten stehen unter
+    Creative Commons und lassen sich frei weiterverwenden.
+  description_en: >
+    Tatoeba is an open, collaborative collection of over 13 million
+    example sentences in more than 400 languages, each with translations
+    and some with audio. You can search English sentences alongside
+    German and French equivalents to explore vocabulary and grammar in
+    context. The data is Creative Commons licensed and freely reusable.
+  description_fr: >
+    Tatoeba est une collection ouverte et collaborative de plus de 13
+    millions de phrases d'exemple dans plus de 400 langues, chacune
+    traduite et parfois enregistrée. On peut rechercher des phrases
+    anglaises avec leurs équivalents allemands et français pour explorer
+    vocabulaire et grammaire en contexte. Les données sont sous licence
+    Creative Commons et librement réutilisables.
+  applicable_units: ["efl_kl9", "efl_kl10"]
+  curator_notes: >
+    Erstellen Sie aus der Sprachpaar-Suche schnell eigene Satzlisten für
+    Übersetzungs- oder Strukturübungen. Weil die Sätze CC-BY lizenziert
+    sind, dürfen sie mit Quellenangabe in Arbeitsblätter übernommen
+    werden.
+  curator_notes_en: >
+    Use the language-pair search to quickly build your own sentence
+    lists for translation or structure drills. As the sentences are CC-
+    BY licensed, they may be reused in worksheets with attribution.
+  curator_notes_fr: >
+    Utilisez la recherche par paire de langues pour constituer
+    rapidement vos listes de phrases pour la traduction ou les exercices
+    de structure. Les phrases étant sous licence CC-BY, elles peuvent
+    être reprises dans des fiches avec mention de la source.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "librivox-en"
+  title: "LibriVox — Kostenlose Hörbücher (Internet Archive)"
+  publisher: "LibriVox"
+  url: "https://archive.org/details/librivoxaudio"
+  language: "EN"
+  license_type: "PD"
+  license_details: >
+    Kostenlos, ohne Anmeldung, dauerhaft gehostet im Internet Archive.
+    Texte und Sprachaufnahmen sind gemeinfrei (Public Domain, von
+    LibriVox weltweit freigegeben). Wir verlinken nur.
+  cefr_levels: ["B1", "B2", "C1"]
+  skills: ["hoeren"]
+  media_types: ["audio"]
+  description: >
+    LibriVox ist ein Freiwilligenprojekt, das gemeinfreie Bücher als
+    kostenlose Hörbücher einliest; die Aufnahmen werden dauerhaft im
+    Internet Archive gehostet und sind dort durchsuchbar. Die
+    englischsprachige Sammlung umfasst tausende Titel von Klassikern bis
+    zu Kurzgeschichten, streambar oder als MP3 herunterladbar. Sowohl
+    die Texte als auch die Aufnahmen sind gemeinfrei.
+  description_en: >
+    LibriVox is a volunteer project that records public-domain books as
+    free audiobooks; the recordings are permanently hosted and
+    searchable on the Internet Archive. Its English collection spans
+    thousands of titles from classics to short stories, streamable or
+    downloadable as MP3. Both the texts and the recordings are in the
+    public domain.
+  description_fr: >
+    LibriVox est un projet bénévole qui enregistre des livres du domaine
+    public en livres audio gratuits ; les enregistrements sont hébergés
+    durablement et consultables sur Internet Archive. Sa collection
+    anglaise compte des milliers de titres, des classiques aux
+    nouvelles, en streaming ou téléchargeables en MP3. Textes et
+    enregistrements sont dans le domaine public.
+  applicable_units: ["efl_kl9", "efl_kl10"]
+  curator_notes: >
+    Kombinieren Sie eine LibriVox-Aufnahme mit dem passenden Project-
+    Gutenberg-Text für paralleles Hören und Lesen (Hörverstehen +
+    Aussprache). Kurze Kapitel eignen sich als Hausaufgabe mit
+    anschließendem Nacherzählen im Unterricht.
+  curator_notes_en: >
+    Pair a LibriVox recording with the matching Project Gutenberg text
+    for parallel listening and reading (listening comprehension +
+    pronunciation). Short chapters work as homework followed by
+    retelling in class.
+  curator_notes_fr: >
+    Associez un enregistrement LibriVox au texte Project Gutenberg
+    correspondant pour écouter et lire en parallèle (compréhension orale
+    + prononciation). De courts chapitres conviennent en devoir suivi
+    d'un récit en classe.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "commons-de-aussprache"
+  title: "Wikimedia Commons — Deutsche Aussprache-Audios"
+  publisher: "Wikimedia Commons"
+  url: "https://commons.wikimedia.org/wiki/Category:German_pronunciation"
+  language: "DE"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Dateien stehen unter freien
+    Lizenzen (überwiegend CC BY-SA 4.0, teils CC0/gemeinfrei); die
+    genaue Lizenz je Datei auf der Beschreibungsseite prüfen und bei
+    Wiederverwendung nennen.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "wortschatz", "sprechen"]
+  media_types: ["audio"]
+  description: >
+    Diese Kategorie auf Wikimedia Commons bündelt zehntausende
+    Audioaufnahmen deutscher Wörter, gesprochen von Muttersprachlern (v.
+    a. aus den Projekten Lingua Libre und Shtooka). Jede Datei lässt
+    sich einzeln anhören und herunterladen; regionale Varianten (z. B.
+    österreichisches Deutsch) sind ausgewiesen. Ideal als Aussprache-
+    und Wortschatz-Referenz.
+  description_en: >
+    This Wikimedia Commons category gathers tens of thousands of audio
+    recordings of German words spoken by native speakers (mainly from
+    the Lingua Libre and Shtooka projects). Each file can be played and
+    downloaded individually; regional variants (e.g. Austrian German)
+    are marked. Ideal as a pronunciation and vocabulary reference.
+  description_fr: >
+    Cette catégorie de Wikimedia Commons rassemble des dizaines de
+    milliers d'enregistrements audio de mots allemands prononcés par des
+    locuteurs natifs (surtout des projets Lingua Libre et Shtooka).
+    Chaque fichier s'écoute et se télécharge individuellement ; les
+    variantes régionales (ex. allemand autrichien) sont signalées. Idéal
+    comme référence de prononciation et de vocabulaire.
+  applicable_units: ["daf_a1", "daf_a2"]
+  curator_notes: >
+    Verlinken Sie einzelne Audiodateien direkt aus Vokabellisten, damit
+    DaF-Lernende die korrekte Aussprache selbstständig prüfen. Für
+    Minimalpaar-Übungen lassen sich gezielt ähnlich klingende Wörter
+    zusammenstellen.
+  curator_notes_en: >
+    Link individual audio files straight from vocabulary lists so
+    learners of German can check correct pronunciation independently.
+    For minimal-pair exercises, assemble similar-sounding words on
+    purpose.
+  curator_notes_fr: >
+    Reliez des fichiers audio individuels directement depuis des listes
+    de vocabulaire pour que les apprenants d'allemand vérifient seuls la
+    prononciation. Pour des exercices de paires minimales, regroupez des
+    mots proches à dessein.
+  target_age: "13-99"
+  last_checked: "2026-07-21"
+
+- id: "commons-fr-prononciation"
+  title: "Wikimedia Commons — Französische Aussprache-Audios"
+  publisher: "Wikimedia Commons"
+  url: "https://commons.wikimedia.org/wiki/Category:French_pronunciation"
+  language: "FR"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Dateien stehen unter freien
+    Lizenzen (überwiegend CC BY-SA 4.0, teils CC0/gemeinfrei); die
+    genaue Lizenz je Datei auf der Beschreibungsseite prüfen und bei
+    Wiederverwendung nennen.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "wortschatz", "sprechen"]
+  media_types: ["audio"]
+  description: >
+    Diese Commons-Kategorie enthält über 400.000 Aussprache-Aufnahmen
+    französischer Wörter, Zahlen, Wochentage und Ortsnamen von
+    Muttersprachlern (überwiegend Lingua Libre). Die Audios decken
+    verschiedene Akzente und Regionen ab und sind einzeln abspielbar
+    sowie herunterladbar. Eine umfangreiche, freie Aussprache-Referenz
+    für den Französischunterricht.
+  description_en: >
+    This Commons category holds over 400,000 pronunciation recordings of
+    French words, numbers, weekdays and place names by native speakers
+    (mostly Lingua Libre). The audio covers various accents and regions
+    and can be played and downloaded individually. An extensive, free
+    pronunciation reference for French lessons.
+  description_fr: >
+    Cette catégorie Commons contient plus de 400 000 enregistrements de
+    prononciation de mots, nombres, jours et noms de lieux français par
+    des locuteurs natifs (surtout Lingua Libre). Les audios couvrent
+    divers accents et régions et s'écoutent et se téléchargent
+    individuellement. Une vaste référence de prononciation libre pour le
+    cours de français.
+  applicable_units: ["fle_kl7", "fle_kl8"]
+  curator_notes: >
+    Nutzen Sie die Aufnahmen, um Liaison und Nasalvokale hörbar zu
+    machen; einzelne Dateien lassen sich in digitale Vokabelkarten
+    einbinden. Vergleichen Sie mehrere Sprecher, um Aussprachevarianten
+    bewusst zu machen.
+  curator_notes_en: >
+    Use the recordings to make liaison and nasal vowels audible;
+    individual files embed into digital flashcards. Compare several
+    speakers to raise awareness of pronunciation variation.
+  curator_notes_fr: >
+    Utilisez les enregistrements pour rendre audibles la liaison et les
+    voyelles nasales ; les fichiers s'intègrent à des cartes de
+    vocabulaire numériques. Comparez plusieurs locuteurs pour
+    sensibiliser aux variantes de prononciation.
+  target_age: "12-99"
+  last_checked: "2026-07-21"
+
+- id: "commons-en-pronunciation"
+  title: "Wikimedia Commons — Englische Aussprache-Audios"
+  publisher: "Wikimedia Commons"
+  url: "https://commons.wikimedia.org/wiki/Category:English_pronunciation"
+  language: "EN"
+  license_type: "CC"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  license_details: >
+    Kostenlos und ohne Anmeldung. Die Dateien stehen unter freien
+    Lizenzen (überwiegend CC BY-SA 4.0, teils CC0/gemeinfrei); die
+    genaue Lizenz je Datei auf der Beschreibungsseite prüfen und bei
+    Wiederverwendung nennen.
+  cefr_levels: ["A1", "A2", "B1"]
+  skills: ["hoeren", "wortschatz", "sprechen"]
+  media_types: ["audio"]
+  description: >
+    Diese Commons-Kategorie sammelt über 100.000 Aussprache-Aufnahmen
+    englischer Wörter von Muttersprachlern (v. a. Lingua Libre, Shtooka)
+    samt Dialektvarianten. Die Dateien sind alphabetisch geordnet,
+    einzeln anhörbar und herunterladbar und dienen u. a. als
+    Aussprachereferenz für Wiktionary. Eine freie, verlässliche Quelle
+    für Aussprache- und Wortschatzarbeit.
+  description_en: >
+    This Commons category collects over 100,000 pronunciation recordings
+    of English words by native speakers (mainly Lingua Libre, Shtooka),
+    including dialect variants. Files are ordered alphabetically,
+    individually playable and downloadable, and serve as a pronunciation
+    reference for Wiktionary among others. A free, reliable source for
+    pronunciation and vocabulary work.
+  description_fr: >
+    Cette catégorie Commons réunit plus de 100 000 enregistrements de
+    prononciation de mots anglais par des locuteurs natifs (surtout
+    Lingua Libre, Shtooka), variantes dialectales comprises. Les
+    fichiers sont classés alphabétiquement, écoutables et
+    téléchargeables individuellement, et servent notamment de référence
+    de prononciation pour Wiktionary. Une source libre et fiable pour la
+    prononciation et le vocabulaire.
+  applicable_units: ["efl_kl5", "efl_kl6"]
+  curator_notes: >
+    Bauen Sie die Audios in digitale Vokabeltrainer ein, damit Lernende
+    britische und amerikanische Varianten vergleichen können. Gut
+    geeignet für eigenständiges Aussprachetraining und Minimalpaar-
+    Übungen.
+  curator_notes_en: >
+    Embed the audio in digital vocabulary trainers so learners can
+    compare British and American variants. Well suited to independent
+    pronunciation practice and minimal-pair exercises.
+  curator_notes_fr: >
+    Intégrez les audios dans des entraîneurs de vocabulaire numériques
+    pour comparer les variantes britannique et américaine. Bien adapté à
+    l'entraînement autonome de la prononciation et aux paires minimales.
+  target_age: "10-99"
+  last_checked: "2026-07-21"
