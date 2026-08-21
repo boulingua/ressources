@@ -8,6 +8,20 @@
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script defer src="{{ "/js/entrypoints.js" | relURL }}"></script>
 
+{{- /* VG Wort Zählmarke preload — FIRST in the connection queue.
+
+     Fires the counting request during <head> parsing, before the body renders
+     and before the font preloads below: the pixel loads on page open, with no
+     lazy-loading and no scroll needed. The author's statutory remuneration
+     must not depend on reader behaviour. Same URL as the body <img>, via the
+     shared resolver, so VG Wort's server receives exactly one hit per view.
+
+     Keep this above the font preloads. Moving it below them silently costs the
+     ordering this rule exists to protect. */ -}}
+{{- with (partial "vgwort/url.html" .) }}
+<link rel="preload" as="image" href="{{ . | safeURL }}" fetchpriority="high">
+{{- end }}
+
 {{/* Self-hosted webfonts (GDPR-clean, no render-blocking external font
      request). Preload the two most-used regular weights, then load the
      @font-face declarations from static/css/fonts.css. */}}

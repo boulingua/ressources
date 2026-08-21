@@ -1,27 +1,21 @@
-{{/*
-  VG Wort Zaehlpixel.
-  Direct port of _scripts/vgwort.lua. Reads `vgwort_pixel`
-  from page frontmatter; emits a 1x1 invisible <img>. Pages
-  without the key emit nothing.
+{{- /* VG Wort Zählmarke — body pixel.
 
-  Token forms accepted (matches the Lua filter):
-    full URL           https?://...
-    host+path         vgNN.met.vgwort.de/na/<token>
-    bare 32-hex token  -> default vg08.met.vgwort.de/na/<token>
-*/}}
-{{ $token := .Params.vgwort_pixel }}
-{{ if $token }}
-  {{ $url := "" }}
-  {{ if hasPrefix $token "http://" }}
-    {{ $url = $token }}
-  {{ else if hasPrefix $token "https://" }}
-    {{ $url = $token }}
-  {{ else if findRE "^vg[0-9a-z]+\\.met\\.vgwort\\.de/" $token }}
-    {{ $url = printf "https://%s" $token }}
-  {{ else }}
-    {{ $url = printf "https://vg08.met.vgwort.de/na/%s" $token }}
-  {{ end }}
-  <img src="{{ $url }}" width="1" height="1" alt=""
-       loading="lazy" referrerpolicy="no-referrer"
-       style="position:absolute;left:-9999px;" />
-{{ end }}
+  Rendered EAGERLY. Never `loading="lazy"`: a lazy pixel below the fold is only
+  fetched if the reader scrolls to it, so on a catalogue page most readers would
+  never trigger it and the count — the author's statutory remuneration — is
+  simply lost. The <head> preload in head/extensions.html starts the same
+  request during head parsing; this <img> reuses it, so VG Wort's server sees
+  exactly one hit per page view.
+
+  Hidden off-screen with visibility:hidden, which still loads (unlike
+  display:none). Emitted unconditionally: gated by no consent banner and no user
+  setting. Pages with no registered mark emit nothing.
+
+  The URL comes from the shared resolver so it can never disagree with the
+  preload. */ -}}
+{{- with (partial "vgwort/url.html" .) -}}
+<div style="display:inline"><img src="{{ . | safeURL }}" width="1" height="1" alt=""
+  loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer"
+  aria-hidden="true"
+  style="position:absolute!important;width:1px;height:1px;left:-9999px;top:auto;visibility:hidden" /></div>
+{{- end -}}

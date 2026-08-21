@@ -1,0 +1,50 @@
+{{- /* vgwort/url.html — single source of truth for a page's VG Wort Zählmarke.
+
+  Returns the fully-resolved counting-pixel URL for THIS page, or "" if the page
+  carries no registered Zählmarke. Consumed by BOTH the <head> preload
+  (head/extensions.html) and the body <img> (vgwort.html), so the two can never
+  disagree — the standard's requirement, since a mismatch means VG Wort's server
+  sees two different URLs for one work.
+
+  Token lookup order:
+    1. per-page front matter: `vgwort_pixel:` / `vgwort:`
+    2. data/vgwort.yaml entry matched by `url:` (== RelPermalink, baseURL path
+       stripped) or by `path:` (== content/<File.Path>); token read from
+       `pixel_url`, `public_id` or `token`.
+
+  Token forms accepted: full https URL, `vgNN.met.vgwort.de/na/<id>`, or a bare
+  id. A bare id defaults to vg08 — this site's registered host; do not "align"
+  it with a sibling repo's default without re-checking T.O.M.
+
+  Paginated list continuations (/page/2/ …) return "" so each Zählmarke maps to
+  exactly one URL. */ -}}
+{{- $url := "" -}}
+{{- $skip := false -}}
+{{- if in (slice "section" "taxonomy" "term") .Kind -}}
+  {{- with .Paginator -}}{{- if gt .PageNumber 1 -}}{{- $skip = true -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- if not $skip -}}
+  {{- $token := or .Params.vgwort_pixel .Params.vgwort -}}
+  {{- if not $token -}}
+    {{- $rel := .RelPermalink -}}
+    {{- $base := site.BaseURL | replaceRE "https?://[^/]+" "" | strings.TrimRight "/" -}}
+    {{- if $base -}}{{- $rel = $rel | strings.TrimPrefix $base -}}{{- end -}}
+    {{- $fp := "" -}}{{- with .File -}}{{- $fp = printf "content/%s" .Path -}}{{- end -}}
+    {{- $entries := index hugo.Data "vgwort" -}}
+    {{- if reflect.IsSlice $entries -}}
+      {{- range $entries -}}
+        {{- if or (and .url (eq .url $rel)) (and .path (eq .path $fp)) -}}
+          {{- $token = or .pixel_url .public_id .token -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $token -}}
+    {{- $t := printf "%s" . -}}
+    {{- if or (hasPrefix $t "http://") (hasPrefix $t "https://") -}}{{- $url = $t -}}
+    {{- else if findRE "^vg[a-z0-9]+\\.met\\.vgwort\\.de/" $t -}}{{- $url = printf "https://%s" $t -}}
+    {{- else -}}{{- $url = printf "https://vg08.met.vgwort.de/na/%s" $t -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}
