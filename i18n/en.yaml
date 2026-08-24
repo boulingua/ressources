@@ -1,0 +1,156 @@
+# Oberflächentexte / UI strings for the resource hub — en.
+#
+# Ported from TOML to YAML when this repo adopted the kit module. One
+# format across the organisation; the kit's i18n/ is YAML and carrying
+# two parsers for one job is how a translation quietly stops being
+# loaded.
+#
+# These 63 keys stay in this repo rather than moving into the kit. They
+# belong to layouts only this repo has — resource-card, resource-listing,
+# overview — and there is zero key overlap with the kit's course chrome.
+# Promoting them would put a resource hub's vocabulary into eighteen
+# language courses that have no such page.
+
+criteria_heading:
+  other: Selection criteria
+criteria_text:
+  other: Only resources that are freely accessible and either provided by public institutions,
+    released under a Creative Commons licence, or in the public domain are included.
+    Commercial providers and marketplaces are excluded as a matter of principle.
+entries_heading:
+  other: Entry points
+entry_lang_lead:
+  other: English, French and German — each language with its own curated selection.
+entry_level_lead:
+  other: From A1 to C1 — every resource suitable for the chosen CEFR level.
+entry_skill_lead:
+  other: Listening, reading, writing, speaking, grammar, vocabulary and culture —
+    direct access.
+entry_unit_lead:
+  other: Directly mapped to the units of the sister sites EFL, FLE and DaF.
+footer:
+  other: '© S. Le Boulanger · Code: MIT · Content: CC-BY-SA 4.0'
+hero_lead:
+  other: A curated collection of freely accessible online resources for English, French
+    and German as a foreign language. Every resource is reviewed by hand, classified
+    by level and skill, and accompanied by editorial notes.
+hero_title:
+  other: Resources for the language classroom
+kicker:
+  other: CURATED AND FREELY AVAILABLE
+klasse:
+  other: Grade
+landing_subtitle:
+  other: Curated, freely accessible materials for English, French and German as a
+    foreign language.
+landing_title:
+  other: Resources for the language classroom
+lang_de_full:
+  other: German
+lang_en_full:
+  other: English
+lang_fr_full:
+  other: French
+lead_lang_de:
+  other: Freely available online resources for German as a foreign language. Focus
+    on Deutsche Welle, Goethe-Institut and other public intermediaries.
+lead_lang_en:
+  other: Freely available online resources for teaching English. Focus on the British
+    Council, the BBC and other public broadcasters.
+lead_lang_fr:
+  other: Freely available online resources for teaching French. Focus on TV5Monde,
+    RFI Savoirs and other Francophone institutions.
+lead_lvl_a1:
+  other: Beginner level — resources for absolute beginners.
+lead_lvl_a2:
+  other: Basic communication in familiar everyday situations.
+lead_lvl_b1:
+  other: Independent language use in most everyday situations.
+lead_lvl_b2:
+  other: Confident language use even on more complex and abstract topics.
+lead_lvl_c1:
+  other: Nuanced language use for demanding texts and discourse.
+lead_skill_grammatik:
+  other: Explanations and exercises on grammatical phenomena, prepared pedagogically
+    and differentiated by level.
+lead_skill_hoeren:
+  other: 'Materials for listening and audiovisual comprehension: podcasts, videos,
+    news and pedagogically prepared audio.'
+lead_skill_landeskunde:
+  other: Materials on culture, history, everyday life and society of the respective
+    language areas.
+lead_skill_lesen:
+  other: Reading texts and exercises at different levels — from pedagogically prepared
+    short texts to authentic press articles.
+lead_skill_schreiben:
+  other: Prompts, models and practice formats for writing in the foreign language
+    — from writing impulses to correction tools.
+lead_skill_sprechen:
+  other: Speaking prompts, pronunciation training and models of oral communication
+    — often with audio or video support.
+lead_skill_wortschatz:
+  other: Vocabulary trainers, thematic word lists and exercises to build and consolidate
+    vocabulary.
+letzter_check:
+  other: 'Last link check:'
+nav_about:
+  other: About
+nav_imprint:
+  other: Imprint
+nav_language:
+  other: By language
+nav_level:
+  other: By level
+nav_overview:
+  other: Overview
+nav_privacy:
+  other: Privacy
+nav_skill:
+  other: By skill
+nav_unit:
+  other: By unit
+no_resources:
+  other: No resources have been curated for this selection yet.
+overview_lead:
+  other: All curated resources with filter chips, a label network and three automatically
+    suggested similar entries per item. No tracking, no external data flow.
+overview_title:
+  other: Overview of all resources
+passt_zu:
+  other: 'Matches:'
+ressource_open:
+  other: Open resource
+site_title:
+  other: '#ressources'
+skill_grammatik:
+  other: Grammar
+skill_hoeren:
+  other: Listening
+skill_landeskunde:
+  other: Culture
+skill_lesen:
+  other: Reading
+skill_schreiben:
+  other: Writing
+skill_sprechen:
+  other: Speaking
+skill_wortschatz:
+  other: Vocabulary
+unit_daf_lead:
+  other: Resources matching the German units of the sister site. Choose a level.
+unit_daf_lvl_lead:
+  other: Resources matching the German unit at level {{ .lvl }}.
+unit_daf_overview:
+  other: German as foreign language — Overview
+unit_efl_grade_lead:
+  other: Resources matching the EFL unit for grade {{ .k }}.
+unit_efl_lead:
+  other: Resources matching the English units of the sister site. Choose a grade level.
+unit_efl_overview:
+  other: EFL — Overview
+unit_fle_grade_lead:
+  other: Resources matching the FLE unit for grade {{ .k }}.
+unit_fle_lead:
+  other: Resources matching the French units of the sister site. Choose a grade level.
+unit_fle_overview:
+  other: FLE — Overview

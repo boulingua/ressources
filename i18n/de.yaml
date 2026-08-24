@@ -1,0 +1,163 @@
+# Oberflächentexte / UI strings for the resource hub — de.
+#
+# Ported from TOML to YAML when this repo adopted the kit module. One
+# format across the organisation; the kit's i18n/ is YAML and carrying
+# two parsers for one job is how a translation quietly stops being
+# loaded.
+#
+# These 63 keys stay in this repo rather than moving into the kit. They
+# belong to layouts only this repo has — resource-card, resource-listing,
+# overview — and there is zero key overlap with the kit's course chrome.
+# Promoting them would put a resource hub's vocabulary into eighteen
+# language courses that have no such page.
+
+criteria_heading:
+  other: Auswahlkriterien
+criteria_text:
+  other: Aufgenommen werden ausschließlich Ressourcen, die kostenfrei zugänglich sind
+    und entweder von öffentlichen Einrichtungen bereitgestellt werden, unter Creative-Commons-Lizenz
+    stehen oder gemeinfrei sind. Kommerzielle Anbieter und Marktplätze sind grundsätzlich
+    ausgeschlossen.
+entries_heading:
+  other: Einstiegspunkte
+entry_lang_lead:
+  other: Englisch, Französisch und Deutsch — jede Sprache mit einer eigenen kuratierten
+    Auswahl.
+entry_level_lead:
+  other: Von A1 bis C1 — alle Ressourcen, die für das gewählte CEFR-Niveau geeignet
+    sind.
+entry_skill_lead:
+  other: Hören, Lesen, Schreiben, Sprechen, Grammatik, Wortschatz und Landeskunde
+    — direkter Zugriff.
+entry_unit_lead:
+  other: Direkt passend zu den Unterrichtseinheiten der Schwestern-Sites EFL, FLE
+    und DaF.
+footer:
+  other: '© S. Le Boulanger · Code: MIT · Inhalte: CC-BY-SA 4.0'
+hero_lead:
+  other: Eine kuratierte Sammlung frei zugänglicher Online-Ressourcen für Englisch,
+    Französisch und Deutsch als Fremdsprache. Jede Ressource ist manuell geprüft,
+    nach Niveau und Fertigkeit eingeordnet und mit kuratorischen Anmerkungen versehen.
+hero_title:
+  other: Ressourcen für den Sprachunterricht
+kicker:
+  other: KURATIERT UND FREI VERFÜGBAR
+klasse:
+  other: Klasse
+landing_subtitle:
+  other: Kuratierte, frei verfügbare Materialien für Englisch, Französisch und Deutsch
+    als Fremdsprache.
+landing_title:
+  other: Ressourcen für den Sprachunterricht
+lang_de_full:
+  other: Deutsch
+lang_en_full:
+  other: Englisch
+lang_fr_full:
+  other: Französisch
+lead_lang_de:
+  other: 'Frei verfügbare Online-Ressourcen für Deutsch als Fremdsprache. Schwerpunkt:
+    Deutsche Welle, Goethe-Institut und weitere öffentliche Mittlerorganisationen.'
+lead_lang_en:
+  other: 'Frei verfügbare Online-Ressourcen für den Englischunterricht. Schwerpunkt:
+    British Council, BBC und weitere öffentlich-rechtliche Anbieter.'
+lead_lang_fr:
+  other: 'Frei verfügbare Online-Ressourcen für den Französischunterricht. Schwerpunkt:
+    TV5Monde, RFI Savoirs und weitere frankophone Bildungseinrichtungen.'
+lead_lvl_a1:
+  other: Einstiegsniveau — Ressourcen für absolute Anfängerinnen und Anfänger.
+lead_lvl_a2:
+  other: Grundlegende Kommunikation in vertrauten Routinesituationen.
+lead_lvl_b1:
+  other: Selbständige Sprachverwendung in den meisten Alltagssituationen.
+lead_lvl_b2:
+  other: Sicheres Sprachhandeln auch zu komplexeren und abstrakten Themen.
+lead_lvl_c1:
+  other: Differenzierter Sprachgebrauch für anspruchsvolle Texte und Diskurse.
+lead_skill_grammatik:
+  other: Erklärungen und Übungen zu grammatischen Phänomenen, didaktisch aufbereitet
+    und niveaudifferenziert.
+lead_skill_hoeren:
+  other: 'Materialien für das Hör- und Hör-Seh-Verstehen: Podcasts, Videos, Nachrichten
+    und didaktisierte Audioformate.'
+lead_skill_landeskunde:
+  other: Materialien zu Kultur, Geschichte, Alltag und Gesellschaft der jeweiligen
+    Sprachräume.
+lead_skill_lesen:
+  other: Lesetexte und Leseübungen unterschiedlicher Niveaus — von didaktisierten
+    Kurztexten bis zu authentischen Pressebeiträgen.
+lead_skill_schreiben:
+  other: Anregungen, Modelle und Übungsformate für das Schreiben in der Fremdsprache
+    — vom Schreibimpuls bis zum Korrekturwerkzeug.
+lead_skill_sprechen:
+  other: Sprechanlässe, Aussprachetraining und Modelle mündlicher Kommunikation —
+    oft mit Audio- oder Videounterstützung.
+lead_skill_wortschatz:
+  other: Vokabeltrainer, thematische Wortschatzlisten und Übungen zum Aufbau und zur
+    Festigung des Wortschatzes.
+letzter_check:
+  other: 'Letzter Link-Check:'
+nav_about:
+  other: Über
+nav_imprint:
+  other: Impressum
+nav_language:
+  other: Nach Sprache
+nav_level:
+  other: Nach Niveau
+nav_overview:
+  other: Übersicht
+nav_privacy:
+  other: Datenschutz
+nav_skill:
+  other: Nach Fertigkeit
+nav_unit:
+  other: Nach Unit
+no_resources:
+  other: Für diese Auswahl sind noch keine Ressourcen kuratiert.
+overview_lead:
+  other: Alle kuratierten Ressourcen mit Filter-Chips, Label-Netzwerk und drei automatisch
+    ermittelten ähnlichen Vorschlägen pro Eintrag. Kein Tracking, kein externer Datenfluss.
+overview_title:
+  other: Übersicht aller Ressourcen
+passt_zu:
+  other: 'Passt zu:'
+ressource_open:
+  other: Ressource öffnen
+site_title:
+  other: '#ressources'
+skill_grammatik:
+  other: Grammatik
+skill_hoeren:
+  other: Hören
+skill_landeskunde:
+  other: Landeskunde
+skill_lesen:
+  other: Lesen
+skill_schreiben:
+  other: Schreiben
+skill_sprechen:
+  other: Sprechen
+skill_wortschatz:
+  other: Wortschatz
+unit_daf_lead:
+  other: Ressourcen, die zu den DaF-Einheiten der Schwestern-Site passen. Wählen Sie
+    das Niveau.
+unit_daf_lvl_lead:
+  other: Ressourcen, die zur DaF-Einheit auf Niveau {{ .lvl }} passen.
+unit_daf_overview:
+  other: DaF — Übersicht
+unit_efl_grade_lead:
+  other: Ressourcen, die zur EFL-Einheit der Klasse {{ .k }} passen.
+unit_efl_lead:
+  other: Ressourcen, die zu den Englisch-Einheiten der Schwestern-Site passen. Wählen
+    Sie die Klassenstufe.
+unit_efl_overview:
+  other: EFL — Übersicht
+unit_fle_grade_lead:
+  other: Ressourcen, die zur FLE-Einheit der Klasse {{ .k }} passen.
+unit_fle_lead:
+  other: Ressourcen, die zu den Französisch-Einheiten der Schwestern-Site passen.
+    Wählen Sie die Klassenstufe.
+unit_fle_overview:
+  other: FLE — Übersicht

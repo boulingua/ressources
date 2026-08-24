@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>404 — Seite nicht gefunden</title>
+<meta name="robots" content="noindex">
+<!--
+  Root 404, hand-written rather than generated.
+
+  This site sets defaultContentLanguageInSubdir = true, so Hugo emits
+  /de/404.html, /en/404.html and /fr/404.html and nothing at the root. GitHub
+  Pages serves the ROOT /404.html for any path it cannot resolve, so without
+  this file every real 404 on this site showed GitHub's generic page instead of
+  the site's own — including a mistyped /de/ path, because the language prefix
+  is part of the path GitHub failed to find.
+
+  It links rather than redirects: an automatic redirect to /de/ would send an
+  English or French reader to the German page and lose the URL they typed.
+-->
+<meta http-equiv="refresh" content="0; url=de/404.html">
+<link rel="canonical" href="de/404.html">
+</head>
+<body>
+<p><a href="de/404.html">Seite nicht gefunden — weiter zur deutschen Fehlerseite</a></p>
+<p><a href="en/404.html">Page not found — continue in English</a></p>
+<p><a href="fr/404.html">Page introuvable — continuer en français</a></p>
+</body>
+</html>
