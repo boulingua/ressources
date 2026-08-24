@@ -1,0 +1,28 @@
+# boulingua.yml — the per-course configuration the gate battery reads.
+#
+# One file. The specifications had this split across a materials-profile.yml, a
+# gates: block in the workflow, and half a dozen hugo.toml params, which meant
+# three places to look and three places to disagree.
+
+code: ressources
+kind: catalogue
+content_model: leaf-bundle
+
+# No slug block: a catalogue of external resources, no units.
+
+script_tier: core
+target_language: de
+chrome_language: de             # but the SITE is trilingual de/en/fr with
+                                # defaultContentLanguageInSubdir, which is why
+                                # three gates had to learn that a site can have
+                                # a sitemap index and per-language feeds.
+
+milestone: M0
+
+gates:
+  network_graph: true
+  pagefind: false
+  bildungsplan: false
+  curriculum: off
+
+# No vgwort block — this catalogue registers no marks.
