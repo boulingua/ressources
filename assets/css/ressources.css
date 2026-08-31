@@ -340,7 +340,7 @@ code, pre, kbd, samp {
   font-size: 0.85rem;
   color: var(--fg-alt);
   font-weight: 400;
-  margin-left: 0.4rem;
+  margin-inline-start: 0.4rem;
 }
 .ov-card { position: relative; }
 .ov-card-toggle {
@@ -363,7 +363,7 @@ code, pre, kbd, samp {
   border-top: 1px dashed var(--rule);
 }
 .ov-related h4 { font-size: 0.95rem; margin: 0 0 0.4rem 0; }
-.ov-related ul { margin: 0; padding-left: 1.2rem; }
+.ov-related ul { margin: 0; padding-inline-start: 1.2rem; }
 .ov-rel-pub { color: var(--fg-alt); font-size: 0.85rem; }
 .ov-back { font-size: 0.85rem; margin-top: 0.6rem; }
 
