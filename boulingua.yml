@@ -26,3 +26,12 @@ gates:
   curriculum: off
 
 # No vgwort block — this catalogue registers no marks.
+
+# Course/product-specific views; select by layout, independent of URLs.
+templates:
+  selection: layout
+  local:
+  - _default/overview.html
+  - _default/resource-listing.html
+  - _partials/resource-card.html
+  - index.html

@@ -23,3 +23,8 @@ __pycache__/
 *~
 *.bak
 *.orig
+/node_modules/
+/build/
+/go.work
+/go.work.sum
+/.venv/
