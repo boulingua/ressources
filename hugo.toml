@@ -146,3 +146,7 @@ target = "assets/vendor/vis-network.min.js"
 [[module.mounts]]
 source = "node_modules/vis-network/styles/vis-network.min.css"
 target = "assets/vendor/vis-network.min.css"
+
+[params.plausible]
+  domain = ""
+  src = ""

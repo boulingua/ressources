@@ -1,0 +1,4868 @@
+{
+  "lang": "de",
+  "ui": {
+    "filter_heading": "Filter nach Label",
+    "filter_clear": "Alle Filter zurücksetzen",
+    "graph_heading": "Label-Netzwerk",
+    "graph_hint": "Klicken Sie auf einen Knoten, um nach diesem Label zu filtern.",
+    "results_heading": "Ressourcen",
+    "results_count": "{n} Treffer",
+    "no_results": "Keine Ressource entspricht der aktuellen Auswahl.",
+    "details_open": "Details anzeigen",
+    "details_close": "Schließen",
+    "open_resource": "Ressource öffnen",
+    "related_heading": "Weiterführende Ressourcen",
+    "related_back": "Zurück zur Netzwerk­grafik",
+    "category_lang": "Sprache",
+    "category_lic": "Lizenz",
+    "category_skill": "Fertigkeit",
+    "category_cefr": "Niveau",
+    "category_unit": "Unit",
+    "publisher_label": "Anbieter",
+    "last_check": "Letzter Link-Check"
+  },
+  "labels": [
+    {
+      "id": "cefr:A1",
+      "label": "A1",
+      "category": "cefr",
+      "count": 21
+    },
+    {
+      "id": "cefr:A2",
+      "label": "A2",
+      "category": "cefr",
+      "count": 31
+    },
+    {
+      "id": "cefr:B1",
+      "label": "B1",
+      "category": "cefr",
+      "count": 41
+    },
+    {
+      "id": "cefr:B2",
+      "label": "B2",
+      "category": "cefr",
+      "count": 35
+    },
+    {
+      "id": "cefr:C1",
+      "label": "C1",
+      "category": "cefr",
+      "count": 25
+    },
+    {
+      "id": "lang:DE",
+      "label": "DE",
+      "category": "lang",
+      "count": 16
+    },
+    {
+      "id": "lang:EN",
+      "label": "EN",
+      "category": "lang",
+      "count": 17
+    },
+    {
+      "id": "lang:FR",
+      "label": "FR",
+      "category": "lang",
+      "count": 15
+    },
+    {
+      "id": "lic:CC",
+      "label": "CC",
+      "category": "lic",
+      "count": 8
+    },
+    {
+      "id": "lic:OE",
+      "label": "OE",
+      "category": "lic",
+      "count": 31
+    },
+    {
+      "id": "lic:PD",
+      "label": "PD",
+      "category": "lic",
+      "count": 9
+    },
+    {
+      "id": "skill:grammatik",
+      "label": "Grammatik",
+      "category": "skill",
+      "count": 16
+    },
+    {
+      "id": "skill:hoeren",
+      "label": "Hören",
+      "category": "skill",
+      "count": 29
+    },
+    {
+      "id": "skill:landeskunde",
+      "label": "Landeskunde",
+      "category": "skill",
+      "count": 25
+    },
+    {
+      "id": "skill:lesen",
+      "label": "Lesen",
+      "category": "skill",
+      "count": 36
+    },
+    {
+      "id": "skill:schreiben",
+      "label": "Schreiben",
+      "category": "skill",
+      "count": 4
+    },
+    {
+      "id": "skill:sprechen",
+      "label": "Sprechen",
+      "category": "skill",
+      "count": 8
+    },
+    {
+      "id": "skill:wortschatz",
+      "label": "Wortschatz",
+      "category": "skill",
+      "count": 39
+    },
+    {
+      "id": "unit:daf_a1",
+      "label": "daf_a1",
+      "category": "unit",
+      "count": 8
+    },
+    {
+      "id": "unit:daf_a2",
+      "label": "daf_a2",
+      "category": "unit",
+      "count": 11
+    },
+    {
+      "id": "unit:daf_b1",
+      "label": "daf_b1",
+      "category": "unit",
+      "count": 13
+    },
+    {
+      "id": "unit:daf_b2",
+      "label": "daf_b2",
+      "category": "unit",
+      "count": 8
+    },
+    {
+      "id": "unit:daf_c1",
+      "label": "daf_c1",
+      "category": "unit",
+      "count": 2
+    },
+    {
+      "id": "unit:efl_kl10",
+      "label": "efl_kl10",
+      "category": "unit",
+      "count": 14
+    },
+    {
+      "id": "unit:efl_kl11",
+      "label": "efl_kl11",
+      "category": "unit",
+      "count": 8
+    },
+    {
+      "id": "unit:efl_kl12",
+      "label": "efl_kl12",
+      "category": "unit",
+      "count": 6
+    },
+    {
+      "id": "unit:efl_kl5",
+      "label": "efl_kl5",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl6",
+      "label": "efl_kl6",
+      "category": "unit",
+      "count": 1
+    },
+    {
+      "id": "unit:efl_kl7",
+      "label": "efl_kl7",
+      "category": "unit",
+      "count": 4
+    },
+    {
+      "id": "unit:efl_kl8",
+      "label": "efl_kl8",
+      "category": "unit",
+      "count": 5
+    },
+    {
+      "id": "unit:efl_kl9",
+      "label": "efl_kl9",
+      "category": "unit",
+      "count": 14
+    },
+    {
+      "id": "unit:fle_kl10",
+      "label": "fle_kl10",
+      "category": "unit",
+      "count": 10
+    },
+    {
+      "id": "unit:fle_kl11",
+      "label": "fle_kl11",
+      "category": "unit",
+      "count": 10
+    },
+    {
+      "id": "unit:fle_kl12",
+      "label": "fle_kl12",
+      "category": "unit",
+      "count": 6
+    },
+    {
+      "id": "unit:fle_kl13",
+      "label": "fle_kl13",
+      "category": "unit",
+      "count": 3
+    },
+    {
+      "id": "unit:fle_kl7",
+      "label": "fle_kl7",
+      "category": "unit",
+      "count": 4
+    },
+    {
+      "id": "unit:fle_kl8",
+      "label": "fle_kl8",
+      "category": "unit",
+      "count": 8
+    },
+    {
+      "id": "unit:fle_kl9",
+      "label": "fle_kl9",
+      "category": "unit",
+      "count": 10
+    }
+  ],
+  "edges": [
+    {
+      "from": "cefr:A1",
+      "to": "cefr:A2",
+      "weight": 21
+    },
+    {
+      "from": "cefr:A1",
+      "to": "cefr:B1",
+      "weight": 20
+    },
+    {
+      "from": "cefr:A1",
+      "to": "cefr:B2",
+      "weight": 13
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:EN",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lic:OE",
+      "weight": 15
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:grammatik",
+      "weight": 13
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:hoeren",
+      "weight": 17
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:lesen",
+      "weight": 15
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:wortschatz",
+      "weight": 20
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl8",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl9",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:B1",
+      "weight": 30
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:B2",
+      "weight": 18
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:EN",
+      "weight": 9
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lic:OE",
+      "weight": 23
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:grammatik",
+      "weight": 15
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:hoeren",
+      "weight": 25
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:lesen",
+      "weight": 24
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:wortschatz",
+      "weight": 28
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl9",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B1",
+      "to": "cefr:B2",
+      "weight": 29
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:EN",
+      "weight": 15
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lic:OE",
+      "weight": 28
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:grammatik",
+      "weight": 15
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:hoeren",
+      "weight": 28
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:lesen",
+      "weight": 30
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:wortschatz",
+      "weight": 36
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl9",
+      "weight": 14
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lang:EN",
+      "weight": 15
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lic:OE",
+      "weight": 25
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:grammatik",
+      "weight": 12
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:hoeren",
+      "weight": 20
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:lesen",
+      "weight": 26
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:wortschatz",
+      "weight": 27
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl7",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl8",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl9",
+      "weight": 13
+    },
+    {
+      "from": "lang:EN",
+      "to": "lic:OE",
+      "weight": 11
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:grammatik",
+      "weight": 6
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:hoeren",
+      "weight": 10
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:lesen",
+      "weight": 11
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:wortschatz",
+      "weight": 14
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl9",
+      "weight": 14
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:grammatik",
+      "weight": 13
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:hoeren",
+      "weight": 25
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:lesen",
+      "weight": 23
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:wortschatz",
+      "weight": 24
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl9",
+      "weight": 10
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:hoeren",
+      "weight": 11
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:lesen",
+      "weight": 13
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:wortschatz",
+      "weight": 15
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl7",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl8",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl9",
+      "weight": 6
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:lesen",
+      "weight": 19
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:wortschatz",
+      "weight": 24
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl9",
+      "weight": 9
+    },
+    {
+      "from": "skill:lesen",
+      "to": "skill:wortschatz",
+      "weight": 30
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl7",
+      "weight": 3
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl8",
+      "weight": 3
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl9",
+      "weight": 9
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl7",
+      "weight": 4
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl8",
+      "weight": 5
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl9",
+      "weight": 12
+    },
+    {
+      "from": "unit:efl_kl7",
+      "to": "unit:efl_kl8",
+      "weight": 4
+    },
+    {
+      "from": "unit:efl_kl7",
+      "to": "unit:efl_kl9",
+      "weight": 4
+    },
+    {
+      "from": "unit:efl_kl8",
+      "to": "unit:efl_kl9",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A2",
+      "to": "cefr:C1",
+      "weight": 9
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:landeskunde",
+      "weight": 12
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl10",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl11",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "cefr:C1",
+      "weight": 19
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:landeskunde",
+      "weight": 18
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl10",
+      "weight": 12
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl11",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl12",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B2",
+      "to": "cefr:C1",
+      "weight": 25
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:landeskunde",
+      "weight": 18
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl10",
+      "weight": 14
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl11",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:efl_kl12",
+      "weight": 6
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lang:EN",
+      "weight": 13
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lic:OE",
+      "weight": 16
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:grammatik",
+      "weight": 7
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:hoeren",
+      "weight": 11
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:landeskunde",
+      "weight": 15
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:lesen",
+      "weight": 18
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:wortschatz",
+      "weight": 19
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl10",
+      "weight": 13
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl11",
+      "weight": 8
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl12",
+      "weight": 6
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl9",
+      "weight": 11
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:landeskunde",
+      "weight": 6
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl10",
+      "weight": 14
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl11",
+      "weight": 8
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl12",
+      "weight": 6
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:landeskunde",
+      "weight": 15
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl10",
+      "weight": 9
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl11",
+      "weight": 7
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:efl_kl12",
+      "weight": 5
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl10",
+      "weight": 5
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl11",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:efl_kl12",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:landeskunde",
+      "weight": 11
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl10",
+      "weight": 7
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl11",
+      "weight": 4
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl12",
+      "weight": 2
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "skill:lesen",
+      "weight": 23
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "skill:wortschatz",
+      "weight": 19
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl10",
+      "weight": 6
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl11",
+      "weight": 4
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl12",
+      "weight": 4
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:efl_kl9",
+      "weight": 4
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl10",
+      "weight": 9
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl11",
+      "weight": 5
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:efl_kl12",
+      "weight": 4
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl10",
+      "weight": 11
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl11",
+      "weight": 6
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl12",
+      "weight": 4
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl11",
+      "weight": 8
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl12",
+      "weight": 6
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl9",
+      "weight": 12
+    },
+    {
+      "from": "unit:efl_kl11",
+      "to": "unit:efl_kl12",
+      "weight": 6
+    },
+    {
+      "from": "unit:efl_kl11",
+      "to": "unit:efl_kl9",
+      "weight": 7
+    },
+    {
+      "from": "unit:efl_kl12",
+      "to": "unit:efl_kl9",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:DE",
+      "weight": 8
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:landeskunde",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_a1",
+      "weight": 8
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_a2",
+      "weight": 8
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_b1",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:DE",
+      "weight": 12
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_a1",
+      "weight": 8
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_a2",
+      "weight": 11
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_b1",
+      "weight": 10
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:DE",
+      "weight": 14
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_a1",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_a2",
+      "weight": 10
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_b1",
+      "weight": 13
+    },
+    {
+      "from": "lang:DE",
+      "to": "lic:OE",
+      "weight": 9
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:grammatik",
+      "weight": 7
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:hoeren",
+      "weight": 8
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:landeskunde",
+      "weight": 10
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:lesen",
+      "weight": 14
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:wortschatz",
+      "weight": 16
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_a1",
+      "weight": 8
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_a2",
+      "weight": 11
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_b1",
+      "weight": 13
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_a1",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_a2",
+      "weight": 7
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_b1",
+      "weight": 9
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_a1",
+      "weight": 7
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_a2",
+      "weight": 7
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_b1",
+      "weight": 6
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_a1",
+      "weight": 5
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_a2",
+      "weight": 7
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_b1",
+      "weight": 7
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_a2",
+      "weight": 5
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_b1",
+      "weight": 8
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_a1",
+      "weight": 6
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_a2",
+      "weight": 9
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_b1",
+      "weight": 12
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_a1",
+      "weight": 8
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_a2",
+      "weight": 11
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_b1",
+      "weight": 13
+    },
+    {
+      "from": "unit:daf_a1",
+      "to": "unit:daf_a2",
+      "weight": 8
+    },
+    {
+      "from": "unit:daf_a1",
+      "to": "unit:daf_b1",
+      "weight": 6
+    },
+    {
+      "from": "unit:daf_a2",
+      "to": "unit:daf_b1",
+      "weight": 9
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lang:FR",
+      "weight": 7
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl10",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl11",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl8",
+      "weight": 5
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl9",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lang:FR",
+      "weight": 10
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl10",
+      "weight": 9
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl11",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl8",
+      "weight": 7
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl9",
+      "weight": 9
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lang:FR",
+      "weight": 12
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl10",
+      "weight": 10
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl11",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl8",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl9",
+      "weight": 10
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lang:FR",
+      "weight": 12
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl10",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl11",
+      "weight": 10
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl8",
+      "weight": 5
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl9",
+      "weight": 8
+    },
+    {
+      "from": "lang:FR",
+      "to": "lic:OE",
+      "weight": 11
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:hoeren",
+      "weight": 11
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:landeskunde",
+      "weight": 9
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:lesen",
+      "weight": 11
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:wortschatz",
+      "weight": 9
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl10",
+      "weight": 10
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl11",
+      "weight": 10
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl8",
+      "weight": 8
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl9",
+      "weight": 10
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl10",
+      "weight": 9
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl11",
+      "weight": 9
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl8",
+      "weight": 5
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl9",
+      "weight": 8
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl10",
+      "weight": 9
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl11",
+      "weight": 8
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl8",
+      "weight": 6
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl9",
+      "weight": 8
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl10",
+      "weight": 5
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl11",
+      "weight": 6
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl8",
+      "weight": 4
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl9",
+      "weight": 6
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl10",
+      "weight": 8
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl11",
+      "weight": 8
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl8",
+      "weight": 6
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl9",
+      "weight": 9
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl10",
+      "weight": 7
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl11",
+      "weight": 5
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl8",
+      "weight": 7
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl9",
+      "weight": 7
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl11",
+      "weight": 7
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl8",
+      "weight": 6
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl9",
+      "weight": 9
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl8",
+      "weight": 3
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl9",
+      "weight": 6
+    },
+    {
+      "from": "unit:fle_kl8",
+      "to": "unit:fle_kl9",
+      "weight": 7
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:schreiben",
+      "weight": 4
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:schreiben",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:schreiben",
+      "weight": 4
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "skill:lesen",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "skill:wortschatz",
+      "weight": 2
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "cefr:C1",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:daf_b2",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_b2",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lang:DE",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:daf_a1",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:daf_a2",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:daf_b1",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:daf_b2",
+      "weight": 8
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lang:DE",
+      "weight": 5
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:daf_a1",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:daf_a2",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:daf_b1",
+      "weight": 4
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:daf_b2",
+      "weight": 5
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_b2",
+      "weight": 8
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_b2",
+      "weight": 5
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_b2",
+      "weight": 8
+    },
+    {
+      "from": "unit:daf_a1",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "unit:daf_a2",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "unit:daf_b1",
+      "to": "unit:daf_b2",
+      "weight": 7
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_b2",
+      "weight": 5
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_b2",
+      "weight": 7
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lic:PD",
+      "weight": 9
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lic:PD",
+      "weight": 9
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "lang:DE",
+      "to": "lic:PD",
+      "weight": 3
+    },
+    {
+      "from": "lang:DE",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "lic:PD",
+      "to": "skill:landeskunde",
+      "weight": 7
+    },
+    {
+      "from": "lic:PD",
+      "to": "skill:lesen",
+      "weight": 8
+    },
+    {
+      "from": "lic:PD",
+      "to": "skill:wortschatz",
+      "weight": 7
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:daf_b2",
+      "weight": 3
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:daf_c1",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "unit:daf_b2",
+      "to": "unit:daf_c1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "skill:sprechen",
+      "weight": 7
+    },
+    {
+      "from": "cefr:A2",
+      "to": "skill:sprechen",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B1",
+      "to": "skill:sprechen",
+      "weight": 8
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:schreiben",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "skill:sprechen",
+      "weight": 5
+    },
+    {
+      "from": "lang:DE",
+      "to": "skill:sprechen",
+      "weight": 2
+    },
+    {
+      "from": "lic:OE",
+      "to": "skill:sprechen",
+      "weight": 5
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "skill:sprechen",
+      "weight": 3
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "skill:sprechen",
+      "weight": 8
+    },
+    {
+      "from": "skill:lesen",
+      "to": "skill:sprechen",
+      "weight": 3
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "skill:sprechen",
+      "weight": 2
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:daf_b2",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "skill:wortschatz",
+      "weight": 7
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:daf_a1",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:daf_a2",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:daf_b1",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:daf_b2",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "lic:CC",
+      "weight": 6
+    },
+    {
+      "from": "cefr:A2",
+      "to": "lic:CC",
+      "weight": 8
+    },
+    {
+      "from": "lang:DE",
+      "to": "lic:CC",
+      "weight": 4
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:grammatik",
+      "weight": 3
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:landeskunde",
+      "weight": 3
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:lesen",
+      "weight": 5
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:wortschatz",
+      "weight": 8
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:daf_a1",
+      "weight": 3
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:daf_a2",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lic:CC",
+      "weight": 7
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:daf_c1",
+      "weight": 1
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:daf_c1",
+      "weight": 1
+    },
+    {
+      "from": "unit:daf_b1",
+      "to": "unit:daf_c1",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl12",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl12",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl12",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl12",
+      "weight": 6
+    },
+    {
+      "from": "cefr:C1",
+      "to": "lang:FR",
+      "weight": 7
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl10",
+      "weight": 3
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl11",
+      "weight": 6
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl12",
+      "weight": 4
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl9",
+      "weight": 4
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl12",
+      "weight": 6
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl12",
+      "weight": 5
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl12",
+      "weight": 4
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl12",
+      "weight": 4
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl12",
+      "weight": 4
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl12",
+      "weight": 2
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl12",
+      "weight": 3
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl12",
+      "weight": 6
+    },
+    {
+      "from": "unit:fle_kl12",
+      "to": "unit:fle_kl9",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl7",
+      "weight": 3
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl7",
+      "weight": 2
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl8",
+      "weight": 3
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:grammatik",
+      "weight": 3
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl7",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:fle_kl10",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:fle_kl11",
+      "weight": 2
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:fle_kl7",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:fle_kl8",
+      "weight": 3
+    },
+    {
+      "from": "skill:grammatik",
+      "to": "unit:fle_kl9",
+      "weight": 3
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl7",
+      "weight": 2
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:fle_kl7",
+      "weight": 4
+    },
+    {
+      "from": "unit:fle_kl10",
+      "to": "unit:fle_kl7",
+      "weight": 3
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl7",
+      "weight": 2
+    },
+    {
+      "from": "unit:fle_kl7",
+      "to": "unit:fle_kl8",
+      "weight": 4
+    },
+    {
+      "from": "unit:fle_kl7",
+      "to": "unit:fle_kl9",
+      "weight": 3
+    },
+    {
+      "from": "cefr:B2",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "lang:FR",
+      "to": "lic:PD",
+      "weight": 2
+    },
+    {
+      "from": "lang:FR",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:fle_kl12",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:fle_kl13",
+      "weight": 1
+    },
+    {
+      "from": "skill:landeskunde",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "skill:lesen",
+      "to": "unit:fle_kl13",
+      "weight": 2
+    },
+    {
+      "from": "unit:fle_kl11",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "unit:fle_kl12",
+      "to": "unit:fle_kl13",
+      "weight": 3
+    },
+    {
+      "from": "lic:OE",
+      "to": "unit:fle_kl13",
+      "weight": 2
+    },
+    {
+      "from": "lang:FR",
+      "to": "lic:CC",
+      "weight": 2
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:fle_kl8",
+      "weight": 2
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:sprechen",
+      "weight": 3
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl10",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl7",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl8",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl9",
+      "weight": 2
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:fle_kl13",
+      "weight": 1
+    },
+    {
+      "from": "lang:FR",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:fle_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:fle_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:fle_kl12",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:sprechen",
+      "weight": 2
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:sprechen",
+      "weight": 3
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl10",
+      "weight": 2
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl9",
+      "weight": 2
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl10",
+      "weight": 3
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl7",
+      "weight": 2
+    },
+    {
+      "from": "cefr:C1",
+      "to": "unit:efl_kl8",
+      "weight": 3
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl7",
+      "weight": 2
+    },
+    {
+      "from": "unit:efl_kl10",
+      "to": "unit:efl_kl8",
+      "weight": 3
+    },
+    {
+      "from": "unit:efl_kl11",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "cefr:C1",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "skill:schreiben",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "skill:schreiben",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "lic:PD",
+      "weight": 6
+    },
+    {
+      "from": "lang:EN",
+      "to": "lic:PD",
+      "weight": 4
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:efl_kl10",
+      "weight": 4
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:efl_kl11",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:efl_kl12",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:efl_kl9",
+      "weight": 3
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl7",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:fle_kl8",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:fle_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "unit:daf_b1",
+      "weight": 2
+    },
+    {
+      "from": "cefr:B2",
+      "to": "lic:CC",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "lic:CC",
+      "weight": 2
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:efl_kl10",
+      "weight": 1
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:efl_kl9",
+      "weight": 1
+    },
+    {
+      "from": "lic:PD",
+      "to": "skill:hoeren",
+      "weight": 1
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:hoeren",
+      "weight": 3
+    },
+    {
+      "from": "lic:CC",
+      "to": "skill:sprechen",
+      "weight": 3
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:fle_kl7",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A1",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "cefr:A2",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "cefr:B1",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "lang:EN",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "lic:CC",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "skill:hoeren",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "skill:sprechen",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl5",
+      "weight": 1
+    },
+    {
+      "from": "skill:wortschatz",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    },
+    {
+      "from": "unit:efl_kl5",
+      "to": "unit:efl_kl6",
+      "weight": 1
+    }
+  ],
+  "resources": [
+    {
+      "id": "bc-learnenglish-teens",
+      "title": "LearnEnglish Teens",
+      "publisher": "British Council",
+      "url": "https://learnenglishteens.britishcouncil.org/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Grammatik",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl7",
+        "efl_kl8",
+        "efl_kl9"
+      ],
+      "description": "Umfangreiche Plattform mit Videos, Lese- und Hörtexten, Grammatik- Übungen und Vokabeltrainern für die Altersgruppe 13–17. Qualitativ hochwertig und didaktisch aufbereitet.",
+      "curator_notes": "Besonders stark im Bereich Listening mit niveaudifferenzierten Aufgaben. Videos haben Transkripte. Einzelne Bereiche brauchen einen kostenlosen Login.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl7",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "bbc-learning-english",
+      "title": "BBC Learning English",
+      "publisher": "BBC",
+      "url": "https://www.bbc.co.uk/learningenglish",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Grammatik",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Breit aufgestelltes Angebot der BBC mit niveaudifferenzierten Nachrichten, Vokabel- und Grammatikserien sowie Podcasts. Authentisches britisches Englisch in vielfältigen Registern.",
+      "curator_notes": "Hervorragend für den Einstieg in authentische Mediennutzung. Die Reihe \"6 Minute English\" funktioniert zuverlässig auch in heterogenen Lerngruppen.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "dw-nicos-weg",
+      "title": "Nicos Weg",
+      "publisher": "Deutsche Welle",
+      "url": "https://learngerman.dw.com/de/nicos-weg/c-36519687",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Grammatik",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Telenovela-artiger Deutschkurs in 230 Folgen, eingebettet in interaktive Übungen und Grammatikerklärungen. Komplette Abdeckung der Niveaus A1 bis B1.",
+      "curator_notes": "Eine der hochwertigsten freien Ressourcen für DaF. Die Geschichte motiviert auch zögerliche Lernende. Transkripte und Untertitel sind durchgängig vorhanden.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "tv5monde-apprendre",
+      "title": "Apprendre le français",
+      "publisher": "TV5Monde",
+      "url": "https://apprendre.tv5monde.com/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11"
+      ],
+      "description": "Umfangreiche Sammlung kurzer Videosequenzen aus dem TV5Monde- Programm, didaktisch aufbereitet mit Aufgaben auf vier Niveaus. Authentisches Material aus der gesamten Frankophonie.",
+      "curator_notes": "Ideal für kurze Hör-Seh-Einheiten von 5–15 Minuten. Themen aus Quebec, Belgien und Westafrika erweitern die Frankophonie- Perspektive über Frankreich hinaus.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "goethe-deutsch-fuer-dich",
+      "title": "Deutsch für dich",
+      "publisher": "Goethe-Institut",
+      "url": "https://www.goethe.de/prj/dfd/de/home.cfm",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "schreiben",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Schreiben",
+        "Grammatik",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Community- und Übungsplattform des Goethe-Instituts mit niveaudifferenzierten Materialien, Lernspielen und Austauschmöglichkeiten zwischen Lernenden weltweit.",
+      "curator_notes": "Besonders nützlich für eigenständige Wortschatzarbeit zwischen den Präsenzphasen. Die Gruppenfunktion eignet sich für kleinere Schreibprojekte.",
+      "last_checked": "2026-05-01",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:schreiben",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "deutschakademie-grammatiktrainer",
+      "title": "DeutschAkademie – Online-Deutschkurs & Grammatiktrainer",
+      "publisher": "DeutschAkademie",
+      "url": "https://www.deutschakademie.de/online-deutschkurs/",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Kostenloser Online-Grammatiktrainer mit über 25.000 interaktiven Übungen, sortiert nach Niveau (A1–C1) und nach über 150 Grammatikthemen. Sofortige Auswertung und Erklärungen machen ihn ideal für gezieltes, selbstständiges Üben.",
+      "curator_notes": "Eignet sich gut als Differenzierungs- und Hausaufgabenpool: einzelne Themen (z. B. Wechselpräpositionen) lassen sich gezielt zuweisen. Für Freiarbeit oder Vertretungsstunden am Tablet gut einsetzbar.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "planet-schule-swr-wdr",
+      "title": "Planet Schule",
+      "publisher": "SWR / WDR (ARD)",
+      "url": "https://www.planet-schule.de/",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "landeskunde",
+        "hoeren",
+        "lesen",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Landeskunde",
+        "Hören",
+        "Lesen",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Kostenlose Bildungsmediathek der Landesrundfunkanstalten SWR und WDR mit Lernfilmen, interaktiven Modulen und Arbeitsblättern zu vielen Schulfächern. Authentische, didaktisch aufbereitete Inhalte zu Natur, Geschichte, Gesellschaft und Sprache.",
+      "curator_notes": "Ideal für landeskundliche und fächerübergreifende Projekte; viele Filme haben Begleitmaterial. Für DaF-Lernende ab B1 als authentischer Hörseh-Input nutzbar, bei Bedarf mit Untertiteln.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:DE",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "projekt-gutenberg-de",
+      "title": "Projekt Gutenberg-DE",
+      "publisher": "Projekt Gutenberg-DE",
+      "url": "https://www.projekt-gutenberg.org/",
+      "language": "DE",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "daf_b2",
+        "daf_c1"
+      ],
+      "description": "Große digitale Bibliothek gemeinfreier deutschsprachiger Literatur mit rund 13.000 Titeln von Goethe und Schiller bis Kafka und den Brüdern Grimm. Alle Texte sind kostenlos direkt im Browser lesbar.",
+      "curator_notes": "Quelle für Originaltexte, Balladen und Märchen im Literaturunterricht und für Referate. Für fortgeschrittene DaF- Lernende (B2/C1) als authentische Lektüre; kürzere Märchen lassen sich auch früher einsetzen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:DE",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_b2",
+        "unit:daf_c1"
+      ]
+    },
+    {
+      "id": "dlf-nachrichtenleicht",
+      "title": "nachrichtenleicht",
+      "publisher": "Deutschlandfunk",
+      "url": "https://www.nachrichtenleicht.de/",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Wöchentliche Nachrichten in Leichter Sprache vom Deutschlandfunk, jeweils als Text und zum Anhören. Schwierige Begriffe werden in einem integrierten Wörterbuch erklärt – ein idealer Einstieg in authentische Nachrichten.",
+      "curator_notes": "Aktuelle Themen niedrigschwellig; das integrierte Wörterbuch entlastet den Wortschatz. Der wöchentliche Podcast eignet sich für regelmäßiges Hörtraining und einen Wochenrückblick im Kurs.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "vhs-lernportal-deutsch",
+      "title": "vhs-Lernportal – Deutsch",
+      "publisher": "Deutscher Volkshochschul-Verband (DVV)",
+      "url": "https://www.vhs-lernportal.de/deutsch",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "schreiben",
+        "sprechen",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Schreiben",
+        "Sprechen",
+        "Grammatik",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Kostenloses, vom Bundesbildungsministerium gefördertes Lernportal des Deutschen Volkshochschul-Verbands mit vollständigen Deutschkursen von A1 bis B2. Interaktive Übungen mit Audio und Video, ergänzt durch kostenlose Betreuung durch Online-Tutor:innen.",
+      "curator_notes": "Sehr gut für binnendifferenziertes Selbstlernen und für neu zugewanderte Schüler:innen (DaZ). Lehrkräfte können sich als Tutor:innen registrieren, Lerngruppen anlegen und Fortschritte verfolgen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:schreiben",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "mein-deutschbuch-daf",
+      "title": "mein-deutschbuch.de",
+      "publisher": "mein-deutschbuch.de",
+      "url": "https://mein-deutschbuch.de/",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "grammatik",
+        "lesen",
+        "wortschatz",
+        "hoeren"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Lesen",
+        "Wortschatz",
+        "Hören"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Umfangreiches kostenloses Nachschlagewerk zur deutschen Grammatik mit Erklärungen, Verblisten sowie Lese- und Diktatübungen für DaF- Lernende. Viele Materialien lassen sich kostenlos herunterladen.",
+      "curator_notes": "Praktisch für schnelle Grammatik-Erklärungen und Arbeitsblätter zur Differenzierung. Die Verblisten und die Übungen zu Wechselpräpositionen sind im Unterricht bewährt.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:DE",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "zum-deutsch-lernen",
+      "title": "ZUM Deutsch Lernen",
+      "publisher": "Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)",
+      "url": "https://deutsch-lernen.zum.de/",
+      "language": "DE",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2"
+      ],
+      "skills": [
+        "grammatik",
+        "wortschatz",
+        "landeskunde",
+        "lesen"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Wortschatz",
+        "Landeskunde",
+        "Lesen"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2"
+      ],
+      "description": "Offene Plattform für Deutsch als Fremd- und Zweitsprache vom gemeinnützigen Verein ZUM. Bietet interaktive Übungen, Lernpfade, eine Grammatik-Kiste und ein DaF-Glossar für die Niveaus A1 und A2.",
+      "curator_notes": "Da CC-lizenziert, dürfen Materialien angepasst und in eigene Arbeitsblätter übernommen werden. Gut für Lernpfade im Anfangsunterricht und in DaZ-Vorbereitungsklassen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "lang:DE",
+        "lic:CC",
+        "skill:grammatik",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2"
+      ]
+    },
+    {
+      "id": "klexikon-kinderlexikon",
+      "title": "Klexikon – Das Kinderlexikon",
+      "publisher": "Zentrale für Unterrichtsmedien im Internet e.V. (ZUM)",
+      "url": "https://klexikon.zum.de/",
+      "language": "DE",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Das größte freie Kinderlexikon in deutscher Sprache mit rund 3.500 Artikeln in einfacher, klarer Sprache. Themen aus Natur, Geschichte, Geografie und Kultur, jeweils mit Bildern.",
+      "curator_notes": "Die einfache Sprache eignet sich hervorragend als niedrigschwellige Lesequelle für DaF-Lernende ab A2 und für Recherche-Aufgaben. Artikel können als Grundlage für Lesetexte und Wortschatzarbeit dienen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:CC",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "zdf-logo-kindernachrichten",
+      "title": "logo! – Die Kindernachrichten des ZDF",
+      "publisher": "ZDF",
+      "url": "https://www.logo.de/",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "landeskunde",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Landeskunde",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Kostenlose Kindernachrichten des öffentlich-rechtlichen ZDF mit täglichen Videobeiträgen und Erklärstücken in verständlicher Sprache. Aktuelle Themen aus Politik, Umwelt und Gesellschaft werden anschaulich aufbereitet.",
+      "curator_notes": "Die kurzen Erklärvideos eignen sich als aktueller Hörseh-Input ab A2/B1; viele Beiträge sind untertitelt. Gut für einen Wochenrückblick oder als Einstieg in gesellschaftliche Themen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "deutschland-de-landeskunde",
+      "title": "deutschland.de",
+      "publisher": "FAZIT Communication / Auswärtiges Amt",
+      "url": "https://www.deutschland.de/de",
+      "language": "DE",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_b1",
+        "daf_b2",
+        "daf_c1"
+      ],
+      "description": "Offizielles Deutschland-Portal mit landeskundlichen Artikeln zu Politik, Kultur, Gesellschaft und Wirtschaft, verfügbar in zehn Sprachen. Kostenlos und redaktionell hochwertig aufbereitet.",
+      "curator_notes": "Gute Quelle für aktuelle Landeskunde und interkulturelle Vergleiche ab B1. Die mehrsprachige Verfügbarkeit erlaubt Lernenden, Inhalte zunächst in der Erstsprache zu erschließen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:DE",
+        "lic:OE",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_b1",
+        "unit:daf_b2",
+        "unit:daf_c1"
+      ]
+    },
+    {
+      "id": "wikibooks-deutsch-als-fremdsprache",
+      "title": "Wikibooks – Deutsch als Fremdsprache",
+      "publisher": "Wikimedia / Wikibooks",
+      "url": "https://de.wikibooks.org/wiki/Regal:Deutsch_als_Fremdsprache",
+      "language": "DE",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "grammatik",
+        "lesen",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Lesen",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2",
+        "daf_b1"
+      ],
+      "description": "Freie, gemeinschaftlich erstellte Lehrbücher für Deutsch als Fremdsprache auf Wikibooks, jeweils zugeschnitten auf verschiedene Ausgangssprachen. Offen lizenziert und kostenlos.",
+      "curator_notes": "Weil CC-lizenziert, dürfen Kapitel kopiert, angepasst und in eigenes Material übernommen werden. Nützlich als Grundlage für selbst erstellte Kurshefte; die Qualität schwankt je nach Kapitel.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:CC",
+        "skill:grammatik",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2",
+        "unit:daf_b1"
+      ]
+    },
+    {
+      "id": "rfi-le-francais-facile",
+      "title": "Le français facile avec RFI",
+      "publisher": "Radio France Internationale (RFI)",
+      "url": "https://francaisfacile.rfi.fr/fr/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11",
+        "fle_kl12"
+      ],
+      "description": "Der Sprachlernbereich von RFI verbindet aktuelle internationale Nachrichten mit dem Sprachenlernen. Kernstück ist das langsam gesprochene Journal en français facile mit Transkript, ergänzt um niveaudifferenzierte Übungen (A1 bis C1) und Podcast-Reihen. Zusätzlich gibt es kostenloses Training für die mündlichen DELF-, TCF- und DFP-Prüfungen.",
+      "curator_notes": "Ideal für regelmäßige Hörroutinen: das kurze Journal en français facile eignet sich als wöchentlicher Einstieg, das Transkript dient zur Selbstkontrolle. Die nach Niveau sortierten Übungen lassen sich gut zur Binnendifferenzierung in heterogenen Lerngruppen einsetzen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl12",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "lepointdufle",
+      "title": "Le Point du FLE",
+      "publisher": "Le Point du FLE",
+      "url": "https://www.lepointdufle.net/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "grammatik",
+        "wortschatz",
+        "hoeren",
+        "lesen"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Wortschatz",
+        "Hören",
+        "Lesen"
+      ],
+      "applicable_units": [
+        "fle_kl7",
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11"
+      ],
+      "description": "Umfangreiches, thematisch geordnetes Portal, das kostenlose FLE- Übungen und -Materialien aus dem ganzen Web bündelt. Grammatik, Wortschatz, Aussprache und Hörverstehen sind nach Themen und Niveaus sortiert. Ein Nachschlagewerk, das viel eigene Suchzeit spart.",
+      "curator_notes": "Als Ausgangspunkt für die Unterrichtsvorbereitung nutzen: über die Themenrubriken schnell passende Übungen zu einem Grammatik- oder Wortschatzpunkt finden. Vor dem Einsatz kurz prüfen, da manche verlinkten Zielseiten Werbung enthalten.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl7",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "bonjour-de-france",
+      "title": "Bonjour de France",
+      "publisher": "Bonjour de France (Azurlingua)",
+      "url": "https://www.bonjourdefrance.com/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "grammatik",
+        "lesen",
+        "hoeren",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Grammatik",
+        "Lesen",
+        "Hören",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "fle_kl7",
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11"
+      ],
+      "description": "Kostenloses Lernmagazin mit interaktiven Übungen, die konsequent nach GER-Niveaus (A1 bis C1) geordnet sind. Es deckt Grammatik, Wortschatz, Lese- und Hörverstehen sowie Diktate und Tests ab. Praktisch für gezieltes, selbstständiges Üben.",
+      "curator_notes": "Gut für Vertretungsstunden und Hausaufgaben: Lernende wählen ihr Niveau und arbeiten selbstständig an einer klar umrissenen Übung. Die Diktate eignen sich als kurzer Einstieg ins Training von Orthografie und Hörverstehen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl7",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "wikisource-fr",
+      "title": "Wikisource en français",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://fr.wikisource.org/wiki/Wikisource:Accueil",
+      "language": "FR",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl11",
+        "fle_kl12",
+        "fle_kl13"
+      ],
+      "description": "Freie Online-Bibliothek gemeinfreier französischer Literatur und Sachtexte, aus digitalisierten Originalen sorgfältig transkribiert. Von Klassikern wie Molière und Zola bis zu historischen Dokumenten steht ein riesiger, kostenloser Textbestand bereit. Ideal für authentische Lektüre in der Oberstufe.",
+      "curator_notes": "Für die Oberstufe eine kostenlose Quelle unbearbeiteter Originaltexte, etwa für eine Ganzschrift oder Textauszüge zu einem Autor. Wegen der historischen Sprache am besten kürzere, kommentierte Passagen auswählen und mit Lesestrategien begleiten.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "unit:fle_kl11",
+        "unit:fle_kl12",
+        "unit:fle_kl13"
+      ]
+    },
+    {
+      "id": "lumni-college",
+      "title": "Lumni (Collège)",
+      "publisher": "France Télévisions (Lumni)",
+      "url": "https://www.lumni.fr/college",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "landeskunde",
+        "hoeren",
+        "lesen"
+      ],
+      "skills_labels": [
+        "Landeskunde",
+        "Hören",
+        "Lesen"
+      ],
+      "applicable_units": [
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11"
+      ],
+      "description": "Öffentlich-rechtliche Bildungsplattform mit kurzen Erklärvideos, Quiz und Spielen für französische Schülerinnen und Schüler. Die authentischen, muttersprachlich produzierten Inhalte zu Geschichte, Kultur und Alltag geben einen unmittelbaren Einblick in französische Schule und Gesellschaft. Reihen wie 1 jour, 1 question sind besonders leicht zugänglich.",
+      "curator_notes": "Wertvoll für Landeskunde: die kurzen 1 jour, 1 question-Videos eignen sich als authentischer Hörimpuls schon ab A2/B1. Da die Inhalte für Muttersprachler gemacht sind, vorab auf sprachliche Dichte prüfen und mit Aufgaben entlasten.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "milan-1jour1actu",
+      "title": "1jour1actu",
+      "publisher": "Milan Presse",
+      "url": "https://www.1jour1actu.com/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde",
+        "hoeren"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde",
+        "Hören"
+      ],
+      "applicable_units": [
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10"
+      ],
+      "description": "Nachrichtenseite, die Weltgeschehen kindgerecht und in einfacher, klarer Sprache erklärt. Kurze Artikel und die animierten Videos der Reihe C'est quoi… greifen aktuelle Themen auf. Die reduzierte Sprache macht authentische Aktualität schon auf A2/B1 zugänglich.",
+      "curator_notes": "Gut geeignet für Lesekurse zur Aktualität: ein kurzer Artikel plus das passende Erklärvideo ergibt eine runde Doppelstunde. Die einfache Syntax erlaubt es, Wortschatz im Kontext zu erschließen statt vorzuentlasten.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:lesen",
+        "unit:fle_kl10",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "gallica-bnf",
+      "title": "Gallica",
+      "publisher": "Bibliothèque nationale de France (BnF)",
+      "url": "https://gallica.bnf.fr/accueil/fr/content/accueil-fr",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl11",
+        "fle_kl12",
+        "fle_kl13"
+      ],
+      "description": "Digitale Bibliothek der französischen Nationalbibliothek mit Millionen digitalisierter Bücher, Zeitungen, Karten und Bilder. Thematische Parcours erschließen Literatur, Geschichte und Kunst und liefern authentische Primärquellen. Eine reiche Fundgrube für Landeskunde und historische Kontexte.",
+      "curator_notes": "Für Projekt- und Facharbeiten in der Oberstufe eine Quelle historischer Originale (Plakate, Presse, Fotografien). Über die parcours thématiques gezielt einsteigen und einzelne Dokumente als Bildimpuls oder Quellenanalyse in den Unterricht holen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:OE",
+        "skill:landeskunde",
+        "skill:lesen",
+        "unit:fle_kl11",
+        "unit:fle_kl12",
+        "unit:fle_kl13"
+      ]
+    },
+    {
+      "id": "vikidia-fr",
+      "title": "Vikidia (français)",
+      "publisher": "Association Vikidia",
+      "url": "https://fr.vikidia.org/wiki/Vikidia:Accueil",
+      "language": "FR",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10"
+      ],
+      "description": "Freie französische Enzyklopädie, deren Artikel bewusst einfach und für 8- bis 13-Jährige geschrieben sind. Sie bietet zu tausenden Themen kurze, klar strukturierte Texte in gut zugänglichem Französisch. Eine muttersprachliche, aber sprachlich entlastete Alternative zu Wikipedia.",
+      "curator_notes": "Ideal für Recherche- und Lesetraining: Lernende recherchieren ein Thema auf verständlichem Niveau, ohne an muttersprachlicher Fachsprache zu scheitern. Gut als Grundlage für kurze mündliche Präsentationen oder Wortschatzarbeit.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "lang:FR",
+        "lic:CC",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "podcast-francais-facile",
+      "title": "Podcast Français Facile",
+      "publisher": "Vincent Durrenberger",
+      "url": "https://www.podcastfrancaisfacile.com/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "sprechen",
+        "wortschatz",
+        "grammatik"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Sprechen",
+        "Wortschatz",
+        "Grammatik"
+      ],
+      "applicable_units": [
+        "fle_kl7",
+        "fle_kl8",
+        "fle_kl9",
+        "fle_kl10"
+      ],
+      "description": "Seit Jahren gepflegte Sammlung kostenloser Audio-Dialoge, Diktate und Ausspracheübungen, jeweils mit vollständigem Transkript. Die klar gesprochenen Aufnahmen decken Alltagssituationen, Grammatik und Phonetik von A1 bis B2 ab. Besonders stark im Bereich Hörverstehen und Nachsprechen.",
+      "curator_notes": "Die kurzen Dialoge mit Transkript eignen sich für die Methode Hören–Mitlesen–Nachsprechen zur Ausspracheschulung. Diktate lassen sich als selbstständige Wochenaufgabe vergeben, da Lösung und Audio online stehen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl7",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "radiofrance-franceinfo",
+      "title": "franceinfo (Radio France)",
+      "publisher": "Radio France",
+      "url": "https://www.radiofrance.fr/franceinfo",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl11",
+        "fle_kl12",
+        "fle_kl13"
+      ],
+      "description": "Öffentlich-rechtlicher Nachrichtensender mit Livestream und einem umfangreichen kostenlosen Podcast-Archiv zu Politik, Gesellschaft, Wissenschaft und Kultur. Authentisches, natürliches Sprechtempo bietet echtes Hörtraining für fortgeschrittene Lernende. Die Kinderreihen Salut l'info ! und franceinfo junior sind etwas leichter zugänglich.",
+      "curator_notes": "Für B2/C1 eine Quelle authentischer Aktualität; kurze Rubriken wie das tägliche Vrai ou faux eignen sich als abgeschlossene Höreinheit. Für schwächere Gruppen mit der Kinderreihe Salut l'info ! einsteigen und Höraufträge vorschalten.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "unit:fle_kl11",
+        "unit:fle_kl12",
+        "unit:fle_kl13"
+      ]
+    },
+    {
+      "id": "fei-delf-dalf",
+      "title": "DELF / DALF / TCF – France Éducation international",
+      "publisher": "France Éducation international",
+      "url": "https://www.france-education-international.fr/hub/diplomes-tests",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "schreiben",
+        "sprechen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Schreiben",
+        "Sprechen"
+      ],
+      "applicable_units": [
+        "fle_kl9",
+        "fle_kl10",
+        "fle_kl11",
+        "fle_kl12"
+      ],
+      "description": "Offizielle Seite der für die DELF-, DALF- und TCF-Diplome zuständigen Ministeriumseinrichtung. Sie erklärt die Prüfungsformate und stellt kostenlose Beispiel- und Übungsprüfungen mit Audiodateien bereit. Besonders relevant ist die Variante DELF junior/scolaire für Jugendliche.",
+      "curator_notes": "Zur gezielten Prüfungsvorbereitung: Übungsprüfungen unter realen Bedingungen einsetzen, um Formate der vier Kompetenzen einzuüben. Für die Schule die Reihe DELF junior/scolaire wählen, deren Themen altersgerecht sind.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:schreiben",
+        "skill:sprechen",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl12",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "france-bienvenue",
+      "title": "France Bienvenue",
+      "publisher": "France Bienvenue",
+      "url": "https://francebienvenue.fr/",
+      "language": "FR",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "fle_kl10",
+        "fle_kl11",
+        "fle_kl12"
+      ],
+      "description": "Sammlung echter, unskripteter Gespräche mit Muttersprachlern, jeweils mit vollständiger Transkription und Vokabelerklärungen. Die natürlichen Aufnahmen zeigen gesprochenes Alltagsfranzösisch mit Verschleifungen und Umgangssprache. Wertvoll für den Übergang von Lehrbuch- zu authentischem Hörverstehen.",
+      "curator_notes": "Für B1/B2 ideal, um Merkmale gesprochener Sprache bewusst zu machen: erst ohne, dann mit Transkript hören. Die Vokabelnotizen eignen sich, um umgangssprachliche Wendungen gezielt zu sammeln.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "lang:FR",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:wortschatz",
+        "unit:fle_kl10",
+        "unit:fle_kl11",
+        "unit:fle_kl12"
+      ]
+    },
+    {
+      "id": "breaking-news-english",
+      "title": "Breaking News English",
+      "publisher": "Breaking News English (Sean Banville)",
+      "url": "https://breakingnewsenglish.com/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "hoeren",
+        "wortschatz",
+        "sprechen",
+        "grammatik"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Hören",
+        "Wortschatz",
+        "Sprechen",
+        "Grammatik"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11"
+      ],
+      "description": "Aktuelle Nachrichtenmeldungen, jede in sieben Schwierigkeitsstufen mit Lesetext, Hörfassung in mehreren Tempi, Quizzes und Diskussionsfragen. Zu jeder Story gibt es umfangreiche druckbare Arbeitsblätter (PDF). Ideal für binnendifferenzierten Umgang mit demselben Thema.",
+      "curator_notes": "Ein und dieselbe Meldung auf unterschiedlichen Niveaus austeilen, damit alle über das gleiche Thema sprechen. Die Diskussionsfragen eignen sich gut als Sprechanlass zum Stundeneinstieg.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "ted-ed",
+      "title": "TED-Ed Lessons",
+      "publisher": "TED Conferences",
+      "url": "https://ed.ted.com/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Kurze animierte Erklärvideos zu Wissenschaft, Geschichte, Literatur und Gesellschaft, jeweils eingebettet in Verständnisfragen und weiterführende Aufgaben. Untertitel in über 80 Sprachen erleichtern das Verstehen. Authentisches, thematisch breites Englisch.",
+      "curator_notes": "Videos mit englischen Untertiteln als Hörsehverstehen einsetzen; die Rubrik \"Think\" liefert fertige Verständnisfragen für die Freiarbeit. Gut geeignet für fächerübergreifende Projekte.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:landeskunde",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "esolcourses-english",
+      "title": "ESOL Courses",
+      "publisher": "ESOL Courses",
+      "url": "https://www.esolcourses.com/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "lesen",
+        "grammatik",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Lesen",
+        "Grammatik",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl7",
+        "efl_kl8",
+        "efl_kl9",
+        "efl_kl10"
+      ],
+      "description": "Umfangreiche Sammlung kostenloser interaktiver Übungen, gestufter Lesetexte, Grammatik- und Höraufgaben von A1 bis C1. Zusätzlich Spiele, Rätsel und thematische Kurse (z. B. Alltag in Großbritannien/USA). Klar nach Niveaustufen sortiert.",
+      "curator_notes": "Als Selbstlern-Pool für Vertretungsstunden oder Wochenpläne einsetzen: Lernende wählen Übungen zu ihrem Niveau. Die Grammatikspiele motivieren auch schwächere Lernende.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl7",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "esl-lab-randall",
+      "title": "Randall's ESL Cyber Listening Lab",
+      "publisher": "Randall Davis (esl-lab.com)",
+      "url": "https://www.esl-lab.com/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl8",
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11"
+      ],
+      "description": "Seit 1998 gewachsene Bibliothek an Hörverstehensübungen mit authentischen Dialogen in drei Schwierigkeitsstufen. Jede Übung bietet Vorentlastung, Quiz, Transkript und Vokabelarbeit. Zusätzlich Interviews mit Muttersprachlern und akademische Hörtexte.",
+      "curator_notes": "Die dreistufige Einteilung erlaubt saubere Binnendifferenzierung im Hörverstehen. Transkripte erst nach dem zweiten Hören freigeben, damit das Hören im Vordergrund bleibt.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "smithsonian-learning-lab",
+      "title": "Smithsonian Learning Lab",
+      "publisher": "Smithsonian Institution",
+      "url": "https://learninglab.si.edu/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Millionen digitalisierter Objekte, Bilder, Texte und Videos aus den Smithsonian-Museen, gebündelt in kuratierten Themensammlungen zu Kunst, US-Geschichte und Naturwissenschaften. Lehrkräfte können eigene Sammlungen mit Aufgaben und Quizzes bauen. Reiche authentische Landeskunde-Quelle.",
+      "curator_notes": "Für Landeskunde-Projekte zu den USA eine eigene Sammlung anlegen und den Lernenden gezielt Objekte mit Leitfragen zuweisen. Bildquellen eignen sich gut als Sprech- und Schreibanlass.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "british-library-discovering-literature",
+      "title": "Discovering Literature (British Library)",
+      "publisher": "British Library",
+      "url": "https://www.bl.uk/discovering-literature/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Über 130 Fachartikel zur englischen Literatur von den Anfängen bis zur Gegenwart, angereichert mit digitalisierten Handschriften, Erstausgaben und Videos. Deckt Shakespeare, das 19. Jahrhundert und moderne Werke ab. Fundierte Hintergrundquelle für die Oberstufe.",
+      "curator_notes": "Als Hintergrundlektüre zu Ganzschriften und Dramen der Oberstufe einsetzen. Hinweis: Nach dem Cyberangriff 2023 ist derzeit ein Teil der Inhalte über eine Padlet-Auswahl erreichbar; Link vor dem Einsatz kurz prüfen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:landeskunde",
+        "skill:lesen",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12"
+      ]
+    },
+    {
+      "id": "purdue-owl",
+      "title": "Purdue OWL (Online Writing Lab)",
+      "publisher": "Purdue University",
+      "url": "https://owl.purdue.edu/owl/purdue_owl.html",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "schreiben",
+        "grammatik"
+      ],
+      "skills_labels": [
+        "Schreiben",
+        "Grammatik"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Umfassende Schreibwerkstatt einer US-Universität mit Anleitungen zu Grammatik, Zeichensetzung, Aufsatzbau und Textsorten sowie Zitierweisen (MLA, APA). Enthält einen eigenen Bereich für ESL- Lernende und interaktive Übungen. Zuverlässige Referenz für die Schreibkompetenz.",
+      "curator_notes": "Als Nachschlagewerk für Aufsatzarten und Grammatikregeln im Schreibunterricht der Oberstufe verlinken. Der ESL-Bereich eignet sich für typische Fehlerquellen von Lernenden.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:grammatik",
+        "skill:schreiben",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "standard-ebooks",
+      "title": "Standard Ebooks",
+      "publisher": "Standard Ebooks",
+      "url": "https://standardebooks.org/",
+      "language": "EN",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10",
+        "efl_kl11",
+        "efl_kl12"
+      ],
+      "description": "Sorgfältig gesetzte, professionell korrigierte Neuausgaben gemeinfreier Literatur mit moderner Typografie und sauberen E-Book- Formaten. Alle Ausgaben stehen unter CC0 (Public Domain). Angenehmere Lesequalität als Rohtexte, ideal für Klassenlektüre.",
+      "curator_notes": "Wegen der sauberen Typografie besser für die Klassenlektüre geeignet als Rohtext-Downloads. E-Books im EPUB an Lernende verteilen, die auf Tablets lesen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:PD",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl11",
+        "unit:efl_kl12",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "manythings-esl",
+      "title": "ManyThings.org",
+      "publisher": "Charles Kelly & Lawrence Kelly",
+      "url": "https://www.manythings.org/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "lesen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Lesen"
+      ],
+      "applicable_units": [
+        "efl_kl7",
+        "efl_kl8",
+        "efl_kl9"
+      ],
+      "description": "Werbefreie, nichtkommerzielle Sammlung für ESL-Lernende mit Hör- und Nachsprechübungen, Aussprache, Vokabelspielen und einfachen Lesetexten mit Audio (z. B. Tom Sawyer). Besteht seit 1997 und wird weiter gepflegt. Solide Basis für die unteren Niveaus.",
+      "curator_notes": "Die \"Listen & Repeat\"-Aktivitäten eignen sich für Aussprache- und Chunk-Training in Kl. 7-8. Werbefreiheit macht die Seite bedenkenlos im Klassensatz nutzbar.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:EN",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl7",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "elllo-listening",
+      "title": "ELLLO – English Listening Lesson Library Online",
+      "publisher": "ELLLO (Todd Beuckens)",
+      "url": "https://elllo.org/",
+      "language": "EN",
+      "license_type": "OE",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "sprechen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Sprechen"
+      ],
+      "applicable_units": [
+        "efl_kl7",
+        "efl_kl8",
+        "efl_kl9",
+        "efl_kl10"
+      ],
+      "description": "Über 3.000 kostenlose Hörverstehenslektionen mit authentischen Gesprächen von Sprechenden aus aller Welt, nach CEFR-Stufen A1 bis C1 sortiert. Zu den meisten Lektionen gibt es Audio oder Video, Transkript, Vokabelteil und interaktives Quiz. Zusätzlich Arbeitsblätter für Lehrkräfte.",
+      "curator_notes": "Die vielfältigen Sprecher-Akzente schulen das Hörverstehen über britisches/amerikanisches Standardenglisch hinaus. Über die Niveaufilter passgenaue Lektionen für Wochenpläne auswählen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:OE",
+        "skill:hoeren",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl7",
+        "unit:efl_kl8",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "gutenberg-en",
+      "title": "Project Gutenberg — Englischsprachige Literatur",
+      "publisher": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/browse/languages/en",
+      "language": "EN",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10"
+      ],
+      "description": "Project Gutenberg ist eine der ältesten digitalen Bibliotheken und stellt zehntausende urheberrechtsfreie Bücher kostenlos bereit. Die englischsprachige Sammlung reicht von Klassikern wie Dickens, Austen und Twain bis zu Sachtexten und lässt sich als E-Book (EPUB), Kindle-Datei oder reiner Text herunterladen. Ideal für authentische Lektüre und die Arbeit mit Originalquellen.",
+      "curator_notes": "Für die Oberstufe eignen sich kürzere Erzählungen oder Kapitelauszüge als Ganzschrift-Ersatz. Lassen Sie Lernende Wortfelder oder Stilmittel im Originaltext markieren; der reine Textdownload lässt sich leicht in Arbeitsblätter kopieren (Werke sind gemeinfrei).",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "gutenberg-fr",
+      "title": "Project Gutenberg — Littérature francophone",
+      "publisher": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/browse/languages/fr",
+      "language": "FR",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "fle_kl8",
+        "fle_kl9"
+      ],
+      "description": "Der französischsprachige Teil von Project Gutenberg umfasst tausende gemeinfreie Werke von Balzac, Baudelaire, Molière, Jules Verne u. v. m. Alle Titel sind kostenlos als EPUB, Kindle-Datei oder Klartext abrufbar. Eine ergiebige Quelle für authentische französische Lektüre und literarische Landeskunde.",
+      "curator_notes": "Nutzen Sie kurze Gedichte (z. B. Baudelaire) oder Fabeln für den intensiven Lektüreeinstieg im FLE-Unterricht. Der Klartext-Download eignet sich für Lückentexte oder Vokabelarbeit; da gemeinfrei, dürfen Auszüge frei bearbeitet werden.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:FR",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:fle_kl8",
+        "unit:fle_kl9"
+      ]
+    },
+    {
+      "id": "gutenberg-de",
+      "title": "Project Gutenberg — Deutschsprachige Literatur",
+      "publisher": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/browse/languages/de",
+      "language": "DE",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "wortschatz",
+        "landeskunde"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Wortschatz",
+        "Landeskunde"
+      ],
+      "applicable_units": [
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Project Gutenberg bietet auch tausende gemeinfreie deutschsprachige Titel von Goethe und Schiller bis Fontane und Kafka. Die Texte stehen kostenlos als EPUB, Kindle-Datei oder Klartext zum Download bereit. Für DaF-Lernende auf höherem Niveau eine authentische Quelle klassischer Literatur.",
+      "curator_notes": "Setzen Sie leichter zugängliche Texte (z. B. Grimms Märchen) ab B1 ein und anspruchsvolle Klassiker ab B2/C1. Der Klartext eignet sich für Vorlese- und Nacherzählübungen; Auszüge dürfen als gemeinfreies Material frei kopiert werden.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:DE",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "wikisource-en",
+      "title": "English Wikisource — Freie Quellentextbibliothek",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikisource.org/wiki/Main_Page",
+      "language": "EN",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "efl_kl10"
+      ],
+      "description": "English Wikisource ist eine freie, gemeinschaftlich erstellte Bibliothek mit über 600.000 englischsprachigen Quellentexten: Literatur, Reden, historische Dokumente und Verfassungstexte. Jeder Text wird gegen Scans der Originalseite geprüft und ist als EPUB oder PDF exportierbar. Besonders wertvoll für Landeskunde und die Arbeit mit historischen Primärquellen.",
+      "curator_notes": "Ideal für den bilingualen oder Geschichts-/Politik-Unterricht: z. B. Originalreden (Lincoln, King) als Lesequelle. Die geprüften Volltexte lassen sich gut in kürzere Abschnitte für Textarbeit gliedern.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10"
+      ]
+    },
+    {
+      "id": "wikisource-de",
+      "title": "Deutsches Wikisource — Quellensammlung",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://de.wikisource.org/wiki/Hauptseite",
+      "language": "DE",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "lesen",
+        "landeskunde",
+        "wortschatz"
+      ],
+      "skills_labels": [
+        "Lesen",
+        "Landeskunde",
+        "Wortschatz"
+      ],
+      "applicable_units": [
+        "daf_b1",
+        "daf_b2"
+      ],
+      "description": "Das deutschsprachige Wikisource sammelt rund 57.000 gemeinfreie bzw. frei lizenzierte Texte: Gedichte, Märchen, Rechtstexte, historische Dokumente und Zeitschriften, jeweils mit geprüftem Bezug zum Scan der Quelle. Die Werke sind exportierbar und für DaF-Landeskunde und historische Textarbeit geeignet.",
+      "curator_notes": "Nutzen Sie Grimms Märchen oder kurze Gedichte für DaF ab B1, historische Dokumente für Projektarbeit ab B2. Der geprüfte Volltext neben dem Faksimile schult zugleich das Lesen historischer Schrift.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:DE",
+        "lic:PD",
+        "skill:landeskunde",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:daf_b1",
+        "unit:daf_b2"
+      ]
+    },
+    {
+      "id": "tatoeba-en",
+      "title": "Tatoeba — Beispielsätze mit Übersetzungen",
+      "publisher": "Tatoeba",
+      "url": "https://tatoeba.org/en/",
+      "language": "EN",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "skills": [
+        "wortschatz",
+        "grammatik",
+        "lesen"
+      ],
+      "skills_labels": [
+        "Wortschatz",
+        "Grammatik",
+        "Lesen"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10"
+      ],
+      "description": "Tatoeba ist eine offene, gemeinschaftliche Sammlung von über 13 Millionen Beispielsätzen in mehr als 400 Sprachen, jeweils mit Übersetzungen und teils vertont. Man kann englische Sätze samt deutschen und französischen Entsprechungen suchen und so Wortschatz und Grammatik im Kontext erschließen. Die Daten stehen unter Creative Commons und lassen sich frei weiterverwenden.",
+      "curator_notes": "Erstellen Sie aus der Sprachpaar-Suche schnell eigene Satzlisten für Übersetzungs- oder Strukturübungen. Weil die Sätze CC-BY lizenziert sind, dürfen sie mit Quellenangabe in Arbeitsblätter übernommen werden.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "cefr:B2",
+        "lang:EN",
+        "lic:CC",
+        "skill:grammatik",
+        "skill:lesen",
+        "skill:wortschatz",
+        "unit:efl_kl10",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "librivox-en",
+      "title": "LibriVox — Kostenlose Hörbücher (Internet Archive)",
+      "publisher": "LibriVox",
+      "url": "https://archive.org/details/librivoxaudio",
+      "language": "EN",
+      "license_type": "PD",
+      "cefr_levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "skills": [
+        "hoeren"
+      ],
+      "skills_labels": [
+        "Hören"
+      ],
+      "applicable_units": [
+        "efl_kl9",
+        "efl_kl10"
+      ],
+      "description": "LibriVox ist ein Freiwilligenprojekt, das gemeinfreie Bücher als kostenlose Hörbücher einliest; die Aufnahmen werden dauerhaft im Internet Archive gehostet und sind dort durchsuchbar. Die englischsprachige Sammlung umfasst tausende Titel von Klassikern bis zu Kurzgeschichten, streambar oder als MP3 herunterladbar. Sowohl die Texte als auch die Aufnahmen sind gemeinfrei.",
+      "curator_notes": "Kombinieren Sie eine LibriVox-Aufnahme mit dem passenden Project- Gutenberg-Text für paralleles Hören und Lesen (Hörverstehen + Aussprache). Kurze Kapitel eignen sich als Hausaufgabe mit anschließendem Nacherzählen im Unterricht.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:B1",
+        "cefr:B2",
+        "cefr:C1",
+        "lang:EN",
+        "lic:PD",
+        "skill:hoeren",
+        "unit:efl_kl10",
+        "unit:efl_kl9"
+      ]
+    },
+    {
+      "id": "commons-de-aussprache",
+      "title": "Wikimedia Commons — Deutsche Aussprache-Audios",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:German_pronunciation",
+      "language": "DE",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "sprechen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Sprechen"
+      ],
+      "applicable_units": [
+        "daf_a1",
+        "daf_a2"
+      ],
+      "description": "Diese Kategorie auf Wikimedia Commons bündelt zehntausende Audioaufnahmen deutscher Wörter, gesprochen von Muttersprachlern (v. a. aus den Projekten Lingua Libre und Shtooka). Jede Datei lässt sich einzeln anhören und herunterladen; regionale Varianten (z. B. österreichisches Deutsch) sind ausgewiesen. Ideal als Aussprache- und Wortschatz-Referenz.",
+      "curator_notes": "Verlinken Sie einzelne Audiodateien direkt aus Vokabellisten, damit DaF-Lernende die korrekte Aussprache selbstständig prüfen. Für Minimalpaar-Übungen lassen sich gezielt ähnlich klingende Wörter zusammenstellen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:DE",
+        "lic:CC",
+        "skill:hoeren",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:daf_a1",
+        "unit:daf_a2"
+      ]
+    },
+    {
+      "id": "commons-fr-prononciation",
+      "title": "Wikimedia Commons — Französische Aussprache-Audios",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:French_pronunciation",
+      "language": "FR",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "sprechen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Sprechen"
+      ],
+      "applicable_units": [
+        "fle_kl7",
+        "fle_kl8"
+      ],
+      "description": "Diese Commons-Kategorie enthält über 400.000 Aussprache-Aufnahmen französischer Wörter, Zahlen, Wochentage und Ortsnamen von Muttersprachlern (überwiegend Lingua Libre). Die Audios decken verschiedene Akzente und Regionen ab und sind einzeln abspielbar sowie herunterladbar. Eine umfangreiche, freie Aussprache-Referenz für den Französischunterricht.",
+      "curator_notes": "Nutzen Sie die Aufnahmen, um Liaison und Nasalvokale hörbar zu machen; einzelne Dateien lassen sich in digitale Vokabelkarten einbinden. Vergleichen Sie mehrere Sprecher, um Aussprachevarianten bewusst zu machen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:FR",
+        "lic:CC",
+        "skill:hoeren",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:fle_kl7",
+        "unit:fle_kl8"
+      ]
+    },
+    {
+      "id": "commons-en-pronunciation",
+      "title": "Wikimedia Commons — Englische Aussprache-Audios",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:English_pronunciation",
+      "language": "EN",
+      "license_type": "CC",
+      "cefr_levels": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "skills": [
+        "hoeren",
+        "wortschatz",
+        "sprechen"
+      ],
+      "skills_labels": [
+        "Hören",
+        "Wortschatz",
+        "Sprechen"
+      ],
+      "applicable_units": [
+        "efl_kl5",
+        "efl_kl6"
+      ],
+      "description": "Diese Commons-Kategorie sammelt über 100.000 Aussprache-Aufnahmen englischer Wörter von Muttersprachlern (v. a. Lingua Libre, Shtooka) samt Dialektvarianten. Die Dateien sind alphabetisch geordnet, einzeln anhörbar und herunterladbar und dienen u. a. als Aussprachereferenz für Wiktionary. Eine freie, verlässliche Quelle für Aussprache- und Wortschatzarbeit.",
+      "curator_notes": "Bauen Sie die Audios in digitale Vokabeltrainer ein, damit Lernende britische und amerikanische Varianten vergleichen können. Gut geeignet für eigenständiges Aussprachetraining und Minimalpaar- Übungen.",
+      "last_checked": "2026-07-21",
+      "tags": [
+        "cefr:A1",
+        "cefr:A2",
+        "cefr:B1",
+        "lang:EN",
+        "lic:CC",
+        "skill:hoeren",
+        "skill:sprechen",
+        "skill:wortschatz",
+        "unit:efl_kl5",
+        "unit:efl_kl6"
+      ]
+    }
+  ],
+  "related": {
+    "bc-learnenglish-teens": [
+      "esolcourses-english",
+      "manythings-esl",
+      "elllo-listening"
+    ],
+    "bbc-learning-english": [
+      "breaking-news-english",
+      "ted-ed",
+      "smithsonian-learning-lab"
+    ],
+    "dw-nicos-weg": [
+      "goethe-deutsch-fuer-dich",
+      "mein-deutschbuch-daf",
+      "dlf-nachrichtenleicht"
+    ],
+    "tv5monde-apprendre": [
+      "rfi-le-francais-facile",
+      "lumni-college",
+      "lepointdufle"
+    ],
+    "goethe-deutsch-fuer-dich": [
+      "dw-nicos-weg",
+      "vhs-lernportal-deutsch",
+      "mein-deutschbuch-daf"
+    ],
+    "deutschakademie-grammatiktrainer": [
+      "mein-deutschbuch-daf",
+      "vhs-lernportal-deutsch",
+      "dw-nicos-weg"
+    ],
+    "planet-schule-swr-wdr": [
+      "dlf-nachrichtenleicht",
+      "zdf-logo-kindernachrichten",
+      "deutschland-de-landeskunde"
+    ],
+    "projekt-gutenberg-de": [
+      "gutenberg-de",
+      "wikisource-de",
+      "deutschland-de-landeskunde"
+    ],
+    "dlf-nachrichtenleicht": [
+      "zdf-logo-kindernachrichten",
+      "dw-nicos-weg",
+      "planet-schule-swr-wdr"
+    ],
+    "vhs-lernportal-deutsch": [
+      "mein-deutschbuch-daf",
+      "goethe-deutsch-fuer-dich",
+      "dw-nicos-weg"
+    ],
+    "mein-deutschbuch-daf": [
+      "vhs-lernportal-deutsch",
+      "dw-nicos-weg",
+      "goethe-deutsch-fuer-dich"
+    ],
+    "zum-deutsch-lernen": [
+      "wikibooks-deutsch-als-fremdsprache",
+      "dw-nicos-weg",
+      "klexikon-kinderlexikon"
+    ],
+    "klexikon-kinderlexikon": [
+      "dlf-nachrichtenleicht",
+      "zdf-logo-kindernachrichten",
+      "wikibooks-deutsch-als-fremdsprache"
+    ],
+    "zdf-logo-kindernachrichten": [
+      "dlf-nachrichtenleicht",
+      "dw-nicos-weg",
+      "planet-schule-swr-wdr"
+    ],
+    "deutschland-de-landeskunde": [
+      "gutenberg-de",
+      "wikisource-de",
+      "planet-schule-swr-wdr"
+    ],
+    "wikibooks-deutsch-als-fremdsprache": [
+      "zum-deutsch-lernen",
+      "dw-nicos-weg",
+      "goethe-deutsch-fuer-dich"
+    ],
+    "rfi-le-francais-facile": [
+      "tv5monde-apprendre",
+      "lumni-college",
+      "lepointdufle"
+    ],
+    "lepointdufle": [
+      "bonjour-de-france",
+      "tv5monde-apprendre",
+      "podcast-francais-facile"
+    ],
+    "bonjour-de-france": [
+      "lepointdufle",
+      "tv5monde-apprendre",
+      "podcast-francais-facile"
+    ],
+    "wikisource-fr": [
+      "gallica-bnf",
+      "radiofrance-franceinfo",
+      "gutenberg-fr"
+    ],
+    "lumni-college": [
+      "tv5monde-apprendre",
+      "milan-1jour1actu",
+      "rfi-le-francais-facile"
+    ],
+    "milan-1jour1actu": [
+      "lumni-college",
+      "tv5monde-apprendre",
+      "vikidia-fr"
+    ],
+    "gallica-bnf": [
+      "wikisource-fr",
+      "radiofrance-franceinfo",
+      "rfi-le-francais-facile"
+    ],
+    "vikidia-fr": [
+      "milan-1jour1actu",
+      "tv5monde-apprendre",
+      "gutenberg-fr"
+    ],
+    "podcast-francais-facile": [
+      "lepointdufle",
+      "bonjour-de-france",
+      "tv5monde-apprendre"
+    ],
+    "radiofrance-franceinfo": [
+      "gallica-bnf",
+      "wikisource-fr",
+      "rfi-le-francais-facile"
+    ],
+    "fei-delf-dalf": [
+      "rfi-le-francais-facile",
+      "lumni-college",
+      "tv5monde-apprendre"
+    ],
+    "france-bienvenue": [
+      "rfi-le-francais-facile",
+      "lumni-college",
+      "tv5monde-apprendre"
+    ],
+    "breaking-news-english": [
+      "bbc-learning-english",
+      "esl-lab-randall",
+      "esolcourses-english"
+    ],
+    "ted-ed": [
+      "smithsonian-learning-lab",
+      "bbc-learning-english",
+      "esl-lab-randall"
+    ],
+    "esolcourses-english": [
+      "bc-learnenglish-teens",
+      "elllo-listening",
+      "manythings-esl"
+    ],
+    "esl-lab-randall": [
+      "breaking-news-english",
+      "elllo-listening",
+      "ted-ed"
+    ],
+    "smithsonian-learning-lab": [
+      "ted-ed",
+      "bbc-learning-english",
+      "standard-ebooks"
+    ],
+    "british-library-discovering-literature": [
+      "smithsonian-learning-lab",
+      "ted-ed",
+      "bbc-learning-english"
+    ],
+    "purdue-owl": [
+      "ted-ed",
+      "smithsonian-learning-lab",
+      "bbc-learning-english"
+    ],
+    "standard-ebooks": [
+      "smithsonian-learning-lab",
+      "gutenberg-en",
+      "ted-ed"
+    ],
+    "manythings-esl": [
+      "bc-learnenglish-teens",
+      "esolcourses-english",
+      "elllo-listening"
+    ],
+    "elllo-listening": [
+      "esolcourses-english",
+      "esl-lab-randall",
+      "bc-learnenglish-teens"
+    ],
+    "gutenberg-en": [
+      "wikisource-en",
+      "standard-ebooks",
+      "smithsonian-learning-lab"
+    ],
+    "gutenberg-fr": [
+      "vikidia-fr",
+      "gutenberg-en",
+      "gutenberg-de"
+    ],
+    "gutenberg-de": [
+      "wikisource-de",
+      "deutschland-de-landeskunde",
+      "projekt-gutenberg-de"
+    ],
+    "wikisource-en": [
+      "gutenberg-en",
+      "standard-ebooks",
+      "projekt-gutenberg-de"
+    ],
+    "wikisource-de": [
+      "gutenberg-de",
+      "deutschland-de-landeskunde",
+      "projekt-gutenberg-de"
+    ],
+    "tatoeba-en": [
+      "esolcourses-english",
+      "bc-learnenglish-teens",
+      "breaking-news-english"
+    ],
+    "librivox-en": [
+      "gutenberg-en",
+      "standard-ebooks",
+      "ted-ed"
+    ],
+    "commons-de-aussprache": [
+      "wikibooks-deutsch-als-fremdsprache",
+      "zum-deutsch-lernen",
+      "commons-fr-prononciation"
+    ],
+    "commons-fr-prononciation": [
+      "podcast-francais-facile",
+      "commons-de-aussprache",
+      "commons-en-pronunciation"
+    ],
+    "commons-en-pronunciation": [
+      "commons-de-aussprache",
+      "commons-fr-prononciation",
+      "elllo-listening"
+    ]
+  }
+}

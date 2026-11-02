@@ -1,5 +1,8 @@
 ---
 title: "Privacy"
+analytics_policy: disabled
+analytics_notice_language: en
+analytics_notice_path: /en/privacy/
 ---
 
 This site is operated from Germany; the German privacy notice
@@ -36,15 +39,10 @@ provide the display setting you asked for and is covered by
 
 ## Analytics
 
-This site uses **Plausible Analytics** for aggregate audience
-measurement. Plausible runs as a **self-hosted instance** at
-`analytics.hellebo.de`; the server is located in **Germany**.
-No data is passed to Plausible Insights OÜ or to any other
-third party. Plausible is cookieless and stores no IP
-addresses; sessions are recognised by a salted hash rotated
-daily. Legal basis: Article 6 (1) (f) GDPR. Consent under
-§ 25 TDDDG is not required.
-<https://plausible.io/data-policy>
+Plausible Analytics is disabled on this website.
+No Plausible analytics script is loaded. Pageviews, file downloads and outbound
+link clicks are not reported to a Plausible endpoint. Hosting and any other
+services are described separately in this notice.
 
 ## Fonts
 
