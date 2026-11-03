@@ -12,12 +12,13 @@ texts in [kit/design/fonts/LICENSES](https://github.com/boulingua/kit/tree/main/
 
 [hugo-coder](https://github.com/luizdepra/hugo-coder), MIT.
 
-## No synthetic voice
+## Interactive discovery
 
-This site publishes no audio, so no voice corpus is used and none is owed
-attribution. That is worth stating rather than leaving as an absence: five
-course voices were found to descend from a NonCommercial base model, and
-"carries no audio" is a fact about this repo rather than an omission from it.
+vis-network 10.1.4 is self-hosted under the MIT licence. Its distribution and
+bundled dependencies retain their licence notices in the package. Exact
+versions and integrity hashes are in `package-lock.json`.
+
+This catalogue distributes no speech recordings.
 
 ## This site
 

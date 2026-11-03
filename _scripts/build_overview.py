@@ -10,6 +10,7 @@ Pro Sprache eine Datei `assets/data/resources.<lang>.json` mit:
 from __future__ import annotations
 
 import json
+import argparse
 from itertools import combinations
 from pathlib import Path
 
@@ -186,6 +187,8 @@ def t_or(lang: str, de: str, en: str, fr: str) -> str:
 
 
 def main():
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument("--check",action="store_true");args=ap.parse_args()
+    bad=0
     with MASTER.open(encoding="utf-8") as fh:
         resources = yaml.safe_load(fh) or []
 
@@ -193,13 +196,20 @@ def main():
     for lang in LANGS:
         data = build_for_lang(resources, lang)
         out = OUT / f"resources.{lang}.json"
-        out.write_text(json.dumps(data, ensure_ascii=False, indent=2),
-                       encoding="utf-8")
+        expected=json.dumps(data, ensure_ascii=False, indent=2)
+        if args.check:
+            if not out.exists() or out.read_text(encoding='utf-8')!=expected:
+                print(f'::error::{out.name} differs from sources; run _scripts/build_overview.py')
+                bad+=1
+            continue
+        out.write_text(expected,encoding='utf-8')
         print(f"wrote {out.relative_to(ROOT)} "
               f"({len(data['resources'])} resources, "
               f"{len(data['labels'])} labels, "
               f"{len(data['edges'])} edges)")
 
+    if args.check: print(f"Catalogue data: {len(LANGS)} languages checked; {bad} stale outputs")
+    return int(bool(bad))
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

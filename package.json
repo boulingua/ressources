@@ -1,0 +1,6 @@
+{
+  "name": "boulingua-ressources",
+  "private": true,
+  "description": "Pinned, self-hosted resource discovery graph",
+  "dependencies": { "vis-network": "10.1.4" }
+}

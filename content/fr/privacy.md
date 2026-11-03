@@ -1,5 +1,8 @@
 ---
 title: "Confidentialité"
+analytics_policy: disabled
+analytics_notice_language: fr
+analytics_notice_path: /fr/privacy/
 ---
 
 Ce site est exploité depuis l'Allemagne ; la version
@@ -38,17 +41,11 @@ que vous avez demandé et relève du § 25, al. 2, n° 2 TDDDG.
 
 ## Mesure d'audience
 
-Ce site utilise **Plausible Analytics** pour une mesure
-d'audience agrégée. Plausible fonctionne en **instance
-auto-hébergée** sur `analytics.hellebo.de` ; le serveur se
-trouve en **Allemagne**. Aucune donnée n'est transmise à
-Plausible Insights OÜ ni à un autre tiers. Plausible
-fonctionne sans cookie et ne conserve aucune adresse IP ;
-les sessions sont reconnues au moyen d'une empreinte salée
-renouvelée chaque jour. Base juridique : art. 6, § 1,
-point f) RGPD. Aucun consentement au titre du § 25 TDDDG
-n'est requis.
-<https://plausible.io/data-policy>
+Plausible Analytics est désactivé sur ce site.
+Aucun script d'analyse Plausible n'est chargé. Les pages consultées, les
+téléchargements et les clics sur des liens externes ne sont pas transmis à un
+service Plausible. L'hébergement et les autres services éventuels sont décrits
+séparément dans cette déclaration.
 
 ## Polices de caractères
 
