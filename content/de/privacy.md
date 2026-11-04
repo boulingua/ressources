@@ -2,6 +2,9 @@
 title: "Datenschutz"
 aliases:
   - /legal/privacy/
+analytics_policy: disabled
+analytics_notice_language: de
+analytics_notice_path: /de/privacy/
 ---
 
 ## 1. Verantwortlicher
@@ -44,9 +47,7 @@ Schriftarten werden über Google Fonts (Google Ireland Limited)
 ausgeliefert. Beide können Verbindungsdaten in die USA
 übermitteln; Grundlage sind das EU-US Data Privacy Framework
 bzw. Standardvertragsklauseln. Eine darüber hinausgehende
-Übermittlung in Drittländer findet **nicht** statt. Die
-Reichweitenmessung mittels Plausible Analytics erfolgt auf einer
-**selbst gehosteten Instanz auf einem Server in Deutschland**.
+Übermittlung in Drittländer findet **nicht** statt. Plausible Analytics ist auf dieser Website deaktiviert.
 
 ### Beschwerderecht
 
@@ -86,19 +87,13 @@ Technisch notwendige Cookies (z. B. Sprachpräferenz) sind durch
 
 ## 4. Analyse-Tools und Tools von Drittanbietern
 
-### Plausible Analytics (selbst gehostet)
+### Plausible Analytics
 
-Diese Website verwendet **Plausible Analytics** zur statistischen
-Reichweitenmessung. Plausible wird als **selbst gehostete
-Instanz** unter `analytics.hellebo.de` betrieben; der Server
-steht in **Deutschland**. Eine Übermittlung an Plausible
-Insights OÜ oder andere Drittanbieter findet **nicht** statt.
-Plausible ist cookielos und erhebt keine personenbezogenen
-Daten im engeren Sinn. IP-Adressen werden nicht gespeichert; zur
-Sitzungserkennung wird täglich rotierend ein gesalzener Hash
-gebildet. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Eine
-Einwilligung nach § 25 TDDDG ist nicht erforderlich.
-<https://plausible.io/data-policy>
+Auf dieser Website ist Plausible Analytics deaktiviert.
+Es wird kein Plausible-Analyseskript geladen. Seitenaufrufe, Dateidownloads
+und Klicks auf externe Links werden nicht an einen Plausible-Endpunkt gemeldet.
+Die Angaben zu Hosting und gegebenenfalls anderen Diensten stehen in den
+jeweiligen Abschnitten dieser Erklärung.
 
 ### VG Wort Zählpixel (Standard)
 

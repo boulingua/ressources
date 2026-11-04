@@ -9,8 +9,8 @@
   const dataUrl = root.dataset.json;
   if (!dataUrl) return;
 
-  fetch(dataUrl).then(r => r.json()).then(init).catch(err => {
-    root.innerHTML = '<p>Fehler beim Laden der Daten: ' + err + '</p>';
+  fetch(dataUrl).then(r => { if (!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).then(init).catch(err => {
+    root.textContent = ({de:'Die Ressourcen konnten nicht geladen werden.',fr:'Les ressources n’ont pas pu être chargées.',en:'The resources could not be loaded.'})[document.documentElement.lang] || 'The resources could not be loaded.';
   });
 
   // ---------------------------------------------------------
@@ -70,6 +70,7 @@
         chip.type = 'button';
         chip.className = 'ov-chip cat-' + l.category;
         chip.dataset.id = l.id;
+        chip.setAttribute('aria-pressed','false');
         chip.innerHTML =
           `<span class="ov-chip-label">${escapeHtml(l.label)}</span>` +
           `<span class="ov-chip-count">${l.count}</span>`;
@@ -95,6 +96,7 @@
     function syncChips() {
       chipsEl.querySelectorAll('.ov-chip').forEach(el => {
         el.classList.toggle('active', active.has(el.dataset.id));
+        el.setAttribute('aria-pressed',String(active.has(el.dataset.id)));
       });
     }
 
@@ -106,6 +108,25 @@
       skill: { bg: '#1a73e8', fg: '#ffffff' },
       unit:  { bg: '#6a1b9a', fg: '#ffffff' },
     };
+    const graphButton = document.createElement('button');
+    graphButton.type = 'button';
+    graphButton.textContent = ({de:'Netzwerk anzeigen',fr:'Afficher le réseau',en:'Show network'})[data.lang];
+    document.getElementById('ov-graph').appendChild(graphButton);
+    graphButton.addEventListener('click', async () => {
+      graphButton.disabled = true;
+      try {
+        await new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = root.dataset.vendor; script.integrity = root.dataset.integrity; script.crossOrigin = 'anonymous';
+          script.onload = resolve; script.onerror = () => reject(new Error('graph library unavailable'));
+          document.head.appendChild(script);
+        });
+        graphButton.remove();
+        createGraph();
+      } catch (error) { graphButton.disabled = false; graphButton.textContent += ' — '+error.message; }
+    });
+    function createGraph() {
+    const color = name => getComputedStyle(document.body).getPropertyValue('--boulingua-'+name).trim();
     const nodes = new vis.DataSet(data.labels.map(l => ({
       id: l.id,
       label: l.label,
@@ -117,7 +138,7 @@
         border: catColor[l.category]?.bg || '#888',
         highlight: { background: '#ffd54f', border: '#e6a817' },
       },
-      font: { color: catColor[l.category]?.fg || '#ffffff', size: 14 },
+      font: { color: color('fg'), strokeColor: color('surface'), strokeWidth: 3, size: 14 },
     })));
     const edges = new vis.DataSet(data.edges.map(e => ({
       from: e.from, to: e.to, value: e.weight,
@@ -136,9 +157,15 @@
         interaction: { hover: true, tooltipDelay: 150 },
       }
     );
+    new MutationObserver(() => {
+      nodes.update(nodes.getIds().map(id => ({id, font: {color: color('fg'), strokeColor: color('surface'), strokeWidth: 3, size: 14}})));
+    }).observe(document.body, {attributes: true, attributeFilter: ['class']});
+
     network.on('click', params => {
       if (params.nodes.length) toggleChip(params.nodes[0]);
     });
+
+    }
 
     // ---- Render-Liste -----------------------------------
     function render() {
@@ -157,6 +184,7 @@
         btn.addEventListener('click', () => {
           const card = btn.closest('.ov-card');
           card.classList.toggle('expanded');
+          btn.setAttribute('aria-expanded',String(card.classList.contains('expanded')));
           btn.textContent = card.classList.contains('expanded')
             ? ui.details_close
             : ui.details_open;
@@ -171,7 +199,7 @@
             target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             target.classList.add('expanded');
             const tBtn = target.querySelector('.ov-card-toggle');
-            if (tBtn) tBtn.textContent = ui.details_close;
+            if (tBtn) { tBtn.textContent = ui.details_close; tBtn.setAttribute('aria-expanded', 'true'); }
           }
         });
       });
@@ -209,7 +237,7 @@
   <h3>${escapeHtml(r.title)}</h3>
   <p class="resource-publisher">${escapeHtml(ui.publisher_label)}: ${escapeHtml(r.publisher)} · <a href="${escapeHtml(r.url)}">${escapeHtml(ui.open_resource)}</a></p>
   <div class="resource-badges">${badges}</div>
-  <button type="button" class="ov-card-toggle">${escapeHtml(ui.details_open)}</button>
+  <button type="button" class="ov-card-toggle" aria-expanded="false">${escapeHtml(ui.details_open)}</button>
   <div class="ov-card-body">
     <p class="resource-description">${escapeHtml(r.description)}</p>
     ${notes}

@@ -23,3 +23,5 @@ __pycache__/
 *~
 *.bak
 *.orig
+
+/node_modules/

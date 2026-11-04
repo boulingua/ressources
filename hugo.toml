@@ -28,7 +28,7 @@ enableEmoji = false
   colorScheme = "auto"
   # Single navbar toggle (#dark-mode-toggle) drives coder.js; hide the theme's floating duplicate.
   hideColorSchemeToggle = true
-  customCSS = ["css/ressources.css"]
+  customCSS = ["css/tokens.css", "css/ressources.css"]
 
 [[params.social]]
   name = "GitHub"
@@ -135,3 +135,18 @@ enableEmoji = false
   [[module.imports]]
     path = "github.com/luizdepra/hugo-coder"
 
+
+# Build the pinned graph library into this site; visitors contact no CDN.
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "node_modules/vis-network/standalone/umd/vis-network.min.js"
+target = "assets/vendor/vis-network.min.js"
+[[module.mounts]]
+source = "node_modules/vis-network/styles/vis-network.min.css"
+target = "assets/vendor/vis-network.min.css"
+
+[params.plausible]
+  domain = ""
+  src = ""
