@@ -17,7 +17,10 @@ __pycache__/
 
 # Generated data JSON for the overview page
 # (produced by _scripts/build_overview.py at build time)
-/static/data/
+/static/data/*
+!/static/data/resources.de.json
+!/static/data/resources.en.json
+!/static/data/resources.fr.json
 *.tmp
 *.log
 *~
