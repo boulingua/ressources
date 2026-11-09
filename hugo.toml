@@ -148,5 +148,5 @@ source = "node_modules/vis-network/styles/vis-network.min.css"
 target = "assets/vendor/vis-network.min.css"
 
 [params.plausible]
-  domain = ""
-  src = ""
+  domain = "boulingua.github.io/ressources"
+  src = "https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js"
