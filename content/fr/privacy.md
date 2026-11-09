@@ -1,6 +1,6 @@
 ---
 title: "Confidentialité"
-analytics_policy: disabled
+analytics_policy: plausible
 analytics_notice_language: fr
 analytics_notice_path: /fr/privacy/
 ---
@@ -41,11 +41,16 @@ que vous avez demandé et relève du § 25, al. 2, n° 2 TDDDG.
 
 ## Mesure d'audience
 
-Plausible Analytics est désactivé sur ce site.
-Aucun script d'analyse Plausible n'est chargé. Les pages consultées, les
-téléchargements et les clics sur des liens externes ne sont pas transmis à un
-service Plausible. L'hébergement et les autres services éventuels sont décrits
-séparément dans cette déclaration.
+Plausible Analytics est activé sur ce site.
+Le script d'analyse est chargé depuis `https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js`. Les visites sont attribuées à
+l'identifiant de site `boulingua.github.io/ressources`. Sont enregistrés les pages consultées, les
+téléchargements de fichiers et les clics sur des liens externes. Votre navigateur
+contacte l'instance auto-hébergée `analytics.hellebo.de` (serveur en Allemagne) ;
+aucune donnée n'est transmise à Plausible Insights OÜ ni à d'autres tiers.
+Plausible ne dépose aucun cookie et n'enregistre aucune adresse IP ; les visites
+sont comptées à l'aide d'un hachage salé renouvelé chaque jour. La base juridique
+est l'art. 6, par. 1, point f) du RGPD (intérêt légitime à une mesure d'audience
+anonyme et respectueuse de la vie privée).
 
 ## Polices de caractères
 

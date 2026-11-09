@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-analytics_policy: disabled
+analytics_policy: plausible
 analytics_notice_language: en
 analytics_notice_path: /en/privacy/
 ---
@@ -39,10 +39,15 @@ provide the display setting you asked for and is covered by
 
 ## Analytics
 
-Plausible Analytics is disabled on this website.
-No Plausible analytics script is loaded. Pageviews, file downloads and outbound
-link clicks are not reported to a Plausible endpoint. Hosting and any other
-services are described separately in this notice.
+Plausible Analytics is enabled on this website.
+The analytics script is loaded from `https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js`. Visits are attributed to the
+site identifier `boulingua.github.io/ressources`. Pageviews, file downloads and outbound link clicks
+are recorded. Your browser contacts the self-hosted instance at
+`analytics.hellebo.de` (server in Germany); no data is passed to Plausible
+Insights OÜ or other third parties. Plausible sets no cookies and stores no IP
+addresses; visits are counted using a salted hash that rotates daily. The legal
+basis is Art. 6(1)(f) GDPR (legitimate interest in privacy-friendly, anonymous
+audience measurement).
 
 ## Fonts
 
