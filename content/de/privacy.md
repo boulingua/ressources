@@ -42,12 +42,12 @@ möglich.
 
 ### Empfänger und Übermittlung in Drittländer
 
-Hosting der Website-Auslieferung erfolgt durch GitHub, Inc.;
-Schriftarten werden über Google Fonts (Google Ireland Limited)
-ausgeliefert. Beide können Verbindungsdaten in die USA
-übermitteln; Grundlage sind das EU-US Data Privacy Framework
-bzw. Standardvertragsklauseln. Eine darüber hinausgehende
-Übermittlung in Drittländer findet **nicht** statt. Die Reichweitenmessung mit Plausible Analytics erfolgt auf einer selbst gehosteten Instanz auf einem Server in Deutschland.
+Die Website wird über GitHub Pages ausgeliefert. Beim Abruf verarbeitet
+GitHub technische Verbindungsdaten; dabei ist eine Verarbeitung in den USA
+möglich. Einzelheiten stehen in der verlinkten Datenschutzerklärung von GitHub.
+Die Schriftdateien werden von dieser Website selbst ausgeliefert.
+Der aktuelle Einsatz von Plausible Analytics ist im Abschnitt zur
+Reichweitenmessung beschrieben; Angaben zu weiteren Diensten stehen gesondert.
 
 ### Beschwerderecht
 
@@ -127,13 +127,11 @@ CA 94107, USA.
 
 ## 5. Eingebettete Inhalte und Schriftarten
 
-### Google Fonts (CDN)
+### Schriftarten (selbst gehostet)
 
-Diese Website bindet Schriften (Source Sans 3, JetBrains Mono)
-über die Google-Fonts-CDN ein. Beim Aufruf überträgt Ihr Browser
-Verbindungsdaten an Google (Google Ireland Limited).
-Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
-<https://policies.google.com/privacy>.
+Die Schriftdateien werden vom selben Angebot wie die übrigen Seiten ausgeliefert.
+Zum Laden der Schriften wird keine Verbindung zu einer externen Schrift-CDN
+wie Google Fonts aufgebaut.
 
 ### Externe Verlinkungen
 

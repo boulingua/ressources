@@ -18,17 +18,31 @@ Live: <https://boulingua.github.io/ressources/>
 
 ## Lokal bauen
 
-```bash
-pip install pyyaml jsonschema
+Voraussetzungen: Python 3.12, Node 22, Go 1.26.1 und Hugo extended 0.159.2.
+
+```sh
+python3.12 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+npm ci
 python _scripts/validate_sources.py
 python _scripts/check_commercial.py
-python _scripts/build_overview.py
-hugo --minify
-cp static/index.html public/index.html
+python _scripts/build_overview.py --check
+python _scripts/validate_network_data.py
+hugo --minify --gc --panicOnWarning
+hugo server --bind 127.0.0.1
 ```
 
-Hugo (extended) >= 0.147 wird benoetigt; Theme `hugo-coder` wird ueber
-Hugo Modules eingebunden (`go.mod`).
+Die lokale Adresse wird von Hugo ausgegeben. Die Übersicht unter
+`/ressources/de/overview/` bietet Filter, Detailansichten und ein optionales
+Netzwerk. Alle Skripte werden lokal ausgeliefert. Der große Netzwerk-Code wird
+erst nach einem Klick geladen. Ohne JavaScript bleiben die redaktionellen
+Ressourcenlisten auf der Startseite verfügbar.
+
+Nach Änderungen an `data/sources_master.yml` zuerst
+`python _scripts/build_overview.py` ausführen und die drei JSON-Dateien gemeinsam
+mit der Quelle prüfen und committen. `--check` verändert keine Datei.
+`kit check` führt dieselben Katalogprüfungen als A22 aus.
 
 ## Autorin
 
