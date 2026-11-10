@@ -45,3 +45,12 @@ The strict candidate-kit Hugo build and complete configured gate battery passed
 locally. Declined gates, warning ramps and external checks remain listed in the
 battery output; this is not hosted CI or deployment evidence. The historical
 release pins have not been promoted to new foundation releases.
+
+## Integration with main — 10 November 2026
+
+This branch was updated by merging `main` before integration. Main's published
+foundation set (org v2.0.1, kit v2.0.1, curriculum v1.3.0) replaces the
+historical release pins recorded above. Plausible was enabled on `main` on
+9 November; the configuration and the analytics sections of all three privacy
+notices follow `main`, superseding the 31 October "disabled" record. The German
+notice keeps the corrected hosting and self-hosted font statements.
